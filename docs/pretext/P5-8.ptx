@@ -1,0 +1,13 @@
+<exercise checkit-seed="0008" checkit-slug="P5" checkit-title="Expected Value">
+    <statement>
+        
+                <p>
+                    A resturant offers a grab bag of 12 fortune cookies, 3 of them have a discount of \$5 in them, 3 of them have a \$1 discount, and the rest have merely fortunes in them. If Solta grabs one at random, what is the expected value of the draw?
+                </p> 
+    </statement>
+    <answer>
+        <p>
+            The expected value is <me>\frac{3}{12}(5) + \frac{3}{12}(1) + 0 = $1.5</me>
+        </p>
+    </answer>
+</exercise>

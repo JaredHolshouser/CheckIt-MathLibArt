@@ -1,0 +1,12 @@
+<exercise checkit-seed="0006" checkit-slug="P3" checkit-title="Probability with And">
+    <statement>
+        <p>
+            In front of you is a jar containing marbles. It has 36 red marbles, 32 green marbles, 28 blue marbles, 35 yellow marbles, 36 black marbles, and 24 white marbles,  for a total of 191 marbles. Suppose you draw 2 marbles, setting each of them to the side as you pull them out. What is the probability that marble 1 is white, and marble 2 is black?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The probability is <m>\left( \frac{24}{191} \right)\left( \frac{36}{190} \right) = 0.02380821162854781</m>.
+        </p>
+    </answer>
+</exercise>

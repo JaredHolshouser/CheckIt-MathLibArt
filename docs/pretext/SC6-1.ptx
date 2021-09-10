@@ -1,0 +1,18 @@
+<exercise checkit-seed="0001" checkit-slug="SC6" checkit-title="Permutations and Combinations">
+    <statement>
+                <p>Nuriyah needs to select 4 students from a class of 10 students to retrieve supplies from the supply room. How many groups of students are possible?
+                </p>
+        
+        
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula you used and why you used it.
+        </p>
+    </statement>
+    <answer>
+        <p> There <m>_{10}C_{4}</m> <m> = 210</m> possibilities. </p>
+    </answer>
+</exercise>

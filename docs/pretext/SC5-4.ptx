@@ -1,0 +1,23 @@
+<exercise checkit-seed="0004" checkit-slug="SC5" checkit-title="Fundamental Principle of Counting">
+    <statement>
+        <p>
+                <p> 
+                    The criteria for a password for your work computer dictates that you must have 6 letters(A - Z) followed by 2 digits(0 - 9) followed by a special character(there are 33 of these). The letters can't repeat, and the digits can't repeat.
+                    <ol>
+                        <li>Draw a diagram of the situation using boxes/slots.</li>
+                        <li>How many passwords can be formed that fit this criteria?</li>
+                    </ol>
+                </p>
+       
+        
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>[26][25][24][23][22][21][10][9][33]</li>
+                <li>There are 492323832000 total possibilities that fit the criteria.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

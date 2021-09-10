@@ -1,0 +1,20 @@
+<exercise checkit-seed="0007" checkit-slug="L1" checkit-title="The Logic of English Statements">
+    <statement>
+        <p>
+            <ol>
+                <li>Write down two English sentences. The first should be a logical statement, and the second should not be a logical statement. Explain why the one is a statement and the other is not.</li>
+                <li>Consider the statement "if I slept poorly last night, then I exercise regularly". If "I slept poorly last night" is False and "I exercise regularly" is True, what is the truth value of the statement? Justify your answer using the definitions of the basic logic words.</li>
+                <li>In English, write the negation of the following quantified statement: "some quetzlcoatls are jumping." </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Recall that a logical statement has to be either true or false. Commands and questions are examples of English sentences which are not statements.</li>
+                <li>The statement is True.</li>
+                <li>The negation is "all quetzlcoatls are not jumping."</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

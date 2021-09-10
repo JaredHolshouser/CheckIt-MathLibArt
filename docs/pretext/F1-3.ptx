@@ -1,0 +1,21 @@
+<exercise checkit-seed="0003" checkit-slug="F1" checkit-title="Simple Interest">
+    <statement>
+       
+                <p>
+                    Nuriyah recently had some financial trouble, and as a result they had to borrow $2,500 in the form of a simple interest loan with an annual interest rate of 16%. They plan to pay the loan off in one large payment after 14 months.
+                    <ol>
+                        <li> How much interest does the loan generate over the 14 months? </li>
+                        <li> How much will Nuriyah have to pay off at the end of the loan?</li>
+                    </ol>
+                </p>         
+        
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li> The loan generates $466.67 in interest.</li>
+                <li> They will need to pay $2,966.67 at the end of the loan.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

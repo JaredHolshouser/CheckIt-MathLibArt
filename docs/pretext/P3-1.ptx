@@ -1,0 +1,12 @@
+<exercise checkit-seed="0001" checkit-slug="P3" checkit-title="Probability with And">
+    <statement>
+        <p>
+            In front of you is a jar containing marbles. It has 30 red marbles, 48 green marbles, 19 blue marbles, 37 yellow marbles, 39 black marbles, and 12 white marbles,  for a total of 185 marbles. Suppose you draw 3 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is white, marble 2 is green, and marble 3 is black?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The probability is <m>\left( \frac{12}{185} \right)\left( \frac{48}{185} \right)\left( \frac{39}{185} \right) = 0.003547904368941623</m>.
+        </p>
+    </answer>
+</exercise>

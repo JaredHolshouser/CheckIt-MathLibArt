@@ -1,0 +1,21 @@
+<exercise checkit-seed="0006" checkit-slug="SC3" checkit-title="Venn Diagrams">
+    <statement>
+        <p>
+            A survey asks 500 people the following question: "Do you prefer horror movies or comedies?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 103 report horror movies only, 69 report comedies only, 221 report comedies, and 255 report horror movies.
+            <ol>
+                <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
+                <li>How many people  reported that they did not prefer horror movies?</li>
+                <li>How many people  reported that they did not prefer comedies?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
+                <li>245 report that they do no prefer horror movies.</li>
+                <li>279 report that they do no prefer comedies.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

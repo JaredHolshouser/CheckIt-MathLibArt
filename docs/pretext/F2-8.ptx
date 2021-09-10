@@ -1,0 +1,27 @@
+<exercise checkit-seed="0008" checkit-slug="F2" checkit-title="Compound Interest">
+  <statement>
+      
+                <p>Firas wants to have $1130 in a bank account that pays
+                3.3% compounded weekly after 9 years. 
+                    <ol>
+                      <li>How much money will should they invest today?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+      
+      <p>
+
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              <ol>
+                <li>They need to invest $839.72 today.</li>
+                <li>$290.28 in interest was generated.</li>
+              </ol>
+            </p>
+  </answer>
+</exercise>

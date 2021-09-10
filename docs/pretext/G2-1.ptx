@@ -1,0 +1,15 @@
+<exercise checkit-seed="0001" checkit-slug="G2" checkit-title="Volume">
+    <statement>
+        <p> A hemisphere is positioned flat side up and a cylinder is attached cleanly to the top of the hemisphere. The dimensions of the shape are as follows: the hemisphere has radius 5 and the cylinder has side length 9, where everything is measured in meters.
+            <ol>
+                <li>Sketch a drawing of this situation to the best of your ability.</li>
+                <li>Find the total volume of this shape.</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The volume is <m>V \approx 968.66</m> <m>m^3</m>. This was computed using the formula <me>V = \frac{1}{2}\cdot\frac{4}{3}\pi r^3 + \pi r^2h</me>.
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,13 @@
+<exercise checkit-seed="0006" checkit-slug="P5" checkit-title="Expected Value">
+    <statement>
+        
+                <p>
+                    A resturant offers a grab bag of 22 fortune cookies, 3 of them have a discount of \$5 in them, 13 of them have a \$1 discount, and the rest have merely fortunes in them. If Nuriyah grabs one at random, what is the expected value of the draw?
+                </p> 
+    </statement>
+    <answer>
+        <p>
+            The expected value is <me>\frac{3}{22}(5) + \frac{13}{22}(1) + 0 = $1.27</me>
+        </p>
+    </answer>
+</exercise>

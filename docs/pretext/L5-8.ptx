@@ -1,0 +1,11 @@
+<exercise checkit-seed="0008" checkit-slug="L5" checkit-title="Argument Analysis via Form">
+    <statement>
+        <p>
+            Use a common form of argument to decide if the following argument is valid. Cite the argument form you are matching by name, and state how you are assigning the variables P, Q, and possibly R in order to line up with that form.
+        </p>
+        <p>if everybody is laid back, then I have a healthy diet. It is false that everybody is laid back. Therefore, it is false that I have a healthy diet.</p>
+    </statement>
+    <answer>
+        <p> The argument structure is <me>\text{Premise 1: } P \rightarrow Q</me> <me>\text{Premise 2: } \sim P</me> <me>\text{Conclusion: } \sim Q</me> This is not valid by the fallacy of the inverse.</p>
+    </answer>
+</exercise>

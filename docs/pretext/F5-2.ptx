@@ -1,0 +1,32 @@
+<exercise checkit-seed="0002" checkit-slug="F5" checkit-title="Paying off Loans">
+    <statement>
+        
+        
+                <p>
+                    Kazuyo recently purchased a home costing $180,000 with a 15% downpayment. Their 22 year mortgage has a fixed annual interest rate of 3.8%.
+                    <ol>
+                        <li>
+                            What is Kazuyo's monthly mortgage payment?
+                        </li>
+                        <li>How much will they end up paying to the bank overall?</li>
+                        <li>How much interest did the bank make from them?</li>
+                    </ol>
+                </p> 
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Their monthly payment $1,007.09.</li>
+                <li>They paid a total of $265,871.76 overall.</li>
+                <li>They paid $85,871.76 in interest to the bank.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

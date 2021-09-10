@@ -1,0 +1,32 @@
+<exercise checkit-seed="0001" checkit-slug="F5" checkit-title="Paying off Loans">
+    <statement>
+        
+                <p>
+                    After graduating, Firas has $95,000 in student loans to payback. The loans have a fixed annual interest rate of 4.6% and will last for 14 years.
+                    <ol>
+                        <li>
+                            What is Firas's monthly student loan payment?
+                        </li>
+                        <li>How much will they end up paying back overall?</li>
+                        <li>How much interest did the bank earn from them?</li>
+                    </ol>
+                </p> 
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Their monthly payment $768.02.</li>
+                <li>They paid a total of $129,027.36 overall.</li>
+                <li>They paid $34,027.36 in interest to the bank.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

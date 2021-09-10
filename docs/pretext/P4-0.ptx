@@ -1,0 +1,19 @@
+<exercise checkit-seed="0000" checkit-slug="P4" checkit-title="Probability with Trees">
+    <statement>
+        <p>
+            A certain virus is known to be present in about 2% of adults. Scientists have developed a new test for this virus. Based on their research, the new test has a false negative rate of 17% and a false positive rate of 2%. 
+            <ol>
+                <li>Draw a tree describing this situation.</li>
+                <li>What is the probability that a randomly selected adult tests positive and is actually healthy?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>See the class notes for how to draw a tree.</li>
+                <li>The probability is <me>P(positive\, and\, healthy) = P(healthy)P(positive|healthy) \approx 0.0196</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,28 @@
+vendor_guid,object_type,title,description,display_name,calculation_method,calculation_int,mastery_points,ratings
+checkit_math-lib-art_00_G1_1631286443.0491953,outcome,00-G1: Area,,G1,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_01_G2_1631286443.0491953,outcome,01-G2: Volume,,G2,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_02_G3_1631286443.0491953,outcome,02-G3: Tessellation Symmetry,,G3,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_03_G4_1631286443.0491953,outcome,03-G4: Fractal Construction,,G4,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_04_G5_1631286443.0491953,outcome,04-G5: Fractal Dimension,,G5,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_05_SC1_1631286443.0491953,outcome,05-SC1: Elements and Subsets,,SC1,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_06_SC2_1631286443.0491953,outcome,06-SC2: Set Operations,,SC2,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_07_SC3_1631286443.0491953,outcome,07-SC3: Venn Diagrams,,SC3,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_08_SC4_1631286443.0491953,outcome,08-SC4: Trees,,SC4,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_09_SC5_1631286443.0491953,outcome,09-SC5: Fundamental Principle of Counting,,SC5,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_10_SC6_1631286443.0491953,outcome,10-SC6: Permutations and Combinations,,SC6,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_11_P1_1631286443.0491953,outcome,11-P1: Sample Spaces,,P1,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_12_P2_1631286443.0491953,outcome,12-P2: Probability with Or/Not,,P2,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_13_P3_1631286443.0491953,outcome,13-P3: Probability with And,,P3,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_14_P4_1631286443.0491953,outcome,14-P4: Probability with Trees,,P4,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_15_P5_1631286443.0491953,outcome,15-P5: Expected Value,,P5,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_16_P6_1631286443.0491953,outcome,16-P6: Probability with Advanced Counting,,P6,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_17_L1_1631286443.0491953,outcome,17-L1: The Logic of English Statements,,L1,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_18_L2_1631286443.0491953,outcome,18-L2: Truth Tables,,L2,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_19_L3_1631286443.0491953,outcome,19-L3: Equivalent Statements,,L3,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_20_L4_1631286443.0491953,outcome,20-L4: Argument Analysis with Tables,,L4,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_21_L5_1631286443.0491953,outcome,21-L5: Argument Analysis via Form,,L5,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_22_F1_1631286443.0491953,outcome,22-F1: Simple Interest,,F1,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_23_F2_1631286443.0491953,outcome,23-F2: Compound Interest,,F2,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_24_F3_1631286443.0491953,outcome,24-F3: Payout Annuities,,F3,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_25_F4_1631286443.0491953,outcome,25-F4: Saving For Retirement,,F4,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess
+checkit_math-lib-art_26_F5_1631286443.0491953,outcome,26-F5: Paying off Loans,,F5,n_mastery,2,3,4,Exceeds Mastery,3,Meets Mastery,2,Near Mastery,1,Well Below Mastery,0,Insufficient Work to Assess

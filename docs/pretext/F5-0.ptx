@@ -1,0 +1,31 @@
+<exercise checkit-seed="0000" checkit-slug="F5" checkit-title="Paying off Loans">
+    <statement>
+                <p> Kabir has just decided to purchase a new car. In order to make the purchase, Kabir takes out a 3 year loan for $15,000 at an interest rate of 4.3%.
+                    <ol>
+                        <li>
+                            What is Kabir's monthly car payment?
+                        </li>
+                        <li> How much will they end up paying to the bank overall?</li>
+                        <li>How much interest did the bank earn from them?</li>
+                    </ol>
+                </p>
+        
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Their monthly payment $444.86.</li>
+                <li>They paid a total of $16,014.96 overall.</li>
+                <li>They paid $1,014.96 in interest to the bank.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

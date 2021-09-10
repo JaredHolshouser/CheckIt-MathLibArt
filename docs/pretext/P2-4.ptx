@@ -1,0 +1,25 @@
+<exercise checkit-seed="0004" checkit-slug="P2" checkit-title="Probability with Or/Not">
+    <statement>
+        <p>
+            
+                <p>
+                    A board is layed out in a grid. The top is broken into columns, labeled A to G, and the side is broken into rows, labeled 1 to 6. If you pick a spot on the board at random, what is the probability that the spot
+                    <ol>
+                        <li> is in columns E to F or is in rows 1 to 4? </li>
+                        <li> is not in columns E to F? </li>
+                    </ol>
+                </p>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            
+                <p>
+                    <ol>
+                        <li> The probability that the spot is in columns E to F or is in rows 1 to 4 is <me>\frac{2}{7} + \frac{4}{6} - \frac{8}{42} = \cdots = \frac{16}{21}</me> </li>
+                        <li> The probability that the spot is not in columns E to F is <me>1 - \frac{2}{7} = \cdots = \frac{5}{7}</me></li>
+                    </ol>
+                </p>
+        </p>
+    </answer>
+</exercise>

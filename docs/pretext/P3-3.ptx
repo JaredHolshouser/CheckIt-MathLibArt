@@ -1,0 +1,12 @@
+<exercise checkit-seed="0003" checkit-slug="P3" checkit-title="Probability with And">
+    <statement>
+        <p>
+            In front of you is a jar containing marbles. It has 37 red marbles, 41 green marbles, 41 blue marbles, 31 yellow marbles, 14 black marbles, and 22 white marbles,  for a total of 186 marbles. Suppose you draw 4 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is black, marble 2 is blue, marble 3 is green, and marble 4 is red?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The probability is <m>\left( \frac{14}{186} \right)\left( \frac{41}{186} \right)\left( \frac{41}{186} \right)\left( \frac{37}{186} \right) = 0.0007275212722174224</m>.
+        </p>
+    </answer>
+</exercise>

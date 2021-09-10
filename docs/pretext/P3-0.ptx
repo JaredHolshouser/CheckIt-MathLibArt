@@ -1,0 +1,12 @@
+<exercise checkit-seed="0000" checkit-slug="P3" checkit-title="Probability with And">
+    <statement>
+        <p>
+            In front of you is a jar containing marbles. It has 17 red marbles, 42 green marbles, 12 blue marbles, 11 yellow marbles, 31 black marbles, and 43 white marbles,  for a total of 156 marbles. Suppose you draw 2 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is green, and marble 2 is yellow?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The probability is <m>\left( \frac{42}{156} \right)\left( \frac{11}{156} \right) = 0.01898422090729783</m>.
+        </p>
+    </answer>
+</exercise>

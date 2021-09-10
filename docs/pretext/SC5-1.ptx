@@ -1,0 +1,23 @@
+<exercise checkit-seed="0001" checkit-slug="SC5" checkit-title="Fundamental Principle of Counting">
+    <statement>
+        <p>
+       
+                <p>
+                    The license plates in Flueles have 6 entries. The first 2 of those entries are letters(A-Z) and the last 4 are digits(0-9). The letters can't repeat, and the digits can repeat.
+                    <ol>
+                        <li>Draw a diagram of the situation using boxes/slots.</li>
+                        <li>How many license plates can be built that fit this criteria?</li>
+                    </ol>
+                </p>         
+        
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>[26][25][10][10][10][10]</li>
+                <li>There are 6500000 total possibilities that fit the criteria.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

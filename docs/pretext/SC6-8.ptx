@@ -1,0 +1,19 @@
+<exercise checkit-seed="0008" checkit-slug="SC6" checkit-title="Permutations and Combinations">
+    <statement>
+        
+        
+                <p>
+                    Charles's Bridge Club is choosing among 14 prizes from their upcoming tournament. If each of the first 8 places will receive a prize, how many possible organizations of prizes are there.
+                </p> 
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula you used and why you used it.
+        </p>
+    </statement>
+    <answer>
+        <p> There <m>_{14}P_{8}</m> <m> = 121080960.0</m> possibilities. </p>
+    </answer>
+</exercise>

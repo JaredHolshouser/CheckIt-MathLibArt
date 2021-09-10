@@ -1,0 +1,13 @@
+<exercise checkit-seed="0009" checkit-slug="SC2" checkit-title="Set Operations">
+    <statement>
+        <p>
+            Given the sets: U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, A = {2, 11, 4, 5}, and B= {4, 6, 7, 8, 10}, find B&#7580;.
+            
+        </p>
+    </statement>
+    <answer>
+        <p>
+        The result of B&#7580; is {1, 2, 3, 5, 9, 11}
+        </p>
+    </answer>
+</exercise>

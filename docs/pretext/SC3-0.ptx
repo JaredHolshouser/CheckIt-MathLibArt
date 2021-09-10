@@ -1,0 +1,21 @@
+<exercise checkit-seed="0000" checkit-slug="SC3" checkit-title="Venn Diagrams">
+    <statement>
+        <p>
+            A survey asks 800 people the following question: "Do you prefer phone calls or texts?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 383 report phone calls, 258 report phone calls only, 125 report phone calls and texts, and 88 report neither phone calls nor texts.
+            <ol>
+                <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
+                <li>How many people  reported that they prefer texts?</li>
+                <li>How many people  reported that they prefer texts only?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
+                <li>454 report texts.</li>
+                <li>329 report texts only.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

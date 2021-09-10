@@ -1,0 +1,23 @@
+<exercise checkit-seed="0001" checkit-slug="SC4" checkit-title="Trees">
+    <statement>
+        <p>
+
+
+                <p>
+                    Suppose you wake in the morning and are feeling truly indecisive. You decide at last that you want to wear shoes, pants and a shirt, and you don't care how they match. You look in your closet and count 2 pairs of shoes, 3 clean pairs of pants, and 2 clean shirts.
+                    <ol>
+                        <li>Draw a tree diagram to display all of the possible outfits you could wear. </li>
+                        <li>What is the total number of outfits you could possibly wear?</li>
+                    </ol>
+                </p>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This should be checked by a human being. The tree should start with a dot and then have three successive layers after that. Draw 2 lines eminating from that initial dot and label the ends appropriately. From each of those ends, you should have 3 lines coming out. These should also be labeled. Finally, from each of the ends of the second layer, you should have 2 lines extending out and correctly labeled according to the problem.</li>
+                <li>There are 12 total possibilities.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

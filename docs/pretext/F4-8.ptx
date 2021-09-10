@@ -1,0 +1,32 @@
+<exercise checkit-seed="0008" checkit-slug="F4" checkit-title="Saving For Retirement">
+    <statement>
+        
+        
+                <p>
+                    Oberbrunner-Stoltenberg offers a retirement fund with an annual interest rate of 4.4%. Firas  starts working at Oberbrunner-Stoltenberg when they are 37 years old. At their orientation, they meet with the company financial advisor, who helps them plan out their retirement. Firas decides that they want to retire when they are 67 with $2,700,000 saved up for retirement. 
+                    <ol>
+                        <li>
+                            What will the financial advisor tell them to pay into the retirement fund each month in order to meet their goal?
+                        </li>
+                        <li>How much will they end up contributing to the retirement fund overall?</li>
+                        <li>How much interest did the retirement fund generate for them?</li>
+                    </ol>
+                </p> 
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>They need to put $3,620.54 into retirement each month.</li>
+                <li>They contributed $1,303,394.4 overall.</li>
+                <li>$1,396,605.6 in interest was generated.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

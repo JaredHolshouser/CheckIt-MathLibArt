@@ -1,0 +1,31 @@
+<exercise checkit-seed="0003" checkit-slug="G4" checkit-title="Fractal Construction">
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    Using the initiator and generator shown, draw the next two stages of the iterated fractal. If your lines intersect themselves a little bit, that's okay, but try to keep your picture as neat as possible.
+                    <ul>
+                        <li>Initiator: _____</li>
+                        <li>Generator: &#8254;\_|&#8254;</li>
+                    </ul>
+                </li>
+                <li>
+                    Using the initiator and generator shown, draw the next three stages of the iterated fractal. This is a tree, so you should only interate on the branches.
+                                        <ul>
+                        <li>Initiator: --</li>
+                        <li>Generator: -&gt;-</li>
+                    </ul>
+                </li>
+            </ol>
+                
+
+
+        </p>
+    </statement>
+    <answer>
+        <ol>
+            <li>This must be checked by a human being. As some general advice, draw big and make sure that when you iterate, the generator is repeated in every single line segment.</li>
+            <li>Same as the first part, except you only repeat on the branches.</li>
+        </ol>
+    </answer>
+</exercise>

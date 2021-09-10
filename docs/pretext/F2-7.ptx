@@ -1,0 +1,27 @@
+<exercise checkit-seed="0007" checkit-slug="F2" checkit-title="Compound Interest">
+  <statement>
+      
+                <p>Kurbika wants to have $1610 in a bank account that pays
+                4.2% compounded annually after 15 years. 
+                    <ol>
+                      <li>How much money will should they invest today?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+      
+      <p>
+
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              <ol>
+                <li>They need to invest $868.58 today.</li>
+                <li>$741.42 in interest was generated.</li>
+              </ol>
+            </p>
+  </answer>
+</exercise>

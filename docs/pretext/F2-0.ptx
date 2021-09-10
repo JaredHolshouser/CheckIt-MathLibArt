@@ -1,0 +1,27 @@
+<exercise checkit-seed="0000" checkit-slug="F2" checkit-title="Compound Interest">
+  <statement>
+                <p>Kabir invests $1050 in a bank account that pays
+                2.5% compounded weekly for 3 years. 
+                    <ol>
+                      <li>How much money will they have at the end?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+      
+      
+      <p>
+
+      </p>
+      
+  </statement>
+    
+  <answer>
+            <p>
+              <ol>
+                <li>They will have $1,131.76 overall.</li>
+                <li>$81.76 in interest was generated.</li>
+              </ol>
+            </p>
+      
+  </answer>
+</exercise>

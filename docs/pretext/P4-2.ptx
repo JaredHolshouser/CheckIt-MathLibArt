@@ -1,0 +1,19 @@
+<exercise checkit-seed="0002" checkit-slug="P4" checkit-title="Probability with Trees">
+    <statement>
+        <p>
+            A certain illness is known to be present in about 12% of children. Doctors have developed a new test for this illness. Based on their research, the new test has a false negative rate of 15% and a false positive rate of 4%. 
+            <ol>
+                <li>Draw a tree describing this situation.</li>
+                <li>What is the probability that a randomly selected child tests positive?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>See the class notes for how to draw a tree.</li>
+                <li>The probability is <me>P(positive) = P(sick)P(positive|sick) + P(healthy)P(positive|healthy) \approx 0.1372</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

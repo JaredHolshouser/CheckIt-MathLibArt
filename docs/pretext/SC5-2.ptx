@@ -1,0 +1,23 @@
+<exercise checkit-seed="0002" checkit-slug="SC5" checkit-title="Fundamental Principle of Counting">
+    <statement>
+        <p>
+                <p> 
+                    The criteria for a password for your school laptop dictates that you must have 7 letters(A - Z) followed by 2 digits(0 - 9) followed by a special character(there are 33 of these). The letters can't repeat, and the digits can repeat.
+                    <ol>
+                        <li>Draw a diagram of the situation using boxes/slots.</li>
+                        <li>How many passwords can be formed that fit this criteria?</li>
+                    </ol>
+                </p>
+       
+        
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>[26][25][24][23][22][21][20][10][10][33]</li>
+                <li>There are 10940529600000 total possibilities that fit the criteria.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

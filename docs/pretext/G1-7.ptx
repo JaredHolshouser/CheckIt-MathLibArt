@@ -1,0 +1,15 @@
+<exercise checkit-seed="0007" checkit-slug="G1" checkit-title="Area">
+    <statement>
+        <p> A trapezoid is placed with the shorter parallel side on top and a rectangle is attached cleanly to the bottom of the trapezoid. The dimensions of the shape are as follows: the bottom of the trapezoid has length 8, the top of the trapezoid has length 7 and the altitude is 11, while the rectangle has height 9, where everything is measured in millimeters.
+            <ol>
+                <li>Sketch a drawing of this situation to the best of your ability.</li>
+                <li>Find the total area of this shape.</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The volume is <m>A \approx 154.5</m> <m>mm^2</m>. This was computed using the formula <me>A = \frac{1}{2}\left(b_1 + b_2\right)h_1 + b_1 h_2</me>.
+        </p>
+    </answer>
+</exercise>

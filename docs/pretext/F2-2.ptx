@@ -1,0 +1,27 @@
+<exercise checkit-seed="0002" checkit-slug="F2" checkit-title="Compound Interest">
+  <statement>
+      
+                <p>Kurbika wants to have $1190 in a bank account that pays
+                2.9% compounded quarterly after 5 years. 
+                    <ol>
+                      <li>How much money will should they invest today?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+      
+      <p>
+
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              <ol>
+                <li>They need to invest $1,029.92 today.</li>
+                <li>$160.08 in interest was generated.</li>
+              </ol>
+            </p>
+  </answer>
+</exercise>

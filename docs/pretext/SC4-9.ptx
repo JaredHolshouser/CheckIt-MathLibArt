@@ -1,0 +1,23 @@
+<exercise checkit-seed="0009" checkit-slug="SC4" checkit-title="Trees">
+    <statement>
+        <p>
+
+                <p>
+                    Some role playing games allow the player to change the course of the game by having conversations with characters and choosing different reponse options. This kind of system is called a dialog tree. Let's explore an example. Suppose that when you initiate a conversation with the king's advisor, you can choose from 2 initial questions to ask. After the king's advisor responds, you have 2 dialog choices to say in reply. When the king's advisor responds again, you have 3 ways you can end the conversation.
+                    <ol>
+                        <li>Draw a tree diagram to display all of the possible dialog choices you could make.</li>
+                        <li>What is the total number of possible conversations you could have with the king's advisor?</li>
+                    </ol>
+                </p>
+
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This should be checked by a human being. The tree should start with a dot and then have three successive layers after that. Draw 2 lines eminating from that initial dot and label the ends appropriately. From each of those ends, you should have 2 lines coming out. These should also be labeled. Finally, from each of the ends of the second layer, you should have 3 lines extending out and correctly labeled according to the problem.</li>
+                <li>There are 12 total possibilities.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

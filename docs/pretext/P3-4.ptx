@@ -1,0 +1,12 @@
+<exercise checkit-seed="0004" checkit-slug="P3" checkit-title="Probability with And">
+    <statement>
+        <p>
+            In front of you is a jar containing marbles. It has 48 red marbles, 28 green marbles, 29 blue marbles, 19 yellow marbles, 43 black marbles, and 47 white marbles,  for a total of 214 marbles. Suppose you draw 2 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is blue, and marble 2 is black?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The probability is <m>\left( \frac{29}{214} \right)\left( \frac{43}{214} \right) = 0.02722945235391737</m>.
+        </p>
+    </answer>
+</exercise>

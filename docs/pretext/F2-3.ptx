@@ -1,0 +1,27 @@
+<exercise checkit-seed="0003" checkit-slug="F2" checkit-title="Compound Interest">
+  <statement>
+      
+                <p>Fahtima wants to have $1800 in a bank account that pays
+                5.4% compounded semiannually after 16 years. 
+                    <ol>
+                      <li>How much money will should they invest today?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+      
+      <p>
+
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              <ol>
+                <li>They need to invest $767.39 today.</li>
+                <li>$1,032.61 in interest was generated.</li>
+              </ol>
+            </p>
+  </answer>
+</exercise>

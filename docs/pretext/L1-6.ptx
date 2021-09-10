@@ -1,0 +1,20 @@
+<exercise checkit-seed="0006" checkit-slug="L1" checkit-title="The Logic of English Statements">
+    <statement>
+        <p>
+            <ol>
+                <li>Write down two English sentences. The first should be a logical statement, and the second should not be a logical statement. Explain why the one is a statement and the other is not.</li>
+                <li>Consider the statement "there is no traffic today or I exercise regularly". If "there is no traffic today" is False and "I exercise regularly" is False, what is the truth value of the statement? Justify your answer using the definitions of the basic logic words.</li>
+                <li>In English, write the negation of the following quantified statement: "some waterbears are hairy." </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Recall that a logical statement has to be either true or false. Commands and questions are examples of English sentences which are not statements.</li>
+                <li>The statement is False.</li>
+                <li>The negation is "all waterbears are not hairy."</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

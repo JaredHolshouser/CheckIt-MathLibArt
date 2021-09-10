@@ -1,0 +1,20 @@
+<exercise checkit-seed="0006" checkit-slug="P6" checkit-title="Probability with Advanced Counting">
+    <statement>
+        <p>
+            <ol>
+                <li> You know that the criteria for a password for a school laptop says they must have 7 letters(A - Z) followed by 3 digits(0 - 9). The letters can't repeat, and the digits can't repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
+                <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw four Hearts and the Queen of Clubs?</li>
+                <li>From a pool of 39 candidates, 4 people will be selected at random to go on an expedition. They will all be assigned unqiue tasks. You and 14 of your friends are all in the pool of candidates. What is the probalitity that a team is selected that  consists only of you and your friends?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>The probability is <me>\frac{1}{(26)(25)(24)(23)(22)(21)(20)(10)(9)(8)} = \frac{1}{2387024640000}</me></li>
+                <li>The probability is <me>\frac{(\,_{13}C_4)\cdot 1}{\,_{52}C_5} = \frac{11}{39984}</me></li>
+                <li>The probability is <me>\frac{\,_{14}P_{4}}{\,_{39}P_{4}} = 0.01217006480164375</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

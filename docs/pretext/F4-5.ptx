@@ -1,0 +1,32 @@
+<exercise checkit-seed="0005" checkit-slug="F4" checkit-title="Saving For Retirement">
+    <statement>
+        
+                <p>
+                    Marie plans to retire at 56 with $2,400,000 saved up for retirement. They are currently 25 and the company they work for, Spencer, Mills and Mosciski, offers a 401k with an annual interest rate of 4.4%. 
+                    <ol>
+                        <li>
+                            If they start saving now, how much do they need to put into the account each month in order to meet their retirement goal?
+                        </li>
+                        <li>How much will they end up contributing to the 401k overall?</li>
+                        <li>How much interest did the 401k generate for them?</li>
+                    </ol>
+                </p> 
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>They need to put $3,032.33 into retirement each month.</li>
+                <li>They contributed $1,128,026.76 overall.</li>
+                <li>$1,271,973.24 in interest was generated.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

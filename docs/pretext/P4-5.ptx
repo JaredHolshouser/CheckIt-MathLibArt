@@ -1,0 +1,19 @@
+<exercise checkit-seed="0005" checkit-slug="P4" checkit-title="Probability with Trees">
+    <statement>
+        <p>
+            A certain bacteria is known to be present in about 1% of animals. Doctors have developed a new test for this bacteria. Based on their research, the new test has a false negative rate of 18% and a false positive rate of 7%. 
+            <ol>
+                <li>Draw a tree describing this situation.</li>
+                <li>What is the probability that a randomly selected animal tests negative and is actually healthy?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>See the class notes for how to draw a tree.</li>
+                <li>The probability is <me>P(negative\, and\, sick) = P(sick)P(negative|sick) \approx 0.0018</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

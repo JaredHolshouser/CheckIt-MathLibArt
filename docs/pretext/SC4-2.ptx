@@ -1,0 +1,23 @@
+<exercise checkit-seed="0002" checkit-slug="SC4" checkit-title="Trees">
+    <statement>
+        <p>
+                <p>
+                    At a bowling alley, you are presented with a limited menu of appetizers, main courses, and drinks to choose from for your dinner. There are 3 appetizer options, 2 main courses to choose from, and 2 drinks available.
+                    <ol>
+                        <li>Draw a tree diagram to display all of the possible meal choices you could make.</li>
+                        <li>What is the total number of possible meals that could be formed from this limited menu?</li>
+                    </ol>
+                </p>
+
+
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This should be checked by a human being. The tree should start with a dot and then have three successive layers after that. Draw 3 lines eminating from that initial dot and label the ends appropriately. From each of those ends, you should have 2 lines coming out. These should also be labeled. Finally, from each of the ends of the second layer, you should have 2 lines extending out and correctly labeled according to the problem.</li>
+                <li>There are 12 total possibilities.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

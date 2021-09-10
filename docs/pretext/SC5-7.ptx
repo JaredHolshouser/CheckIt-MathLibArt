@@ -1,0 +1,23 @@
+<exercise checkit-seed="0007" checkit-slug="SC5" checkit-title="Fundamental Principle of Counting">
+    <statement>
+        <p>
+       
+        
+                <p>
+                    A driver's license starts with a special code(given by the letter A,B,C, or D), then has 6 digits(0 - 9), and ends with 4 letters. The letters can't repeat, and the digits can't repeat.
+                    <ol>
+                        <li>Draw a diagram of the situation using boxes/slots.</li>
+                        <li>How many driver's licenses can be created that fit this criteria?</li>
+                    </ol>
+                </p>         
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>[4][10][9][8][7][6][5][26][25][24][23]</li>
+                <li>There are 217002240000 total possibilities that fit the criteria.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

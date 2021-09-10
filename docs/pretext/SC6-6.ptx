@@ -1,0 +1,19 @@
+<exercise checkit-seed="0006" checkit-slug="SC6" checkit-title="Permutations and Combinations">
+    <statement>
+        
+        
+        
+                <p>
+                    Appointments are about to be made for 7 roles in the upcoming play at Spring Hill SchoolSandalwood Elementary. During auditions, 11 people tried out. How many different castings are possible?
+                </p> 
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula you used and why you used it.
+        </p>
+    </statement>
+    <answer>
+        <p> There <m>_{11}P_{7}</m> <m> = 1663200.0</m> possibilities. </p>
+    </answer>
+</exercise>

@@ -1,0 +1,15 @@
+<exercise checkit-seed="0005" checkit-slug="G1" checkit-title="Area">
+    <statement>
+        <p> A rectangle stands with it's longest side vertical and a semicircle is attached cleanly to the top of the rectangle. The dimensions of the shape are as follows: the rectangle has base 6 and height 11, where everything is measured in feet.
+            <ol>
+                <li>Sketch a drawing of this situation to the best of your ability.</li>
+                <li>Find the total area of this shape.</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The volume is <m>A \approx 80.14</m> <m>ft^2</m>. This was computed using the formula <me>A = bh + \frac{1}{2}\pi r^2</me>.
+        </p>
+    </answer>
+</exercise>

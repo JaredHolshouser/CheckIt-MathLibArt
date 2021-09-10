@@ -1,0 +1,19 @@
+<exercise checkit-seed="0001" checkit-slug="P4" checkit-title="Probability with Trees">
+    <statement>
+        <p>
+            A certain error is known to be present in about 14% of gadgets. Engineers have developed a new test for this error. Based on their research, the new test has a false negative rate of 11% and a false positive rate of 5%. 
+            <ol>
+                <li>Draw a tree describing this situation.</li>
+                <li>What is the probability that a randomly selected gadget tests negative and is actually not defective?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>See the class notes for how to draw a tree.</li>
+                <li>The probability is <me>P(negative\, and\, defective) = P(defective)P(negative|defective) \approx 0.0154</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

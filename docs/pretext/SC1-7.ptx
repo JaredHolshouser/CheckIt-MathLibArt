@@ -1,0 +1,13 @@
+<exercise checkit-seed="0007" checkit-slug="SC1" checkit-title="Elements and Subsets">
+    <statement>
+        <p>
+            Given the sets A = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}, B = {6, 7, 8, 9, 10, 11, 12, 13}, and the element a = 18, determine whether B  &#8838;  A is True or False.
+            
+        </p>
+    </statement>
+    <answer>
+        <p>
+        It is True that B  &#8838;  A.
+        </p>
+    </answer>
+</exercise>

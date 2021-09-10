@@ -1,0 +1,15 @@
+<exercise checkit-seed="0005" checkit-slug="G2" checkit-title="Volume">
+    <statement>
+        <p> A cylinder stands upright and a cone is attached cleanly to the bottom of the cylinder. The dimensions of the shape are as follows: the cylinder has radius 11 and side length 6 and the cone has altitude 8, where everything is measured in centimeters.
+            <ol>
+                <li>Sketch a drawing of this situation to the best of your ability.</li>
+                <li>Find the total volume of this shape.</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The volume is <m>V \approx 3294.48</m> <m>cm^3</m>. This was computed using the formula <me>V = \pi r^2h_1 + \frac{1}{3}\pi r^2h_2</me>.
+        </p>
+    </answer>
+</exercise>

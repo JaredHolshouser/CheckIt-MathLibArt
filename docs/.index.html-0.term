@@ -1,0 +1,130 @@
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art/docs[0m [1;35m(main)[0m[1;31mX[0m
+[0;37m$[0m cd ..
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m(main)[0m[1;31mX[0m
+[0;37m$[0m git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../demo-bank/outcomes/Demo1.xml[m
+	[31mmodified:   ../../dashboard.ipynb[m
+	[31mmodified:   ../../xsl/html.xsl[m
+	[31mmodified:   ../../xsl/latex.xsl[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../dashboard-Holshouser.ipynb[m
+	[31m../../dashboard-calstatela-silvia.ipynb[m
+	[31m../../dashboard-calstatela.ipynb[m
+	[31m../../dashboard-clontz.ipynb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m(main)[0m[1;31mX[0m
+[0;37m$[0m git init
+Initialized empty Git repository in /home/user/checkit-0.1/banks/math-lib-art/.git/
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;31mX[0m
+[0;37m$[0m git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mbank.xml[m
+	[31mbuilds/[m
+	[31mdocs/[m
+	[31moutcomes/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;31mX[0m
+[0;37m$[0m git add bank.xml 
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;33mX[0m
+[0;37m$[0m git add outcomes/
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;33mX[0m
+[0;37m$[0m git add .git/[Kig[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp ../tbil-la/.gitignore 
+cp: missing destination file operand after '../tbil-la/.gitignore'
+Try 'cp --help' for more information.
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;33mX[0m
+[1;31m$[0m cp ../tbil-la/.gitignore .
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;33mX[0m
+[0;37m$[0m git statu
+git: 'statu' is not a git command. See 'git --help'.
+
+The most similar commands are
+	status
+	stage
+	stamp
+	standup
+	stash
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;33mX[0m
+[1;31m$[0m git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   bank.xml[m
+	[32mnew file:   outcomes/F1.sage[m
+	[32mnew file:   outcomes/F1.xml[m
+	[32mnew file:   outcomes/F2.sage[m
+	[32mnew file:   outcomes/F2.xml[m
+	[32mnew file:   outcomes/F3.sage[m
+	[32mnew file:   outcomes/F3.xml[m
+	[32mnew file:   outcomes/F4.sage[m
+	[32mnew file:   outcomes/F4.xml[m
+	[32mnew file:   outcomes/F5.sage[m
+	[32mnew file:   outcomes/F5.xml[m
+	[32mnew file:   outcomes/G1.sage[m
+	[32mnew file:   outcomes/G1.xml[m
+	[32mnew file:   outcomes/G2.sage[m
+	[32mnew file:   outcomes/G2.xml[m
+	[32mnew file:   outcomes/G3.sage[m
+	[32mnew file:   outcomes/G3.xml[m
+	[32mnew file:   outcomes/G4.sage[m
+	[32mnew file:   outcomes/G4.xml[m
+	[32mnew file:   outcomes/G5.sage[m
+	[32mnew file:   outcomes/G5.xml[m
+	[32mnew file:   outcomes/L1.sage[m
+	[32mnew file:   outcomes/L1.xml[m
+	[32mnew file:   outcomes/L2.sage[m
+	[32mnew file:   outcomes/L2.xml[m
+	[32mnew file:   outcomes/L3.sage[m
+	[32mnew file:   outcomes/L3.xml[m
+	[32mnew file:   outcomes/L4.sage[m
+	[32mnew file:   outcomes/L4.xml[m
+	[32mnew file:   outcomes/L5.sage[m
+	[32mnew file:   outcomes/L5.xml[m
+	[32mnew file:   outcomes/P1.sage[m
+	[32mnew file:   outcomes/P1.xml[m
+	[32mnew file:   outcomes/P2.sage[m
+	[32mnew file:   outcomes/P2.xml[m
+	[32mnew file:   outcomes/P3.sage[m
+	[32mnew file:   outcomes/P3.xml[m
+	[32mnew file:   outcomes/P4.sage[m
+	[32mnew file:   outcomes/P4.xml[m
+	[32mnew file:   outcomes/P5.sage[m
+	[32mnew file:   outcomes/P5.xml[m
+	[32mnew file:   outcomes/P6.sage[m
+	[32mnew file:   outcomes/P6.xml[m
+	[32mnew file:   outcomes/SC1.sage[m
+	[32mnew file:   outcomes/SC1.xml[m
+	[32mnew file:   outcomes/SC2.sage[m
+	[32mnew file:   outcomes/SC2.xml[m
+	[32mnew file:   outcomes/SC3.sage[m
+	[32mnew file:   outcomes/SC3.xml[m
+	[32mnew file:   outcomes/SC4.sage[m
+	[32mnew file:   outcomes/SC4.xml[m
+	[32mnew file:   outcomes/SC5.sage[m
+	[32mnew file:   outcomes/SC5.xml[m
+	[32mnew file:   outcomes/SC6.sage[m
+	[32mnew file:   outcomes/SC6.xml[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/[m
+
+[1;33muser[1;34m@project-6f5ad38a-8ffb-4d4c-b2bd-5c80ccd107c9 [0;32m~/checkit-0.1/banks/math-lib-art[0m [1;35m()[0m[1;33mX[0m
+[0;37m$[0m g

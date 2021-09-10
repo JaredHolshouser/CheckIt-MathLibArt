@@ -1,0 +1,27 @@
+<exercise checkit-seed="0009" checkit-slug="F2" checkit-title="Compound Interest">
+  <statement>
+      
+                <p>Tao wants to have $1910 in a bank account that pays
+                4.2% compounded annually after 12 years. 
+                    <ol>
+                      <li>How much money will should they invest today?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+      
+      <p>
+
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              <ol>
+                <li>They need to invest $1,165.79 today.</li>
+                <li>$744.21 in interest was generated.</li>
+              </ol>
+            </p>
+  </answer>
+</exercise>

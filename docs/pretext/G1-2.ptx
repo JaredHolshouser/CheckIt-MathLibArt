@@ -1,0 +1,15 @@
+<exercise checkit-seed="0002" checkit-slug="G1" checkit-title="Area">
+    <statement>
+        <p> A circle has had a 90 degree slice removed from the bottom right portion of the circle and a square is attached cleanly to the missing section of the circle. The dimensions of the shape are as follows: The circle has radius 4, where everything is measured in miles.
+            <ol>
+                <li>Sketch a drawing of this situation to the best of your ability.</li>
+                <li>Find the total area of this shape.</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            The volume is <m>A \approx 53.7</m> <m>mi^2</m>. This was computed using the formula <me>A = \frac{3}{4}\pi r^2 + s^2</me>.
+        </p>
+    </answer>
+</exercise>

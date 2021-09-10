@@ -1,0 +1,25 @@
+<exercise checkit-seed="0000" checkit-slug="P2" checkit-title="Probability with Or/Not">
+    <statement>
+        <p>
+                <p>
+                    A bag contains 40 tiles, 3 of them are red, 3 of them are blue, and 34 of them are green. Reaching into the bag, you pull a tile at random. What is the probability you draw
+                    <ol>
+                        <li> a blue tile or a red tile? </li>
+                        <li> anything but a blue tile? </li>
+                    </ol>
+                </p>
+            
+        </p>
+    </statement>
+    <answer>
+        <p>
+                <p>
+                    <ol>
+                        <li> The probability of drawing either a blue or red tile is <me>\frac{3+3}{40} = \cdots = \frac{3}{20}</me> </li>
+                        <li> The probability of drawing anything but a blue tile is <me>1 - \frac{3}{40} = \cdots = \frac{37}{40}</me></li>
+                    </ol>
+                </p>
+            
+        </p>
+    </answer>
+</exercise>

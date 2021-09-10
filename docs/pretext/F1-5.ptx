@@ -1,0 +1,21 @@
+<exercise checkit-seed="0005" checkit-slug="F1" checkit-title="Simple Interest">
+    <statement>
+       
+                <p>
+                    Dennis recently had some financial trouble, and as a result they had to borrow $2,700 in the form of a simple interest loan with an annual interest rate of 9%. They plan to pay the loan off in one large payment after 8 months.
+                    <ol>
+                        <li> How much interest does the loan generate over the 8 months? </li>
+                        <li> How much will Dennis have to pay off at the end of the loan?</li>
+                    </ol>
+                </p>         
+        
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li> The loan generates $162.0 in interest.</li>
+                <li> They will need to pay $2,862.0 at the end of the loan.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

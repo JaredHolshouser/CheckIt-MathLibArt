@@ -1,0 +1,32 @@
+<exercise checkit-seed="0003" checkit-slug="F5" checkit-title="Paying off Loans">
+    <statement>
+        
+                <p>
+                    After graduating, Asmaa has $175,000 in student loans to payback. The loans have a fixed annual interest rate of 5.4% and will last for 12 years.
+                    <ol>
+                        <li>
+                            What is Asmaa's monthly student loan payment?
+                        </li>
+                        <li>How much will they end up paying back overall?</li>
+                        <li>How much interest did the bank earn from them?</li>
+                    </ol>
+                </p> 
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Their monthly payment $1,653.9.</li>
+                <li>They paid a total of $238,161.6 overall.</li>
+                <li>They paid $63,161.6 in interest to the bank.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

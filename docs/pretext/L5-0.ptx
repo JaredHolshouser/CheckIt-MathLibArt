@@ -1,0 +1,11 @@
+<exercise checkit-seed="0000" checkit-slug="L5" checkit-title="Argument Analysis via Form">
+    <statement>
+        <p>
+            Use a common form of argument to decide if the following argument is valid. Cite the argument form you are matching by name, and state how you are assigning the variables P, Q, and possibly R in order to line up with that form.
+        </p>
+        <p>If it is hot today, then class is cancelled. it is hot today. Therefore, class is cancelled.</p>
+    </statement>
+    <answer>
+        <p> The argument structure is <me>\text{Premise 1: } P \rightarrow Q</me> <me>\text{Premise 2: } P</me> <me>\text{Conclusion: } Q</me> This is valid by the law of detachment.</p>
+    </answer>
+</exercise>

@@ -1,0 +1,12 @@
+<exercise checkit-seed="0001" checkit-slug="P5" checkit-title="Expected Value">
+    <statement>
+                <p> Tao is gambling \$5 on rolling a 15 on a 17-sided die. If Tao wins, they win \$16, otherwise they forfit their bet. What is the expected value of this gamble?
+                </p>
+        
+    </statement>
+    <answer>
+        <p>
+            The expected value is <me>\frac{1}{17}(16) + \frac{16}{17}(-5) = -$3.76</me>
+        </p>
+    </answer>
+</exercise>

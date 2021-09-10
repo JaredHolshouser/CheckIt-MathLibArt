@@ -1,0 +1,21 @@
+<exercise checkit-seed="0000" checkit-slug="F1" checkit-title="Simple Interest">
+    <statement>
+                <p> 
+                    Blanca took out a short term small business loan of $3,600. The loan accrues simple interest at an annual interest rate of 14%, and the time period of the loan is 14 months. Blanca plans to pay the loan back all at once at the end of the 14 months.
+                    <ol>
+                        <li> How much interest does the loan generate over the 14 months? </li>
+                        <li> How much will Blanca have to pay off at the end of the loan?</li>
+                    </ol>
+                </p>
+       
+        
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li> The loan generates $588.0 in interest.</li>
+                <li> They will need to pay $4,188.0 at the end of the loan.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

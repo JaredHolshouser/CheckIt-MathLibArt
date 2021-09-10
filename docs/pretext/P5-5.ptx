@@ -1,0 +1,12 @@
+<exercise checkit-seed="0005" checkit-slug="P5" checkit-title="Expected Value">
+    <statement>
+                <p> Dennis is gambling \$8 on rolling a 6 on a 13-sided die. If Dennis wins, they win \$20, otherwise they forfit their bet. What is the expected value of this gamble?
+                </p>
+        
+    </statement>
+    <answer>
+        <p>
+            The expected value is <me>\frac{1}{13}(20) + \frac{12}{13}(-8) = -$5.85</me>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,21 @@
+<exercise checkit-seed="0008" checkit-slug="SC3" checkit-title="Venn Diagrams">
+    <statement>
+        <p>
+            A survey asks 600 people the following question: "Do you prefer beer or wine?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 100 report beer and wine, 70 report wine only, 293 report beer, and 237 report neither beer nor wine.
+            <ol>
+                <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
+                <li>How many people  reported that they did not prefer wine?</li>
+                <li>How many people  reported that they did not prefer beer?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
+                <li>430 report that they do no prefer wine.</li>
+                <li>307 report that they do no prefer beer.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

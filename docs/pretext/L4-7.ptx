@@ -1,0 +1,20 @@
+<exercise checkit-seed="0007" checkit-slug="L4" checkit-title="Argument Analysis with Tables">
+    <statement>
+        <p>
+            Consider the following argument.
+            <ul>
+                <li>Premise 1: if I slept poorly last night, then I exercise regularly.</li>
+                <li>Premise 2: it is false that I slept poorly last night.</li>
+                <li>Conclusion: it is false that I exercise regularly.</li>
+            </ul>
+            First translate this multi-line argument into the long implication that describes it in pure logic. Clearly state how you are assigning the variables P, Q, and possibly R. Then determine if the argument is valid using a truth table. Make sure your table is in the standard order.
+        </p>
+    </statement>
+    <answer>
+        <p> First off, the long implication that describes the argument is <m>((P \rightarrow Q) \wedge ( \sim P)) \rightarrow ( \sim Q)</m>. The truth table for that is below.</p>
+        <m>
+        \begin{array}{llcc} P &amp; Q &amp;  &amp; \cdots &amp; ((P \rightarrow Q) \wedge ( \sim P)) \rightarrow ( \sim Q) \\ \hline \text{T} &amp; \text{T} &amp;  &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{F} &amp;  &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{T} &amp;  &amp; \cdots &amp; \text{F} \\ \text{F} &amp; \text{F} &amp;  &amp; \cdots &amp; \text{T} \\ \end{array}
+        </m>
+        <p>The argument is not valid by because there is at least one false entry in the final column of the truth table.</p>
+    </answer>
+</exercise>

@@ -1,0 +1,19 @@
+<exercise checkit-seed="0005" checkit-slug="SC6" checkit-title="Permutations and Combinations">
+    <statement>
+        
+        
+                <p>
+                    Marie's Bridge Club is choosing among 5 prizes from their upcoming tournament. If each of the first 4 places will receive a prize, how many possible organizations of prizes are there.
+                </p> 
+        
+        <p>
+
+        </p>
+        <p>
+        Show all of your steps, and specify which formula you used and why you used it.
+        </p>
+    </statement>
+    <answer>
+        <p> There <m>_{5}P_{4}</m> <m> = 120.0</m> possibilities. </p>
+    </answer>
+</exercise>

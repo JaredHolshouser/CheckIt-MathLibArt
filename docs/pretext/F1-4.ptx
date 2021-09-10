@@ -1,0 +1,21 @@
+<exercise checkit-seed="0004" checkit-slug="F1" checkit-title="Simple Interest">
+    <statement>
+       
+        
+                <p>
+                    Kurbika loaned their friend $1,900. To make it easier on both of them, it is a simple interest loan with an annual interest rate of 10%. After 6 months have passed, they expect their friend to pay the loan back in one large payment.
+                    <ol>
+                        <li> How much interest does the loan generate over the 6 months? </li>
+                        <li> How much will Kurbika's friend have to pay at the end of the loan?</li>
+                    </ol>
+                </p>         
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li> The loan generates $95.0 in interest.</li>
+                <li> They will need to pay $1,995.0 at the end of the loan.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>
