@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p> {{name}} has just decided to purchase a new car. In order to make the purchase, {{name}} takes out a {{time_span}} year loan for {{loan_amount}} at an interest rate of {{yearly_rate}}%.
+                    <ol>
+                        <li>
+                            What is {{name}}'s monthly car payment?
+                        </li>
+                        <li> How much will they end up paying to the bank overall?</li>
+                        <li>How much interest did the bank earn from them?</li>
+                    </ol>
+                </p>
+            {{/phrasing1}}
+        
+            {{#phrasing2}}
+                <p>
+                    After graduating, {{name}} has {{loan_amount}} in student loans to payback. The loans have a fixed annual interest rate of {{yearly_rate}}% and will last for {{time_span}} years.
+                    <ol>
+                        <li>
+                            What is {{name}}'s monthly student loan payment?
+                        </li>
+                        <li>How much will they end up paying back overall?</li>
+                        <li>How much interest did the bank earn from them?</li>
+                    </ol>
+                </p> 
+            {{/phrasing2}}
+        
+            {{#phrasing3}}
+                <p>
+                    {{name}} recently purchased a home costing {{loan_amount}} with a 15% downpayment. Their {{time_span}} year mortgage has a fixed annual interest rate of {{yearly_rate}}%.
+                    <ol>
+                        <li>
+                            What is {{name}}'s monthly mortgage payment?
+                        </li>
+                        <li>How much will they end up paying to the bank overall?</li>
+                        <li>How much interest did the bank make from them?</li>
+                    </ol>
+                </p> 
+            {{/phrasing3}}
+        {{/scenario}}
+        <p>
+{{Prompt}}
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Their monthly payment {{monthly_payment}}.</li>
+                <li>They paid a total of {{total_paid}} overall.</li>
+                <li>They paid {{accrued_interest}} in interest to the bank.</li>
+            </ol>
+        
+        </p>
+    </answer>
+</exercise>

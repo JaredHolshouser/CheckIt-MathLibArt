@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.1">
+    <title>Math for Liberal Arts</title>
+    <url>https://github.com/JaredHolshouser/CheckIt-MathLibArt</url>
+    <outcomes>
+        <!--Geometry Topics-->
+        <outcome>
+            <title>Area</title>
+            <slug>G1</slug>
+            <description>
+                Compute the area of hybrid shapes.
+            </description>
+            <alignment>
+                Area/Volume Course Notes.
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Volume</title>
+            <slug>G2</slug>
+            <description>
+                Compute the volume of hybrid shapes.
+            </description>
+            <alignment>
+                Area/Volume Course Notes.
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Tessellation Symmetry</title>
+            <slug>G3</slug>
+            <description>
+                Construct a tessellation using two shapes that has certain symmetry.
+            </description>
+            <alignment>
+                Tesselation Course Notes.
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Fractal Construction</title>
+            <slug>G4</slug>
+            <description>
+                Given an initiator and a generator, draw the next couple stages of a fractal.
+            </description>
+            <alignment>
+                Fractals Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Fractal Dimension</title>
+            <slug>G5</slug>
+            <description>
+                Given an initiator and a generator, compute the dimension of the corresponding fractal.
+            </description>
+            <alignment>
+                Fractals Chapter from Math in Society
+            </alignment>
+        </outcome>
+        
+        <!--Sets and Counting Topics-->
+        <outcome>
+            <title>Elements and Subsets</title>
+            <slug>SC1</slug>
+            <description>
+                Demonstrate understanding of set containment and elements of sets.
+            </description>
+            <alignment>
+                Sets Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Set Operations</title>
+            <slug>SC2</slug>
+            <description>
+                Perform basic set operations.
+            </description>
+            <alignment>
+                Sets Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Venn Diagrams</title>
+            <slug>SC3</slug>
+            <description>
+                Use Venn diagrams to solve counting problems involving surveys.
+            </description>
+            <alignment>
+                Sets Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Trees</title>
+            <slug>SC4</slug>
+            <description>
+                Use trees to solve counting problems involving menus.
+            </description>
+            <alignment>
+                Sets Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Fundamental Principle of Counting</title>
+            <slug>SC5</slug>
+            <description>
+                Use the fundamental principle of counting to solve counting problems.
+            </description>
+            <alignment>
+                Sets Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Permutations and Combinations</title>
+            <slug>SC6</slug>
+            <description>
+                Correctly identify and use permutations and combinations.
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        
+        <!--Probability Topics-->
+        <outcome>
+            <title>Sample Spaces</title>
+            <slug>P1</slug>
+            <description>
+                Model probability problems using sample spaces.
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Probability with Or/Not</title>
+            <slug>P2</slug>
+            <description>
+                Compute probabilities involving or/not.
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Probability with And</title>
+            <slug>P3</slug>
+            <description>
+                Compute probabilities involving and.
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Probability with Trees</title>
+            <slug>P4</slug>
+            <description>
+                Use trees to solve probability problems involving conditional probability.
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Expected Value</title>
+            <slug>P5</slug>
+            <description>
+                Compute the expected value of a probability experiment.
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Probability with Advanced Counting</title>
+            <slug>P6</slug>
+            <description>
+                Use permutations and combinations to compute probabilities. .
+            </description>
+            <alignment>
+                Probability Chapter from Math in Society
+            </alignment>
+        </outcome>
+        
+        <!--Logic Topics-->
+        <outcome>
+            <title>The Logic of English Statements</title>
+            <slug>L1</slug>
+            <description>
+                Interpret English statements in the classical logical framework.
+            </description>
+            <alignment>
+                Logic Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Truth Tables</title>
+            <slug>L2</slug>
+            <description>
+                Construct a truth table for a symbolic statement.
+            </description>
+            <alignment>
+                Logic Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Equivalent Statements</title>
+            <slug>L3</slug>
+            <description>
+                Use truth tables to determine if statements are equivalent.
+            </description>
+            <alignment>
+                Logic Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Argument Analysis with Tables</title>
+            <slug>L4</slug>
+            <description>
+                Use truth tables to determine if arguments are valid.
+            </description>
+            <alignment>
+                Logic Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Argument Analysis via Form</title>
+            <slug>L5</slug>
+            <description>
+                Use the catalog of argument forms to determine if arguments are valid.
+            </description>
+            <alignment>
+                Logic Chapter from Math in Society
+            </alignment>
+        </outcome>
+
+        <!--Finance Topics-->
+        <outcome>
+            <title>Simple Interest</title>
+            <slug>F1</slug>
+            <description>
+                Compute future value and accumulated interest for simple interest loans.
+            </description>
+            <alignment>
+                Finance Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Compound Interest</title>
+            <slug>F2</slug>
+            <description>
+                Compute future value and present value in the context of compound interest.
+            </description>
+            <alignment>
+                Finance Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Payout Annuities</title>
+            <slug>F3</slug>
+            <description>
+                Compute the required initial amount needed for a payout annuity.
+            </description>
+            <alignment>
+                Finance Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Saving For Retirement</title>
+            <slug>F4</slug>
+            <description>
+                Determine how much you need to put away each month to save for retirement.
+            </description>
+            <alignment>
+                Finance Chapter from Math in Society
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Paying off Loans</title>
+            <slug>F5</slug>
+            <description>
+                Determine the amount of loan payments for an amortized loan.
+            </description>
+            <alignment>
+                Finance Chapter from Math in Society
+            </alignment>
+        </outcome>
+
+    </outcomes>
+</bank>

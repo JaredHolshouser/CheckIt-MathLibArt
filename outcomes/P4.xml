@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            A certain {{problem}} is known to be present in about {{sick_prob}}% of {{population}}. {{researchers}} have developed a new test for this {{problem}}. Based on their research, the new test has a false negative rate of {{false_negative}}% and a false positive rate of {{false_positive}}%. 
+            <ol>
+                <li>Draw a tree describing this situation.</li>
+                <li>What is the probability that a randomly selected {{subject}} tests {{question}}?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>See the class notes for how to draw a tree.</li>
+                <li>The probability is <me>{{prob_string}} \approx {{prob}}</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

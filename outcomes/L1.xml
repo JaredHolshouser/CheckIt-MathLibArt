@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            <ol>
+                <li>Write down two English sentences. The first should be a logical statement, and the second should not be a logical statement. Explain why the one is a statement and the other is not.</li>
+                <li>Consider the statement "{{statement_1}}". If "{{part_1}}" is {{truth_value_1}} and "{{part_2}}" is {{truth_value_2}}, what is the truth value of the statement? Justify your answer using the definitions of the basic logic words.</li>
+                <li>In English, write the negation of the following quantified statement: "{{statement_2}}." </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>Recall that a logical statement has to be either true or false. Commands and questions are examples of English sentences which are not statements.</li>
+                <li>The statement is {{truth_value}}.</li>
+                <li>The negation is "{{negation}}."</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

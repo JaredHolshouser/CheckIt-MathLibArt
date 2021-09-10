@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+  <statement>
+      {{#scenario}}
+          {{#phrasing1}}
+                <p>{{name}} wants to withdraw {{monthly_amount}} every month for {{years}} years when they retire. If {{name}}'s retirement account earns {{rate}}% interest compounded monthly, how much must they have in order to retire?
+                </p>
+          {{/phrasing1}}
+      
+          {{#phrasing2}}
+                <p>{{name}} has decided to establish a scholarship for the next {{years}} years with {{amount_string}}. If the university can earn {{rate}}% annual interest, how much can be given out each year?
+                </p>
+          {{/phrasing2}}
+      {{/scenario}}
+      
+      <p>
+{{Prompt}}
+      </p>
+      
+  </statement>
+    
+  <answer>
+      {{#scenario}}
+          {{#phrasing1}}
+            <p>
+              {{name}} will need {{amount_string}} to retire.
+            </p>
+          {{/phrasing1}}
+      
+          {{#phrasing2}}
+              <p>
+              The university can give {{monthly_amount}} every year.
+            </p>
+          {{/phrasing2}}
+      {{/scenario}}
+  </answer>
+</exercise>

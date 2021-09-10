@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p>
+                    At a {{dining_option}}, you are presented with a limited menu of appetizers, main courses, and drinks to choose from for your dinner. There are {{amount_1}} appetizer options, {{amount_2}} main courses to choose from, and {{amount_3}} drinks available.
+                    <ol>
+                        <li>Draw a tree diagram to display all of the possible meal choices you could make.</li>
+                        <li>What is the total number of possible meals that could be formed from this limited menu?</li>
+                    </ol>
+                </p>
+            {{/phrasing1}}
+
+            {{#phrasing2}}
+                <p>
+                    Some role playing games allow the player to change the course of the game by having conversations with characters and choosing different reponse options. This kind of system is called a dialog tree. Let's explore an example. Suppose that when you initiate a conversation with {{npc_title}}, you can choose from {{amount_1}} initial questions to ask. After {{npc_title}} responds, you have {{amount_2}} dialog choices to say in reply. When {{npc_title}} responds again, you have {{amount_3}} ways you can end the conversation.
+                    <ol>
+                        <li>Draw a tree diagram to display all of the possible dialog choices you could make.</li>
+                        <li>What is the total number of possible conversations you could have with {{npc_title}}?</li>
+                    </ol>
+                </p>
+            {{/phrasing2}}
+
+            {{#phrasing3}}
+                <p>
+                    Suppose you wake in the morning and are feeling truly indecisive. You decide at last that you want to wear shoes, pants and a shirt, and you don't care how they match. You look in your closet and count {{amount_1}} pairs of shoes, {{amount_2}} clean pairs of pants, and {{amount_3}} clean shirts.
+                    <ol>
+                        <li>Draw a tree diagram to display all of the possible outfits you could wear. </li>
+                        <li>What is the total number of outfits you could possibly wear?</li>
+                    </ol>
+                </p>
+            {{/phrasing3}}
+        {{/scenario}}
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This should be checked by a human being. The tree should start with a dot and then have three successive layers after that. Draw {{amount_1}} lines eminating from that initial dot and label the ends appropriately. From each of those ends, you should have {{amount_2}} lines coming out. These should also be labeled. Finally, from each of the ends of the second layer, you should have {{amount_3}} lines extending out and correctly labeled according to the problem.</li>
+                <li>There are {{answer}} total possibilities.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Use a common form of argument to decide if the following argument is valid. Cite the argument form you are matching by name, and state how you are assigning the variables P, Q, and possibly R in order to line up with that form.
+        </p>
+        <p>{{argument}}</p>
+    </statement>
+    <answer>
+        <p> The argument structure is <me>\text{Premise 1: } {{premise_1}}</me> <me>\text{Premise 2: } {{premise_2}}</me> <me>\text{Conclusion: } {{conclusion}}</me> This is {{answer}} by {{reason}}.</p>
+    </answer>
+</exercise>

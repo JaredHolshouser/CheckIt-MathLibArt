@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            A survey asks {{survey_size}} people the following question: "{{survey_question}}?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose {{given_info_1}}, {{given_info_2}}, {{given_info_3}}, and {{given_info_4}}.
+            <ol>
+                <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
+                <li>How many people {{question_1}}?</li>
+                <li>How many people {{question_2}}?</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
+                <li>{{answer_1}}.</li>
+                <li>{{answer_2}}.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Given the sets A = {{A_string}}, B = {{B_string}}, and the element a = {{a}}, determine whether {{{Find}}} is True or False.
+            
+        </p>
+    </statement>
+    <answer>
+        <p>
+        It is {{Solution}} that {{{Find}}}.
+        </p>
+    </answer>
+</exercise>

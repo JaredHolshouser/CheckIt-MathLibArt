@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p> 
+                    {{name}} took out a short term small business loan of {{loan_amount}}. The loan accrues simple interest at an annual interest rate of {{yearly_rate}}%, and the time period of the loan is {{months}} months. {{name}} plans to pay the loan back all at once at the end of the {{months}} months.
+                    <ol>
+                        <li> How much interest does the loan generate over the {{months}} months? </li>
+                        <li> How much will {{name}} have to pay off at the end of the loan?</li>
+                    </ol>
+                </p>
+            {{/phrasing1}}
+       
+            {{#phrasing2}}
+                <p>
+                    {{name}} recently had some financial trouble, and as a result they had to borrow {{loan_amount}} in the form of a simple interest loan with an annual interest rate of {{yearly_rate}}%. They plan to pay the loan off in one large payment after {{months}} months.
+                    <ol>
+                        <li> How much interest does the loan generate over the {{months}} months? </li>
+                        <li> How much will {{name}} have to pay off at the end of the loan?</li>
+                    </ol>
+                </p>         
+            {{/phrasing2}}
+        
+            {{#phrasing3}}
+                <p>
+                    {{name}} loaned their friend {{loan_amount}}. To make it easier on both of them, it is a simple interest loan with an annual interest rate of {{yearly_rate}}%. After {{months}} months have passed, they expect their friend to pay the loan back in one large payment.
+                    <ol>
+                        <li> How much interest does the loan generate over the {{months}} months? </li>
+                        <li> How much will {{name}}'s friend have to pay at the end of the loan?</li>
+                    </ol>
+                </p>         
+            {{/phrasing3}}
+        {{/scenario}}
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li> The loan generates {{accrued_interest}} in interest.</li>
+                <li> They will need to pay {{payoff_amount}} at the end of the loan.</li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

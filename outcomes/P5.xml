@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p> {{name}} is gambling \${{bet}} on rolling a {{n}} on a {{k}}-sided die. If {{name}} wins, they win \${{win_amount}}, otherwise they forfit their bet. What is the expected value of this gamble?
+                </p>
+            {{/phrasing1}}
+        
+            {{#phrasing2}}
+                <p>
+                    A resturant offers a grab bag of {{k}} fortune cookies, {{n}} of them have a discount of \$5 in them, {{r}} of them have a \$1 discount, and the rest have merely fortunes in them. If {{name}} grabs one at random, what is the expected value of the draw?
+                </p> 
+            {{/phrasing2}}
+        {{/scenario}}
+    </statement>
+    <answer>
+        <p>
+            The expected value is <me>{{expected_value_computation}} = {{expected_value}}</me>
+        </p>
+    </answer>
+</exercise>

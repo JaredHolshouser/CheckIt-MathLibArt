@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+        Are the following statements logically equivalent? Use truth tables with the symbols P and Q to determine the answer. Make sure your tables are in the standard order.
+            <ol>
+                <li>{{first_string}}</li>
+                <li>{{second_string}}</li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p> The two statements are {{answer}}, as you can see by the final column of their truth tables.</p>
+        <m>
+        {{first_table}}
+        </m>
+        <m>
+        {{second_table}}
+        </m>
+    </answer>
+</exercise>

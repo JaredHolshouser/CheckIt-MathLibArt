@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Given the sets: U = {{Universe_string}}, A = {{A_string}}, and B= {{B_string}}, find {{{Find}}}.
+            
+        </p>
+    </statement>
+    <answer>
+        <p>
+        The result of {{{Find}}} is {{Solution_string}}
+        </p>
+    </answer>
+</exercise>

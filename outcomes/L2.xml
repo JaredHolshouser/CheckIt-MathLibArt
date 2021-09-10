@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+        Construct a truth table for the following formula. Make sure your table is in the standard order and that you have included all the necessary intermediate columns.
+        </p>
+        <me>{{{Statement}}}</me>
+    </statement>
+    <answer>
+        <p>
+        The first and final columns of the truth table are
+        </p>
+        <m>
+        {{Truth_Table}}
+        </m>
+    </answer>
+</exercise>

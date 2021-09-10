@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exercise version="0.0" xmlns="https://spatext.clontz.org">
+  <statement>
+      {{#scenario}}
+          {{#phrasing1}}
+                <p>{{name}} invests {{amount_string}} in a bank account that pays
+                {{yearly_rate}}% compounded {{period}} for {{years}} years. 
+                    <ol>
+                      <li>How much money will they have at the end?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+          {{/phrasing1}}
+      
+          {{#phrasing2}}
+                <p>{{name}} wants to have {{amount_string}} in a bank account that pays
+                {{yearly_rate}}% compounded {{period}} after {{years}} years. 
+                    <ol>
+                      <li>How much money will should they invest today?</li>
+                      <li>How much interest did they earn?</li>
+                    </ol>
+                </p>
+          {{/phrasing2}}
+      {{/scenario}}
+      
+      <p>
+{{Prompt}}
+      </p>
+      
+  </statement>
+    
+  <answer>
+      {{#scenario}}
+          {{#phrasing1}}
+            <p>
+              <ol>
+                <li>They will have {{final_amount}} overall.</li>
+                <li>{{accrued_interest_string}} in interest was generated.</li>
+              </ol>
+            </p>
+          {{/phrasing1}}
+      
+          {{#phrasing2}}
+              <p>
+              <ol>
+                <li>They need to invest {{final_amount}} today.</li>
+                <li>{{accrued_interest_string}} in interest was generated.</li>
+              </ol>
+            </p>
+          {{/phrasing2}}
+      {{/scenario}}
+  </answer>
+</exercise>

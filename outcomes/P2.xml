@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+        {{#scenario}}
+            {{#disjoint}}
+                <p>
+                    A bag contains {{n}} tiles, {{r}} of them are red, {{b}} of them are blue, and {{g}} of them are green. Reaching into the bag, you pull a tile at random. What is the probability you draw
+                    <ol>
+                        <li> a {{color1}} tile or a {{color2}} tile? </li>
+                        <li> anything but a {{color1}} tile? </li>
+                    </ol>
+                </p>
+            {{/disjoint}}
+            
+            {{#overlaps}}
+                <p>
+                    A board is layed out in a grid. The top is broken into columns, labeled A to {{end_letter}}, and the side is broken into rows, labeled 1 to {{end_number}}. If you pick a spot on the board at random, what is the probability that the spot
+                    <ol>
+                        <li> is in columns {{start_col}} to {{end_col}} or is in rows {{start_row}} to {{end_row}}? </li>
+                        <li> is not in columns {{start_col}} to {{end_col}}? </li>
+                    </ol>
+                </p>
+            {{/overlaps}}
+        {{/scenario}}
+        </p>
+    </statement>
+    <answer>
+        <p>
+        {{#scenario}}
+            {{#disjoint}}
+                <p>
+                    <ol>
+                        <li> The probability of drawing either a {{color1}} or {{color2}} tile is <me>{{ProbOrString}} = \cdots = {{ProbOr}}</me> </li>
+                        <li> The probability of drawing anything but a {{color1}} tile is <me>{{ProbNotString}} = \cdots = {{ProbNot}}</me></li>
+                    </ol>
+                </p>
+            {{/disjoint}}
+            
+            {{#overlaps}}
+                <p>
+                    <ol>
+                        <li> The probability that the spot is in columns {{start_col}} to {{end_col}} or is in rows {{start_row}} to {{end_row}} is <me>{{or_prob_string}} = \cdots = {{or_prob}}</me> </li>
+                        <li> The probability that the spot is not in columns {{start_col}} to {{end_col}} is <me>{{not_prob_string}} = \cdots = {{not_prob}}</me></li>
+                    </ol>
+                </p>
+            {{/overlaps}}
+        {{/scenario}}
+        </p>
+    </answer>
+</exercise>
