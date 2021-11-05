@@ -3,7 +3,7 @@
     <statement>
         {{#scenario}}
             {{#phrasing1}}
-                <p> {{name}} is gambling \${{bet}} on rolling a {{n}} on a {{k}}-sided die. If {{name}} wins, they win \${{win_amount}}, otherwise they forfit their bet. What is the expected value of this gamble?
+                <p> {{name}} is gambling ${{bet}} on rolling a {{n}} on a {{k}}-sided die. If {{name}} wins, they win ${{win_amount}}, otherwise they forfeit their bet. What is the expected value of this gamble?
                 </p>
             {{/phrasing1}}
         
@@ -16,7 +16,7 @@
     </statement>
     <answer>
         <p>
-            The expected value is <me>{{expected_value_computation}} = {{expected_value}}</me>
+            The expected value is <m>{{expected_value_computation}} = {{expected_value}}</m>
         </p>
     </answer>
 </exercise>
