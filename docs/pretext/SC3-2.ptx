@@ -1,10 +1,10 @@
 <exercise checkit-seed="0002" checkit-slug="SC3" checkit-title="Venn Diagrams">
     <statement>
         <p>
-            A survey asks 500 people the following question: "Do you prefer iced coffee or hot coffee?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 100 report hot coffee only, 62 report iced coffee and hot coffee, 162 report hot coffee, and 271 report neither iced coffee nor hot coffee.
+            A survey asks 500 people the following question: "Do you prefer iced coffee or hot coffee?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 100 reported that they prefer hot coffee only, 62 reported that they prefer both iced coffee and hot coffee, 162 reported that they prefer hot coffee, and 271 reported that they prefer neither iced coffee nor hot coffee.
             <ol>
                 <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
-                <li>How many people  reported that they did not prefer iced coffee?</li>
+                <li>How many people  reported that they do not prefer iced coffee?</li>
                 <li>How many people  reported that they prefer iced coffee only?</li>
             </ol>
         </p>
@@ -12,9 +12,9 @@
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
-                <li>371 report that they do no prefer iced coffee.</li>
-                <li>67 report iced coffee only.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, 500 is the amount for the entire rectangle, 100 is the number for the crescent moon part of hot coffee, 62 is the number for the little oval overlap part, 162 is the number for the entire hot coffee circle, and 271 is the number for the portion outside of both circles.</li>
+                <li>371 reported that they do not prefer iced coffee.</li>
+                <li>67 reported that they prefer iced coffee only.</li>
             </ol>
         </p>
     </answer>

@@ -1,20 +1,20 @@
 <exercise checkit-seed="0001" checkit-slug="SC3" checkit-title="Venn Diagrams">
     <statement>
         <p>
-            A survey asks 400 people the following question: "Do you prefer beer or wine?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 156 report beer only, 212 report beer, 145 report neither beer nor wine, and 43 report wine only.
+            A survey asks 400 people the following question: "Do you prefer beer or wine?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 156 reported that they prefer beer only, 212 reported that they prefer beer, 145 reported that they prefer neither beer nor wine, and 43 reported that they prefer wine only.
             <ol>
                 <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
                 <li>How many people  reported that they prefer wine?</li>
-                <li>How many people  reported that they did not prefer wine?</li>
+                <li>How many people  reported that they do not prefer wine?</li>
             </ol>
         </p>
     </statement>
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
-                <li>99 report wine.</li>
-                <li>301 report that they do no prefer wine.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, 400 is the amount for the entire rectangle, 156 is the number for the crescent moon part of beer, 212 is the number for the entire beer circle, 145 is the number for the portion outside of both circles, and 43 is the number for the crescent moon part of wine.</li>
+                <li>99 reported that they prefer wine.</li>
+                <li>301 reported that they do not prefer wine.</li>
             </ol>
         </p>
     </answer>

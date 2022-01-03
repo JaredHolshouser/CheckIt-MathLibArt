@@ -3,7 +3,7 @@
         <p>
        
                 <p>
-                    The license plates in Peswaeye have 8 entries. The first 3 of those entries are letters(A-Z) and the last 5 are digits(0-9). The letters can't repeat, and the digits can repeat.
+                    The license plates in Peswaeye have 8 entries. The first 3 of those entries are letters(A-Z) and the last 5 are digits(0-9). The letters can't repeat and the digits can repeat.
                     <ol>
                         <li>Draw a diagram of the situation using boxes/slots.</li>
                         <li>How many license plates can be built that fit this criteria?</li>
@@ -16,7 +16,7 @@
         <p>
             <ol>
                 <li>[26][25][24][10][10][10][10][10]</li>
-                <li>There are 1560000000 total possibilities that fit the criteria.</li>
+                <li>Multiplying all of the boxes together, there are 1560000000 total possibilities that fit the criteria.</li>
             </ol>
         </p>
     </answer>

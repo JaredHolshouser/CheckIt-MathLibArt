@@ -1,20 +1,20 @@
 <exercise checkit-seed="0007" checkit-slug="SC3" checkit-title="Venn Diagrams">
     <statement>
         <p>
-            A survey asks 800 people the following question: "Do you prefer beer or wine?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 187 report wine only, 102 report neither beer nor wine, 197 report beer and wine, and 314 report beer only.
+            A survey asks 800 people the following question: "Do you prefer beer or wine?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 187 reported that they prefer wine only, 102 reported that they prefer neither beer nor wine, 197 reported that they prefer both beer and wine, and 314 reported that they prefer beer only.
             <ol>
                 <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
                 <li>How many people  reported that they prefer wine?</li>
-                <li>How many people  reported that they did not prefer wine?</li>
+                <li>How many people  reported that they do not prefer wine?</li>
             </ol>
         </p>
     </statement>
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
-                <li>384 report wine.</li>
-                <li>416 report that they do no prefer wine.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, 800 is the amount for the entire rectangle, 187 is the number for the crescent moon part of wine, 102 is the number for the portion outside of both circles, 197 is the number for the little oval overlap part, and 314 is the number for the crescent moon part of beer.</li>
+                <li>384 reported that they prefer wine.</li>
+                <li>416 reported that they do not prefer wine.</li>
             </ol>
         </p>
     </answer>

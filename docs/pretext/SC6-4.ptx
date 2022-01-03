@@ -1,7 +1,8 @@
 <exercise checkit-seed="0004" checkit-slug="SC6" checkit-title="Permutations and Combinations">
     <statement>
         
-                <p>The board of trustees at Central Conservatory consists of 14 people. During the spring, a delgation of 6 trustees will be assigned to an outreach committee. How many such delegations are possible?
+                <p>
+                    The board of trustees at the Central Conservatory consists of 14 people. During the spring, a delegation of 6 trustees will be assigned to an outreach committee. How many such delegations are possible?
                 </p>
         
         
@@ -9,10 +10,10 @@
 
         </p>
         <p>
-        Show all of your steps, and specify which formula you used and why you used it.
+        Show all of your steps, specify which formula you used, and state why you used it.
         </p>
     </statement>
     <answer>
-        <p> There <m>_{14}C_{6}</m> <m> = 3003</m> possibilities. </p>
+        <p> We are selecting 6 from a total of 14 possibilities (without repeats), and the order of the selections does not matter. There are <m>_{14}C_{6}</m> <m> = 3003</m> possibilities.</p>
     </answer>
 </exercise>

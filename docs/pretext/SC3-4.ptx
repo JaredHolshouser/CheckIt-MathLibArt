@@ -1,20 +1,20 @@
 <exercise checkit-seed="0004" checkit-slug="SC3" checkit-title="Venn Diagrams">
     <statement>
         <p>
-            A survey asks 400 people the following question: "Do you prefer shopping online or shopping in a store?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 37 report shopping in a store only, 99 report shopping in a store, 139 report shopping online, and 77 report shopping online only.
+            A survey asks 400 people the following question: "Do you prefer shopping online or shopping in a store?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 37 reported that they prefer shopping in a store only, 99 reported that they prefer shopping in a store, 139 reported that they prefer shopping online, and 77 reported that they prefer shopping online only.
             <ol>
                 <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
                 <li>How many people  reported that they prefer neither shopping online nor shopping in a store?</li>
-                <li>How many people  reported that they prefer shopping online and shopping in a store?</li>
+                <li>How many people  reported that they prefer both shopping online and shopping in a store?</li>
             </ol>
         </p>
     </statement>
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
-                <li>224 report neither shopping online nor shopping in a store.</li>
-                <li>62 report shopping online and shopping in a store.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, 400 is the amount for the entire rectangle, 37 is the number for the crescent moon part of shopping in a store, 99 is the number for the entire shopping in a store circle, 139 is the number for the entire shopping online circle, and 77 is the number for the crescent moon part of shopping online.</li>
+                <li>224 reported that they prefer neither shopping online nor shopping in a store.</li>
+                <li>62 reported that they prefer both shopping online and shopping in a store.</li>
             </ol>
         </p>
     </answer>

@@ -1,13 +1,16 @@
 <exercise checkit-seed="0005" checkit-slug="SC1" checkit-title="Elements and Subsets">
     <statement>
         <p>
-            Given the sets A = {5, 6, 7, 8, 9}, B = {3, 4, 5, 6, 7}, and the element a = 12, determine whether a  &#8712;  A is True or False.
-            
+            You are given the sets <m>A = \left\{3, 4, 5, 6, 7, 8, 9, 10, 11\right\}</m>, <m>B = \left\{5, 6, 7, 8, 9\right\}</m>, and the element <m>x = 5</m>. Determine whether the following are True or False.
+            <ol>
+                <li> <m>x \in A</m> </li>
+                <li> <m>B \subseteq A</m> </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        It is False that a  &#8712;  A.
+        <m>x \in A</m> is True because x is one of the listed elements of A, and <m>B \subseteq A</m> is True because every element of B is also an element of A.
         </p>
     </answer>
 </exercise>

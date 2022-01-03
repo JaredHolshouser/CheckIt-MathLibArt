@@ -1,13 +1,16 @@
 <exercise checkit-seed="0004" checkit-slug="SC1" checkit-title="Elements and Subsets">
     <statement>
         <p>
-            Given the sets A = {3, 4, 5, 6, 7, 8, 9, 10, 11}, B = {5, 6, 7, 8, 9}, and the element a = 19, determine whether a  &#8712;  A is True or False.
-            
+            You are given the sets <m>A = \left\{5, 6, 7, 8, 9, 10, 11\right\}</m>, <m>B = \left\{2, 3, 4, 5, 6, 7, 8, 9\right\}</m>, and the element <m>x = 1</m>. Determine whether the following are True or False.
+            <ol>
+                <li> <m>x \notin A</m> </li>
+                <li> <m>A \supseteq B</m> </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        It is False that a  &#8712;  A.
+        <m>x \notin A</m> is True because x is not one of the listed elements of A, and <m>A \supseteq B</m> is False because B has elements that are not in A.
         </p>
     </answer>
 </exercise>

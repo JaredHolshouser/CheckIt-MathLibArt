@@ -4,7 +4,7 @@
        
         
                 <p>
-                    A hunting license starts with a special code(given by the letter A,B,C, or D), then has 7 digits(0 - 9), and ends with 2 letters. The letters can't repeat, and the digits can't repeat.
+                    A hunting license starts with a special code(given by the letter A,B,C, or D), then has 7 digits(0 - 9), and ends with 2 letters. The letters can't repeat and the digits can't repeat.
                     <ol>
                         <li>Draw a diagram of the situation using boxes/slots.</li>
                         <li>How many hunting licenses can be created that fit this criteria?</li>
@@ -16,7 +16,7 @@
         <p>
             <ol>
                 <li>[4][10][9][8][7][6][5][4][26][25]</li>
-                <li>There are 1572480000 total possibilities that fit the criteria.</li>
+                <li>Multiplying all of the boxes together, there are 1572480000 total possibilities that fit the criteria.</li>
             </ol>
         </p>
     </answer>

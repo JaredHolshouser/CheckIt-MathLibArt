@@ -1,13 +1,22 @@
 <exercise checkit-seed="0003" checkit-slug="SC2" checkit-title="Set Operations">
     <statement>
         <p>
-            Given the sets: U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A = {9, 3, 5, 7}, and B= {1, 3, 4, 7, 8, 9}, find A &#8746; B&#7580;.
-            
+            Given the sets: <m>U = \left\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\right\}</m>, <m>A = \left\{9, 3, 5, 7\right\}</m>, and <m>B = \left\{1, 3, 4, 7, 8, 9\right\}</m>, compute the following.
+            <ol>
+                <li> <m>A \cap B</m>, </li>
+                <li> <m>(A \cup B)^c</m>, and </li>
+                <li> <m>n(A \cap B)</m>. </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        The result of A &#8746; B&#7580; is {2, 3, 5, 6, 7, 9, 10}
+            <ol>
+                <li> <m>A \cap B = \left\{9, 3, 7\right\}</m>, </li>
+                <li> <m>(A \cup B)^c = \left\{2, 10, 6\right\}</m>, and </li>
+                <li> <m>n(A \cap B) = 3</m>. </li>
+            </ol>
+            Remember that <m> \cup </m> means union, <m> \cap </m> means intersection, <m>S^c</m> is the complement of <m>S</m>, and <m>n(S)</m> is the cardinality of <m>S</m>.
         </p>
     </answer>
 </exercise>

@@ -1,20 +1,20 @@
 <exercise checkit-seed="0005" checkit-slug="SC3" checkit-title="Venn Diagrams">
     <statement>
         <p>
-            A survey asks 600 people the following question: "Do you prefer dogs or cats?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 248 report cats, 257 report neither dogs nor cats, 103 report dogs and cats, and 95 report dogs only.
+            A survey asks 600 people the following question: "Do you prefer dogs or cats?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 248 reported that they prefer cats, 257 reported that they prefer neither dogs nor cats, 103 reported that they prefer both dogs and cats, and 95 reported that they prefer dogs only.
             <ol>
                 <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
                 <li>How many people  reported that they prefer cats only?</li>
-                <li>How many people  reported that they did not prefer dogs?</li>
+                <li>How many people  reported that they do not prefer dogs?</li>
             </ol>
         </p>
     </statement>
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
-                <li>145 report cats only.</li>
-                <li>402 report that they do no prefer dogs.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, 600 is the amount for the entire rectangle, 248 is the number for the entire cats circle, 257 is the number for the portion outside of both circles, 103 is the number for the little oval overlap part, and 95 is the number for the crescent moon part of dogs.</li>
+                <li>145 reported that they prefer cats only.</li>
+                <li>402 reported that they do not prefer dogs.</li>
             </ol>
         </p>
     </answer>

@@ -15,8 +15,8 @@
     <answer>
         <p>
             <ol>
-                <li>This should be checked by a human being. The tree should start with a dot and then have three successive layers after that. Draw 3 lines eminating from that initial dot and label the ends appropriately. From each of those ends, you should have 4 lines coming out. These should also be labeled. Finally, from each of the ends of the second layer, you should have 2 lines extending out and correctly labeled according to the problem.</li>
-                <li>There are 24 total possibilities.</li>
+                <li>This should be checked by a human being. The tree should start with a dot and then have three successive layers after that. Draw 3 lines emanating from that initial dot and label the ends appropriately. From each of those ends, you should have 4 lines coming out. These should also be labeled. Finally, from each of the ends of the second layer, you should have 2 lines extending out and correctly labeled according to the problem.</li>
+                <li>There are <m>3\cdot4\cdot2 = 24</m> total possibilities.</li>
             </ol>
         </p>
     </answer>

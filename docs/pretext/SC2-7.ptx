@@ -1,13 +1,22 @@
 <exercise checkit-seed="0007" checkit-slug="SC2" checkit-title="Set Operations">
     <statement>
         <p>
-            Given the sets: U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, A = {10, 11, 5, 7}, and B= {3, 6, 8, 10, 11}, find A&#8726;B.
-            
+            Given the sets: <m>U = \left\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11\right\}</m>, <m>A = \left\{10, 11, 5, 7\right\}</m>, and <m>B = \left\{3, 6, 8, 10, 11\right\}</m>, compute the following.
+            <ol>
+                <li> <m>A \cup B</m>, </li>
+                <li> <m>A^c \cap B</m>, and </li>
+                <li> <m>n(A^c \cap B)</m>. </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        The result of A&#8726;B is {5, 7}
+            <ol>
+                <li> <m>A \cup B = \left\{3, 5, 6, 7, 8, 10, 11\right\}</m>, </li>
+                <li> <m>A^c \cap B = \left\{8, 3, 6\right\}</m>, and </li>
+                <li> <m>n(A^c \cap B) = 3</m>. </li>
+            </ol>
+            Remember that <m> \cup </m> means union, <m> \cap </m> means intersection, <m>S^c</m> is the complement of <m>S</m>, and <m>n(S)</m> is the cardinality of <m>S</m>.
         </p>
     </answer>
 </exercise>

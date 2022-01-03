@@ -1,13 +1,16 @@
 <exercise checkit-seed="0007" checkit-slug="SC1" checkit-title="Elements and Subsets">
     <statement>
         <p>
-            Given the sets A = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}, B = {6, 7, 8, 9, 10, 11, 12, 13}, and the element a = 18, determine whether B  &#8838;  A is True or False.
-            
+            You are given the sets <m>A = \left\{5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17\right\}</m>, <m>B = \left\{5, 6, 7, 8, 9\right\}</m>, and the element <m>x = 10</m>. Determine whether the following are True or False.
+            <ol>
+                <li> <m>x \notin A</m> </li>
+                <li> <m>A \supseteq B</m> </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        It is True that B  &#8838;  A.
+        <m>x \notin A</m> is False because x is one of the listed elements of A, and <m>A \supseteq B</m> is True because every element of B is also an element of A.
         </p>
     </answer>
 </exercise>

@@ -4,7 +4,7 @@
        
         
                 <p>
-                    A pilot's license starts with a special code(given by the letter A,B,C, or D), then has 8 digits(0 - 9), and ends with 3 letters. The letters can't repeat, and the digits can't repeat.
+                    A pilot's license starts with a special code(given by the letter A,B,C, or D), then has 8 digits(0 - 9), and ends with 3 letters. The letters can't repeat and the digits can't repeat.
                     <ol>
                         <li>Draw a diagram of the situation using boxes/slots.</li>
                         <li>How many pilot's licenses can be created that fit this criteria?</li>
@@ -16,7 +16,7 @@
         <p>
             <ol>
                 <li>[4][10][9][8][7][6][5][4][3][26][25][24]</li>
-                <li>There are 113218560000 total possibilities that fit the criteria.</li>
+                <li>Multiplying all of the boxes together, there are 113218560000 total possibilities that fit the criteria.</li>
             </ol>
         </p>
     </answer>

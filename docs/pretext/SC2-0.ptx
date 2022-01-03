@@ -1,13 +1,22 @@
 <exercise checkit-seed="0000" checkit-slug="SC2" checkit-title="Set Operations">
     <statement>
         <p>
-            Given the sets: U = {1, 2, 3, 4, 5, 6, 7}, A = {3, 4, 5, 6, 7}, and B= {1, 2, 4}, find |B|.
-            
+            Given the sets: <m>U = \left\{1, 2, 3, 4, 5, 6, 7\right\}</m>, <m>A = \left\{3, 4, 5, 6, 7\right\}</m>, and <m>B = \left\{1, 2, 4\right\}</m>, compute the following.
+            <ol>
+                <li> <m>A^c</m>, </li>
+                <li> <m>A^c \cap B</m>, and </li>
+                <li> <m>n(A^c)</m>. </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        The result of |B| is 3
+            <ol>
+                <li> <m>A^c = \left\{1, 2\right\}</m>, </li>
+                <li> <m>A^c \cap B = \left\{1, 2\right\}</m>, and </li>
+                <li> <m>n(A^c) = 2</m>. </li>
+            </ol>
+            Remember that <m> \cup </m> means union, <m> \cap </m> means intersection, <m>S^c</m> is the complement of <m>S</m>, and <m>n(S)</m> is the cardinality of <m>S</m>.
         </p>
     </answer>
 </exercise>

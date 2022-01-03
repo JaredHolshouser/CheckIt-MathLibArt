@@ -3,17 +3,17 @@
         
         
                 <p>
-                    Charles's Bridge Club is choosing among 12 prizes from their upcoming tournament. If each of the first 3 places will receive a prize, how many possible organizations of prizes are there.
+                    Charles's Bridge Club is choosing among 12 unique prizes for their upcoming tournament. If each of the first 3 places will receive a prize, how many possible ways can the prizes be handed out?
                 </p> 
         
         <p>
 
         </p>
         <p>
-        Show all of your steps, and specify which formula you used and why you used it.
+        Show all of your steps, specify which formula you used, and state why you used it.
         </p>
     </statement>
     <answer>
-        <p> There <m>_{12}P_{3}</m> <m> = 1320.0</m> possibilities. </p>
+        <p> We are selecting 3 from a total of 12 possibilities (without repeats), and the order of the selections matters. There are <m>_{12}P_{3}</m> <m> = 1320</m> possibilities.</p>
     </answer>
 </exercise>

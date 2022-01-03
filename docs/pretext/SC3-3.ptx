@@ -1,20 +1,20 @@
 <exercise checkit-seed="0003" checkit-slug="SC3" checkit-title="Venn Diagrams">
     <statement>
         <p>
-            A survey asks 500 people the following question: "Do you prefer football or basketball?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 98 report neither football nor basketball, 325 report football, 171 report football and basketball, and 77 report basketball only.
+            A survey asks 500 people the following question: "Do you prefer football or basketball?" In their answer, the respondents can specify one of the two options, both, or neither. Suppose 98 reported that they prefer neither football nor basketball, 325 reported that they prefer football, 171 reported that they prefer both football and basketball, and 77 reported that they prefer basketball only.
             <ol>
                 <li>Draw a Venn diagram of the situation. Use the information in the problem to clearly label the diagram.</li>
                 <li>How many people  reported that they prefer basketball?</li>
-                <li>How many people  reported that they did not prefer basketball?</li>
+                <li>How many people  reported that they do not prefer basketball?</li>
             </ol>
         </p>
     </statement>
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
-                <li>248 report basketball.</li>
-                <li>252 report that they do no prefer basketball.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, 500 is the amount for the entire rectangle, 98 is the number for the portion outside of both circles, 325 is the number for the entire football circle, 171 is the number for the little oval overlap part, and 77 is the number for the crescent moon part of basketball.</li>
+                <li>248 reported that they prefer basketball.</li>
+                <li>252 reported that they do not prefer basketball.</li>
             </ol>
         </p>
     </answer>
