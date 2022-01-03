@@ -13,8 +13,8 @@
     <answer>
         <p>
             <ol>
-                <li> The loan generates $588.0 in interest.</li>
-                <li> They will need to pay $4,188.0 at the end of the loan.</li>
+                <li> The loan generates <m>I = P_0 r t = 3600(0.14\cdot \frac{14}{12}) =</m>$588.0 in interest.</li>
+                <li> They will need to pay 3,600 + 588.0 = $4,188.0 at the end of the loan.</li>
             </ol>
         </p>
     </answer>

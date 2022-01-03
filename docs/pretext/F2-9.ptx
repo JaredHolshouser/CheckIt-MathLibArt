@@ -5,7 +5,7 @@
                 4.2% compounded annually after 12 years. 
                     <ol>
                       <li>How much money will should they invest today?</li>
-                      <li>How much interest did they earn?</li>
+                      <li>How much interest will they earn?</li>
                     </ol>
                 </p>
       
@@ -19,8 +19,8 @@
       
               <p>
               <ol>
-                <li>They need to invest $1,165.79 today.</li>
-                <li>$744.21 in interest was generated.</li>
+                <li>They need to invest <m>\frac{P_0}{(1 + \frac{r}{n})^{nt}} = \frac{1910}{(1 + \frac{0.042}{1})^{1\cdot 12}} = </m> $1,165.79 today.</li>
+                <li><m>P_0 - FV = 1910 - 1165.79 = </m> $744.21 in interest will be generated.</li>
               </ol>
             </p>
   </answer>

@@ -5,7 +5,7 @@
                 5.4% compounded semiannually after 16 years. 
                     <ol>
                       <li>How much money will should they invest today?</li>
-                      <li>How much interest did they earn?</li>
+                      <li>How much interest will they earn?</li>
                     </ol>
                 </p>
       
@@ -19,8 +19,8 @@
       
               <p>
               <ol>
-                <li>They need to invest $767.39 today.</li>
-                <li>$1,032.61 in interest was generated.</li>
+                <li>They need to invest <m>\frac{P_0}{(1 + \frac{r}{n})^{nt}} = \frac{1800}{(1 + \frac{0.054}{2})^{2\cdot 16}} = </m> $767.39 today.</li>
+                <li><m>P_0 - FV = 1800 - 767.39 = </m> $1,032.61 in interest will be generated.</li>
               </ol>
             </p>
   </answer>

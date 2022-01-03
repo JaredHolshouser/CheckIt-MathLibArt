@@ -2,10 +2,10 @@
     <statement>
         
                 <p>
-                    After graduating, Kazuyo has $120,000 in student loans to payback. The loans have a fixed annual interest rate of 5.4% and will last for 10 years.
+                    After graduating, Nuriyah has $120,000 in student loans to payback. The loans have a fixed annual interest rate of 5.4% and will last for 10 years.
                     <ol>
                         <li>
-                            What is Kazuyo's monthly student loan payment?
+                            What is Nuriyah's monthly student loan payment?
                         </li>
                         <li>How much will they end up paying back overall?</li>
                         <li>How much interest did the bank earn from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $1,296.38.</li>
-                <li>They paid a total of $155,565.6 overall.</li>
-                <li>They paid $35,565.6 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{120000(\frac{0.054}{12})}{1 - (1 + \frac{0.054}{12})^{-12 \cdot 10}} = </m> $1,296.38.</li>
+                <li>They will pay a total of <m>dnt = 1296.38\cdot 12 \cdot10 = </m> $155,565.6 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 155565.6 - 120000 = </m> $35,565.6 in interest to the bank.</li>
             </ol>
         
         </p>

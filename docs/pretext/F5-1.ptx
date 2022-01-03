@@ -2,10 +2,10 @@
     <statement>
         
                 <p>
-                    After graduating, Firas has $95,000 in student loans to payback. The loans have a fixed annual interest rate of 4.6% and will last for 14 years.
+                    After graduating, Denise has $95,000 in student loans to payback. The loans have a fixed annual interest rate of 4.6% and will last for 15 years.
                     <ol>
                         <li>
-                            What is Firas's monthly student loan payment?
+                            What is Denise's monthly student loan payment?
                         </li>
                         <li>How much will they end up paying back overall?</li>
                         <li>How much interest did the bank earn from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $768.02.</li>
-                <li>They paid a total of $129,027.36 overall.</li>
-                <li>They paid $34,027.36 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{95000(\frac{0.046}{12})}{1 - (1 + \frac{0.046}{12})^{-12 \cdot 15}} = </m> $731.61.</li>
+                <li>They will pay a total of <m>dnt = 731.61\cdot 12 \cdot15 = </m> $131,689.8 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 131689.8 - 95000 = </m> $36,689.8 in interest to the bank.</li>
             </ol>
         
         </p>

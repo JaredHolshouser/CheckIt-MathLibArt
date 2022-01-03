@@ -1,19 +1,32 @@
-<exercise checkit-seed="0008" checkit-slug="F3" checkit-title="Payout Annuities">
-  <statement>
-      
-                <p>Natsu has decided to establish a scholarship for the next 29 years with $300,000. If the university can earn 3.3% annual interest, how much can be given out each year?
-                </p>
-      
-      <p>
+<exercise checkit-seed="0008" checkit-slug="F3" checkit-title="Saving For Retirement">
+    <statement>
+        
+        
+                <p>
+                    Oberbrunner-Stoltenberg offers a retirement fund with an annual interest rate of 4.4%. Firas  starts working at Oberbrunner-Stoltenberg when they are 37 years old. At their orientation, they meet with the company financial advisor, who helps them plan out their retirement. Firas decides that they want to retire when they are 67 with $2,700,000 saved up for retirement. 
+                    <ol>
+                        <li>
+                            What will the financial advisor tell them to pay into the retirement fund each month in order to meet their goal?
+                        </li>
+                        <li>How much will they end up contributing to the retirement fund overall?</li>
+                        <li>How much interest did the retirement fund generate for them?</li>
+                    </ol>
+                </p> 
+        <p>
 
-      </p>
-      
-  </statement>
-    
-  <answer>
-      
-              <p>
-              The university can give $25,383.09 every year.
-            </p>
-  </answer>
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>They need to put <m>\frac{FV (\frac{r}{n})}{(1+\frac{r}{n})^{nt} - 1} = \frac{2700000\cdot \frac{0.044}{12}}{(1 + \frac{0.044}{12})^{30\cdot 12} - 1} = </m> $3,620.54 into retirement each month.</li>
+                <li>They contributed <m>dnt = 3620.54\cdot 12 \cdot30 = </m>$1,303,394.4 overall.</li>
+                <li><m>FV - dnt = 2700000 - 1303394.4 = </m> $1,396,605.6 in interest was generated.</li>
+            </ol>
+        
+        </p>
+    </answer>
 </exercise>

@@ -3,10 +3,10 @@
         
         
                 <p>
-                    Yan recently purchased a home costing $340,000 with a 15% downpayment. Their 20 year mortgage has a fixed annual interest rate of 5.0%.
+                    Kabir recently purchased a home costing $340,000 with a 15% down payment. Their 20 year mortgage has a fixed annual interest rate of 5.0%.
                     <ol>
                         <li>
-                            What is Yan's monthly mortgage payment?
+                            What is Kabir's monthly mortgage payment?
                         </li>
                         <li>How much will they end up paying to the bank overall?</li>
                         <li>How much interest did the bank make from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $2,243.85.</li>
-                <li>They paid a total of $538,524.0 overall.</li>
-                <li>They paid $198,524.0 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{289000.0(\frac{0.05}{12})}{1 - (1 + \frac{0.05}{12})^{-12 \cdot 20}} = </m> $1,907.27.</li>
+                <li>They will pay a total of <m>dnt = 1907.27\cdot 12 \cdot20 = </m> $457,744.8 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 457744.8 - 289000.0 = </m> $168,744.8 in interest to the bank.</li>
             </ol>
         
         </p>

@@ -1,6 +1,6 @@
 <exercise checkit-seed="0005" checkit-slug="F5" checkit-title="Paying off Loans">
     <statement>
-                <p> Marie has just decided to purchase a new car. In order to make the purchase, Marie takes out a 4 year loan for $24,000 at an interest rate of 4.4%.
+                <p> Marie has just decided to purchase a new car. In order to make the purchase, Marie takes out a 7 year loan for $21,000 at an interest rate of 4.2%.
                     <ol>
                         <li>
                             What is Marie's monthly car payment?
@@ -21,9 +21,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $546.2.</li>
-                <li>They paid a total of $26,217.6 overall.</li>
-                <li>They paid $2,217.6 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{21000(\frac{0.042}{12})}{1 - (1 + \frac{0.042}{12})^{-12 \cdot 7}} = </m> $288.98.</li>
+                <li>They will pay a total of <m>dnt = 288.98\cdot 12 \cdot7 = </m> $24,274.32 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 24274.32 - 21000 = </m> $3,274.32 in interest to the bank.</li>
             </ol>
         
         </p>

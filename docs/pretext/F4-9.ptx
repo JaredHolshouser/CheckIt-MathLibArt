@@ -1,32 +1,19 @@
-<exercise checkit-seed="0009" checkit-slug="F4" checkit-title="Saving For Retirement">
-    <statement>
-        
-        
-                <p>
-                    Jaskolski, Durgan and Greenholt offers a 401k with an annual interest rate of 5.4%. Tao  starts working at Jaskolski, Durgan and Greenholt when they are 33 years old. At their orientation, they meet with the company financial advisor, who helps them plan out their retirement. Tao decides that they want to retire when they are 67 with $3,300,000 saved up for retirement. 
-                    <ol>
-                        <li>
-                            What will the financial advisor tell them to pay into the 401k each month in order to meet their goal?
-                        </li>
-                        <li>How much will they end up contributing to the 401k overall?</li>
-                        <li>How much interest did the 401k generate for them?</li>
-                    </ol>
-                </p> 
-        <p>
+<exercise checkit-seed="0009" checkit-slug="F4" checkit-title="Payout Annuities">
+  <statement>
+      
+                <p>Fahtima has decided to establish a scholarship for the next 35 years with $280,000. If the university has access to 4.2% interest compounded annually, how much can be given out each year?
+                </p>
+      
+      <p>
 
-        </p>
-        <p>
-        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
-        </p>
-    </statement>
-    <answer>
-        <p>
-            <ol>
-                <li>They need to put $2,830.93 into retirement each month.</li>
-                <li>They contributed $1,155,019.44 overall.</li>
-                <li>$2,144,980.56 in interest was generated.</li>
-            </ol>
-        
-        </p>
-    </answer>
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              The university can give <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{280000(\frac{0.042}{1})}{1 - (1 + \frac{0.042}{1})^{-1 \cdot 35}} = </m> $49,633.8 every year.
+            </p>
+  </answer>
 </exercise>

@@ -5,7 +5,7 @@
                 2.9% compounded quarterly after 5 years. 
                     <ol>
                       <li>How much money will should they invest today?</li>
-                      <li>How much interest did they earn?</li>
+                      <li>How much interest will they earn?</li>
                     </ol>
                 </p>
       
@@ -19,8 +19,8 @@
       
               <p>
               <ol>
-                <li>They need to invest $1,029.92 today.</li>
-                <li>$160.08 in interest was generated.</li>
+                <li>They need to invest <m>\frac{P_0}{(1 + \frac{r}{n})^{nt}} = \frac{1190}{(1 + \frac{0.029}{4})^{4\cdot 5}} = </m> $1,029.92 today.</li>
+                <li><m>P_0 - FV = 1190 - 1029.92 = </m> $160.08 in interest will be generated.</li>
               </ol>
             </p>
   </answer>

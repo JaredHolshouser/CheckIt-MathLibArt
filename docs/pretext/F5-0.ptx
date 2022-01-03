@@ -1,9 +1,9 @@
 <exercise checkit-seed="0000" checkit-slug="F5" checkit-title="Paying off Loans">
     <statement>
-                <p> Kabir has just decided to purchase a new car. In order to make the purchase, Kabir takes out a 3 year loan for $15,000 at an interest rate of 4.3%.
+                <p> Dennis has just decided to purchase a new car. In order to make the purchase, Dennis takes out a 9 year loan for $31,000 at an interest rate of 5.3%.
                     <ol>
                         <li>
-                            What is Kabir's monthly car payment?
+                            What is Dennis's monthly car payment?
                         </li>
                         <li> How much will they end up paying to the bank overall?</li>
                         <li>How much interest did the bank earn from them?</li>
@@ -21,9 +21,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $444.86.</li>
-                <li>They paid a total of $16,014.96 overall.</li>
-                <li>They paid $1,014.96 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{31000(\frac{0.053}{12})}{1 - (1 + \frac{0.053}{12})^{-12 \cdot 9}} = </m> $361.54.</li>
+                <li>They will pay a total of <m>dnt = 361.54\cdot 12 \cdot9 = </m> $39,046.32 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 39046.32 - 31000 = </m> $8,046.32 in interest to the bank.</li>
             </ol>
         
         </p>

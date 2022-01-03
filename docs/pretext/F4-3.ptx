@@ -1,32 +1,19 @@
-<exercise checkit-seed="0003" checkit-slug="F4" checkit-title="Saving For Retirement">
-    <statement>
-        
-        
-                <p>
-                    Leannon Inc offers a retirement fund with an annual interest rate of 5.4%. Asmaa  starts working at Leannon Inc when they are 38 years old. At their orientation, they meet with the company financial advisor, who helps them plan out their retirement. Asmaa decides that they want to retire when they are 78 with $3,500,000 saved up for retirement. 
-                    <ol>
-                        <li>
-                            What will the financial advisor tell them to pay into the retirement fund each month in order to meet their goal?
-                        </li>
-                        <li>How much will they end up contributing to the retirement fund overall?</li>
-                        <li>How much interest did the retirement fund generate for them?</li>
-                    </ol>
-                </p> 
-        <p>
+<exercise checkit-seed="0003" checkit-slug="F4" checkit-title="Payout Annuities">
+  <statement>
+      
+                <p>Tao has decided to establish a scholarship for the next 32 years with $240,000. If the university has access to 5.4% interest compounded annually, how much can be given out each year?
+                </p>
+      
+      <p>
 
-        </p>
-        <p>
-        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
-        </p>
-    </statement>
-    <answer>
-        <p>
-            <ol>
-                <li>They need to put $2,064.43 into retirement each month.</li>
-                <li>They contributed $990,926.4 overall.</li>
-                <li>$2,509,073.6 in interest was generated.</li>
-            </ol>
-        
-        </p>
-    </answer>
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              The university can give <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{240000(\frac{0.054}{1})}{1 - (1 + \frac{0.054}{1})^{-1 \cdot 32}} = </m> $69,743.63 every year.
+            </p>
+  </answer>
 </exercise>

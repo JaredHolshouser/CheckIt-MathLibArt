@@ -3,10 +3,10 @@
         
         
                 <p>
-                    Bahiya recently purchased a home costing $240,000 with a 15% downpayment. Their 19 year mortgage has a fixed annual interest rate of 3.7%.
+                    Rahul recently purchased a home costing $240,000 with a 10% down payment. Their 20 year mortgage has a fixed annual interest rate of 3.7%.
                     <ol>
                         <li>
-                            What is Bahiya's monthly mortgage payment?
+                            What is Rahul's monthly mortgage payment?
                         </li>
                         <li>How much will they end up paying to the bank overall?</li>
                         <li>How much interest did the bank make from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $1,467.19.</li>
-                <li>They paid a total of $334,519.32 overall.</li>
-                <li>They paid $94,519.32 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{216000.0(\frac{0.037}{12})}{1 - (1 + \frac{0.037}{12})^{-12 \cdot 20}} = </m> $1,275.03.</li>
+                <li>They will pay a total of <m>dnt = 1275.03\cdot 12 \cdot20 = </m> $306,007.2 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 306007.2 - 216000.0 = </m> $90,007.2 in interest to the bank.</li>
             </ol>
         
         </p>

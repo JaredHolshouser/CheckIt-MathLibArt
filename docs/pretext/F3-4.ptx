@@ -1,19 +1,31 @@
-<exercise checkit-seed="0004" checkit-slug="F3" checkit-title="Payout Annuities">
-  <statement>
-      
-                <p>Bahiya has decided to establish a scholarship for the next 21 years with $320,000. If the university can earn 4.2% annual interest, how much can be given out each year?
+<exercise checkit-seed="0004" checkit-slug="F3" checkit-title="Saving For Retirement">
+    <statement>
+                <p>At age 34, Solta  is working for Steuber LLC. The company provides access to a retirement fund with an annual interest rate of 4.9%. 
+                    <ol>
+                        <li>
+                            If they plan to retire when they are 68, with $1,900,000, how much do they need to put into the account each month?
+                        </li>
+                        <li> How much will they end up contributing to the retirement fund overall?</li>
+                        <li>How much interest did the retirement fund generate for them?</li>
+                    </ol>
                 </p>
-      
-      <p>
+        
+        
+        <p>
 
-      </p>
-      
-  </statement>
-    
-  <answer>
-      
-              <p>
-              The university can give $31,887.57 every year.
-            </p>
-  </answer>
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>They need to put <m>\frac{FV (\frac{r}{n})}{(1+\frac{r}{n})^{nt} - 1} = \frac{1900000\cdot \frac{0.049}{12}}{(1 + \frac{0.049}{12})^{34\cdot 12} - 1} = </m> $1,815.65 into retirement each month.</li>
+                <li>They contributed <m>dnt = 1815.65\cdot 12 \cdot34 = </m>$740,785.2 overall.</li>
+                <li><m>FV - dnt = 1900000 - 740785.2 = </m> $1,159,214.8 in interest was generated.</li>
+            </ol>
+        
+        </p>
+    </answer>
 </exercise>

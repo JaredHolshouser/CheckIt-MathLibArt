@@ -3,10 +3,10 @@
         
         
                 <p>
-                    Fahtima recently purchased a home costing $240,000 with a 15% downpayment. Their 19 year mortgage has a fixed annual interest rate of 5.1%.
+                    Marie recently purchased a home costing $240,000 with a 15% down payment. Their 20 year mortgage has a fixed annual interest rate of 5.1%.
                     <ol>
                         <li>
-                            What is Fahtima's monthly mortgage payment?
+                            What is Marie's monthly mortgage payment?
                         </li>
                         <li>How much will they end up paying to the bank overall?</li>
                         <li>How much interest did the bank make from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $1,645.8.</li>
-                <li>They paid a total of $375,242.4 overall.</li>
-                <li>They paid $135,242.4 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{204000.0(\frac{0.051}{12})}{1 - (1 + \frac{0.051}{12})^{-12 \cdot 20}} = </m> $1,357.6.</li>
+                <li>They will pay a total of <m>dnt = 1357.6\cdot 12 \cdot20 = </m> $325,824.0 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 325824.0 - 204000.0 = </m> $121,824.0 in interest to the bank.</li>
             </ol>
         
         </p>

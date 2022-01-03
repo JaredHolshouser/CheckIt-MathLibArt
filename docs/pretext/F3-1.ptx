@@ -1,19 +1,32 @@
-<exercise checkit-seed="0001" checkit-slug="F3" checkit-title="Payout Annuities">
-  <statement>
-      
-                <p>Firas has decided to establish a scholarship for the next 30 years with $230,000. If the university can earn 3.2% annual interest, how much can be given out each year?
-                </p>
-      
-      <p>
+<exercise checkit-seed="0001" checkit-slug="F3" checkit-title="Saving For Retirement">
+    <statement>
+        
+        
+                <p>
+                    Wunsch and Sons offers a 403b with an annual interest rate of 4.7%. Denise  starts working at Wunsch and Sons when they are 35 years old. At their orientation, they meet with the company financial advisor, who helps them plan out their retirement. Denise decides that they want to retire when they are 64 with $2,800,000 saved up for retirement. 
+                    <ol>
+                        <li>
+                            What will the financial advisor tell them to pay into the 403b each month in order to meet their goal?
+                        </li>
+                        <li>How much will they end up contributing to the 403b overall?</li>
+                        <li>How much interest did the 403b generate for them?</li>
+                    </ol>
+                </p> 
+        <p>
 
-      </p>
-      
-  </statement>
-    
-  <answer>
-      
-              <p>
-              The university can give $18,935.15 every year.
-            </p>
-  </answer>
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>They need to put <m>\frac{FV (\frac{r}{n})}{(1+\frac{r}{n})^{nt} - 1} = \frac{2800000\cdot \frac{0.047}{12}}{(1 + \frac{0.047}{12})^{29\cdot 12} - 1} = </m> $3,784.86 into retirement each month.</li>
+                <li>They contributed <m>dnt = 3784.86\cdot 12 \cdot29 = </m>$1,317,131.28 overall.</li>
+                <li><m>FV - dnt = 2800000 - 1317131.28 = </m> $1,482,868.72 in interest was generated.</li>
+            </ol>
+        
+        </p>
+    </answer>
 </exercise>

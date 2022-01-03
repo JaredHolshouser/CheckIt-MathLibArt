@@ -3,10 +3,10 @@
         
         
                 <p>
-                    Natsu recently purchased a home costing $200,000 with a 15% downpayment. Their 21 year mortgage has a fixed annual interest rate of 4.5%.
+                    Firas recently purchased a home costing $200,000 with a 15% down payment. Their 20 year mortgage has a fixed annual interest rate of 4.5%.
                     <ol>
                         <li>
-                            What is Natsu's monthly mortgage payment?
+                            What is Firas's monthly mortgage payment?
                         </li>
                         <li>How much will they end up paying to the bank overall?</li>
                         <li>How much interest did the bank make from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $1,228.23.</li>
-                <li>They paid a total of $309,513.96 overall.</li>
-                <li>They paid $109,513.96 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{170000.0(\frac{0.045}{12})}{1 - (1 + \frac{0.045}{12})^{-12 \cdot 20}} = </m> $1,075.5.</li>
+                <li>They will pay a total of <m>dnt = 1075.5\cdot 12 \cdot20 = </m> $258,120.0 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 258120.0 - 170000.0 = </m> $88,120.0 in interest to the bank.</li>
             </ol>
         
         </p>

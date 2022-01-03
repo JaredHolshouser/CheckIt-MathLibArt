@@ -1,31 +1,19 @@
-<exercise checkit-seed="0004" checkit-slug="F4" checkit-title="Saving For Retirement">
-    <statement>
-                <p>At age 34, Solta  is working for Steuber LLC. The company provides access to a retirement fund with an annual interest rate of 4.9%. 
-                    <ol>
-                        <li>
-                            If they plan to retire when they are 68, with $1,900,000, how much do they need to put into the account each month?
-                        </li>
-                        <li> How much will they end up contributing to the retirement fund overall?</li>
-                        <li>How much interest did the retirement fund generate for them?</li>
-                    </ol>
+<exercise checkit-seed="0004" checkit-slug="F4" checkit-title="Payout Annuities">
+  <statement>
+      
+                <p>Bahiya has decided to establish a scholarship for the next 21 years with $320,000. If the university has access to 4.2% interest compounded annually, how much can be given out each year?
                 </p>
-        
-        
-        <p>
+      
+      <p>
 
-        </p>
-        <p>
-        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
-        </p>
-    </statement>
-    <answer>
-        <p>
-            <ol>
-                <li>They need to put $1,815.65 into retirement each month.</li>
-                <li>They contributed $740,785.2 overall.</li>
-                <li>$1,159,214.8 in interest was generated.</li>
-            </ol>
-        
-        </p>
-    </answer>
+      </p>
+      
+  </statement>
+    
+  <answer>
+      
+              <p>
+              The university can give <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{320000(\frac{0.042}{1})}{1 - (1 + \frac{0.042}{1})^{-1 \cdot 21}} = </m> $31,887.57 every year.
+            </p>
+  </answer>
 </exercise>

@@ -18,8 +18,8 @@
   <answer>
             <p>
               <ol>
-                <li>They will have $1,389.4 overall.</li>
-                <li>$309.4 in interest was generated.</li>
+                <li>They will have <m>P_0 (1 + \frac{r}{n})^{nt} = 1080(1 + \frac{0.036}{52})^{52\cdot 7} = </m> $1,389.4 overall.</li>
+                <li><m>FV - P_0 = 1389.4 - 1080 = </m> $309.4 in interest was generated.</li>
               </ol>
             </p>
       

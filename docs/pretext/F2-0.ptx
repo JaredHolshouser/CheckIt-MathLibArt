@@ -18,8 +18,8 @@
   <answer>
             <p>
               <ol>
-                <li>They will have $1,131.76 overall.</li>
-                <li>$81.76 in interest was generated.</li>
+                <li>They will have <m>P_0 (1 + \frac{r}{n})^{nt} = 1050(1 + \frac{0.025}{52})^{52\cdot 3} = </m> $1,131.76 overall.</li>
+                <li><m>FV - P_0 = 1131.76 - 1050 = </m> $81.76 in interest was generated.</li>
               </ol>
             </p>
       

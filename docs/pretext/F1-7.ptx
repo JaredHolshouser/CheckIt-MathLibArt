@@ -13,8 +13,8 @@
     <answer>
         <p>
             <ol>
-                <li> The loan generates $388.5 in interest.</li>
-                <li> They will need to pay $4,088.5 at the end of the loan.</li>
+                <li> The loan generates <m>I = P_0 r t = 3700(0.14\cdot \frac{9}{12}) =</m>$388.5 in interest.</li>
+                <li> They will need to pay 3,700 + 388.5 = $4,088.5 at the end of the loan.</li>
             </ol>
         </p>
     </answer>

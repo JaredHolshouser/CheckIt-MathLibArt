@@ -3,10 +3,10 @@
         
         
                 <p>
-                    Kazuyo recently purchased a home costing $180,000 with a 15% downpayment. Their 22 year mortgage has a fixed annual interest rate of 3.8%.
+                    Kurbika recently purchased a home costing $180,000 with a 20% down payment. Their 20 year mortgage has a fixed annual interest rate of 3.8%.
                     <ol>
                         <li>
-                            What is Kazuyo's monthly mortgage payment?
+                            What is Kurbika's monthly mortgage payment?
                         </li>
                         <li>How much will they end up paying to the bank overall?</li>
                         <li>How much interest did the bank make from them?</li>
@@ -22,9 +22,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment $1,007.09.</li>
-                <li>They paid a total of $265,871.76 overall.</li>
-                <li>They paid $85,871.76 in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = \frac{144000.0(\frac{0.038}{12})}{1 - (1 + \frac{0.038}{12})^{-12 \cdot 20}} = </m> $857.51.</li>
+                <li>They will pay a total of <m>dnt = 857.51\cdot 12 \cdot20 = </m> $205,802.4 overall.</li>
+                <li>They will pay <m>dnt - P_0 = 205802.4 - 144000.0 = </m> $61,802.4 in interest to the bank.</li>
             </ol>
         
         </p>
