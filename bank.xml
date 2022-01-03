@@ -253,20 +253,20 @@
             </alignment>
         </outcome>
         <outcome>
-            <title>Payout Annuities</title>
+            <title>Saving For Retirement</title>
             <slug>F3</slug>
             <description>
-                Compute the required initial amount needed for a payout annuity.
+                Determine how much you need to put away each month to save for retirement.
             </description>
             <alignment>
                 Finance Chapter from Math in Society
             </alignment>
         </outcome>
         <outcome>
-            <title>Saving For Retirement</title>
+            <title>Payout Annuities</title>
             <slug>F4</slug>
             <description>
-                Determine how much you need to put away each month to save for retirement.
+                Compute the required initial amount needed for a payout annuity.
             </description>
             <alignment>
                 Finance Chapter from Math in Society
