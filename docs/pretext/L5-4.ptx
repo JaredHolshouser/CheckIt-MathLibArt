@@ -6,6 +6,19 @@
         <p>If everybody is laid back, then I take out the trash. It is false that I take out the trash. Therefore, it is false that everybody is laid back</p>
     </statement>
     <answer>
-        <p> The argument structure is <me>\text{Premise 1: } P \rightarrow Q</me> <me>\text{Premise 2: } \sim Q</me> <me>\text{Conclusion: } \sim P</me> This is valid by the law of contraposition.</p>
+        <p> In symbols, the argument is 
+            <ul>
+               <li> Premise 1: <m>P \rightarrow Q</m></li>
+               <li> Premise 2: <m>\sim Q</m></li>
+               <li> Conclusion: <m>\sim P</m></li>
+            </ul>
+            The argument structure is
+            <ul>
+               <li> <m>\square \rightarrow \triangle</m></li>
+               <li> <m>\sim \triangle</m></li>
+               <li> <m>\sim \square</m></li>
+            </ul>
+            This is valid by the law of contraposition.
+        </p>
     </answer>
 </exercise>

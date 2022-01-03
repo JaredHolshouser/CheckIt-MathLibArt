@@ -6,6 +6,19 @@
         <p>If it is hot today, then class is cancelled. it is hot today. Therefore, class is cancelled.</p>
     </statement>
     <answer>
-        <p> The argument structure is <me>\text{Premise 1: } P \rightarrow Q</me> <me>\text{Premise 2: } P</me> <me>\text{Conclusion: } Q</me> This is valid by the law of detachment.</p>
+        <p> In symbols, the argument is 
+            <ul>
+               <li> Premise 1: <m>P \rightarrow Q</m></li>
+               <li> Premise 2: <m>P</m></li>
+               <li> Conclusion: <m>Q</m></li>
+            </ul>
+            The argument structure is
+            <ul>
+               <li> <m>\square \rightarrow \triangle</m></li>
+               <li> <m>\square</m></li>
+               <li> <m>\triangle</m></li>
+            </ul>
+            This is valid by the law of detachment.
+        </p>
     </answer>
 </exercise>

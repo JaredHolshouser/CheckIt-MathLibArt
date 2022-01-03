@@ -1,16 +1,19 @@
 <exercise checkit-seed="0001" checkit-slug="L2" checkit-title="Truth Tables">
     <statement>
         <p>
-        Construct a truth table for the following formula. Make sure your table is in the standard order and that you have included all the necessary intermediate columns.
+            Construct a truth table for the following formula. Make sure your table is in the standard order and that you have included all the necessary intermediate columns.
         </p>
-        <me>(q \vee \sim r) \vee (p \rightarrow \sim q)</me>
+        <me>(P \rightarrow Q) \vee \sim (R \rightarrow Q)</me>
     </statement>
     <answer>
         <p>
-        The first and final columns of the truth table are
+            The first and final columns of the truth table are
         </p>
         <m>
-        \begin{array}{lllcc} \text{p} &amp; \text{q} &amp; \text{r} &amp; \cdots &amp; \text{Final Column} \\ \hline \text{T} &amp; \text{T} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{T} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{F} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{F} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{T} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{T} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{F} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{F} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \end{array}
+        \begin{array}{lllcc} P &amp; Q &amp; R &amp; \cdots &amp; \text{Final Column} \\ \hline \text{True} &amp; \text{True} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{True} &amp; \text{True} &amp; \text{False} &amp; \cdots &amp; \text{True} \\ \text{True} &amp; \text{False} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{True} &amp; \text{False} &amp; \text{False} &amp; \cdots &amp; \text{False} \\ \text{False} &amp; \text{True} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{False} &amp; \text{True} &amp; \text{False} &amp; \cdots &amp; \text{True} \\ \text{False} &amp; \text{False} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{False} &amp; \text{False} &amp; \text{False} &amp; \cdots &amp; \text{True} \\ \end{array}
         </m>
+        <p>
+            Recall that <m>\vee</m> means "or," <m>\wedge</m> means "and," and <m>\sim</m> means "not."
+        </p>
     </answer>
 </exercise>

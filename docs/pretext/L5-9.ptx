@@ -6,6 +6,19 @@
         <p>if it is false that everybody is laid back, then I take out the trash. I take out the trash. Therefore, it is false that everybody is laid back.</p>
     </statement>
     <answer>
-        <p> The argument structure is <me>\text{Premise 1: } \sim P \rightarrow Q</me> <me>\text{Premise 2: } Q</me> <me>\text{Conclusion: } \sim P</me> This is not valid by the fallacy of the converse.</p>
+        <p> In symbols, the argument is 
+            <ul>
+               <li> Premise 1: <m>\sim P \rightarrow Q</m></li>
+               <li> Premise 2: <m>Q</m></li>
+               <li> Conclusion: <m>\sim P</m></li>
+            </ul>
+            The argument structure is
+            <ul>
+               <li> <m>\square \rightarrow \triangle</m></li>
+               <li> <m>\triangle</m></li>
+               <li> <m>\square</m></li>
+            </ul>
+            This is not valid by the fallacy of the converse.
+        </p>
     </answer>
 </exercise>

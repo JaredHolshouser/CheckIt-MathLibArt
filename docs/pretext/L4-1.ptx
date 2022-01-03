@@ -11,9 +11,15 @@
         </p>
     </statement>
     <answer>
-        <p> First off, the long implication that describes the argument is <m>((P \rightarrow  \sim Q) \wedge (Q \rightarrow R)) \rightarrow (P \rightarrow R)</m>. The truth table for that is below.</p>
+        <p> First off, in symbols the argument is
+            <ul>
+                <li>Premise 1: <m>P \rightarrow  \sim Q</m></li>
+                <li>Premise 1: <m>Q \rightarrow R</m></li>
+                <li>Conclusion: <m>P \rightarrow R</m></li>
+            </ul>
+        This means that the long implication that describes the argument is <m>((P \rightarrow  \sim Q) \wedge (Q \rightarrow R)) \rightarrow (P \rightarrow R)</m>. The truth table for that is below.</p>
         <m>
-        \begin{array}{lllcc} P &amp; Q &amp; R &amp; \cdots &amp; ((P \rightarrow  \sim Q) \wedge (Q \rightarrow R)) \rightarrow (P \rightarrow R) \\ \hline \text{T} &amp; \text{T} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{T} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{F} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{T} &amp; \text{F} &amp; \text{F} &amp; \cdots &amp; \text{F} \\ \text{F} &amp; \text{T} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{T} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{F} &amp; \text{T} &amp; \cdots &amp; \text{T} \\ \text{F} &amp; \text{F} &amp; \text{F} &amp; \cdots &amp; \text{T} \\ \end{array}
+        \begin{array}{lllcc} P &amp; Q &amp; R &amp; \cdots &amp; ((P \rightarrow  \sim Q) \wedge (Q \rightarrow R)) \rightarrow (P \rightarrow R) \\ \hline \text{True} &amp; \text{True} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{True} &amp; \text{True} &amp; \text{False} &amp; \cdots &amp; \text{True} \\ \text{True} &amp; \text{False} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{True} &amp; \text{False} &amp; \text{False} &amp; \cdots &amp; \text{False} \\ \text{False} &amp; \text{True} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{False} &amp; \text{True} &amp; \text{False} &amp; \cdots &amp; \text{True} \\ \text{False} &amp; \text{False} &amp; \text{True} &amp; \cdots &amp; \text{True} \\ \text{False} &amp; \text{False} &amp; \text{False} &amp; \cdots &amp; \text{True} \\ \end{array}
         </m>
         <p>The argument is not valid by because there is at least one false entry in the final column of the truth table.</p>
     </answer>

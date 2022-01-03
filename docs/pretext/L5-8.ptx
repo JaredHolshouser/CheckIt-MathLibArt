@@ -6,6 +6,19 @@
         <p>if everybody is laid back, then I have a healthy diet. It is false that everybody is laid back. Therefore, it is false that I have a healthy diet.</p>
     </statement>
     <answer>
-        <p> The argument structure is <me>\text{Premise 1: } P \rightarrow Q</me> <me>\text{Premise 2: } \sim P</me> <me>\text{Conclusion: } \sim Q</me> This is not valid by the fallacy of the inverse.</p>
+        <p> In symbols, the argument is 
+            <ul>
+               <li> Premise 1: <m>P \rightarrow Q</m></li>
+               <li> Premise 2: <m>\sim P</m></li>
+               <li> Conclusion: <m>\sim Q</m></li>
+            </ul>
+            The argument structure is
+            <ul>
+               <li> <m>\square \rightarrow \triangle</m></li>
+               <li> <m>\sim \square</m></li>
+               <li> <m>\sim \triangle</m></li>
+            </ul>
+            This is not valid by the fallacy of the inverse.
+        </p>
     </answer>
 </exercise>
