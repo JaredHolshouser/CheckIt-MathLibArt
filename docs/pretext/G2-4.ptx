@@ -1,6 +1,6 @@
 <exercise checkit-seed="0004" checkit-slug="G2" checkit-title="Volume">
     <statement>
-        <p> A pyramid is positioned flat side up and a rectangular prism is attached cleanly to the top of the pyramid. The dimensions of the shape are as follows: The pyramid has base length 7, base width 7, and altitude 11, and the rectangular prism has height 5, where everything is measured in millimeters.
+        <p> A pyramid is positioned flat side up and a rectangular prism is attached cleanly to the top of the pyramid. The dimensions of the shape are as follows: The pyramid has base length 7, base width 7, and altitude 11, and the rectangular prism has height 5, where everything is measured in meters.
             <ol>
                 <li>Sketch a drawing of this situation to the best of your ability.</li>
                 <li>Find the total volume of this shape.</li>
@@ -9,7 +9,7 @@
     </statement>
     <answer>
         <p>
-            The volume is <m>V \approx 424.67</m> <m>mm^3</m>. This was computed using the formula <me>V = \frac{1}{3}l \cdot w \cdot h_1 + l \cdot w \cdot h_2</me>.
+            The volume is <m>V \approx 424.67</m> <m>m^3</m>. This was computed using the formula <m>V = \frac{1}{3}l\ell w h_1 + \ell w h_2</m>.
         </p>
     </answer>
 </exercise>

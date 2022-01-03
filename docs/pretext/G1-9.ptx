@@ -1,6 +1,6 @@
 <exercise checkit-seed="0009" checkit-slug="G1" checkit-title="Area">
     <statement>
-        <p> A trapezoid is placed with the longer parallel side on top and a semicircle is attached cleanly to the top of the trapezoid. The dimensions of the shape are as follows: the bottom of the trapezoid has length 7, the top of the trapezoid has length 8 and the altitude is 9, where everything is measured in centimeters.
+        <p> A circle has had a 90 degree slice removed from the top left portion of the circle and a triangle is attached cleanly to the missing section of the circle. The dimensions of the shape are as follows: The circle has radius 7, where everything is measured in miles.
             <ol>
                 <li>Sketch a drawing of this situation to the best of your ability.</li>
                 <li>Find the total area of this shape.</li>
@@ -9,7 +9,7 @@
     </statement>
     <answer>
         <p>
-            The volume is <m>A \approx 92.63</m> <m>cm^2</m>. This was computed using the formula <me>A = \frac{1}{2}\left(b_1 + b_2\right)h_1 + \frac{1}{2}\pi r^2</me>.
+            The volume is <m>A \approx 139.95</m> <m>mi^2</m>. This was computed using the formula <m>A = \frac{3}{4}\pi r^2 + \frac{1}{2}bh</m>.
         </p>
     </answer>
 </exercise>

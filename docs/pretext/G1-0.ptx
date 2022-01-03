@@ -1,6 +1,6 @@
 <exercise checkit-seed="0000" checkit-slug="G1" checkit-title="Area">
     <statement>
-        <p> A rectangle stands with it's longest side vertical and a triangle is attached cleanly to the top of the rectangle. The dimensions of the shape are as follows: the rectangle has base 3 and height 11 and the triangle has altitude 4, where everything is measured in centimeters.
+        <p> A rectangle stands with it's longest side vertical and a triangle is attached cleanly to the top of the rectangle. The dimensions of the shape are as follows: the rectangle has base 3 and height 9 and the triangle has altitude 11, where everything is measured in feet.
             <ol>
                 <li>Sketch a drawing of this situation to the best of your ability.</li>
                 <li>Find the total area of this shape.</li>
@@ -9,7 +9,7 @@
     </statement>
     <answer>
         <p>
-            The volume is <m>A \approx 39.0</m> <m>cm^2</m>. This was computed using the formula <me>A = bh_1 + \frac{1}{2}bh_2</me>.
+            The volume is <m>A \approx 43.5</m> <m>ft^2</m>. This was computed using the formula <m>A = bh_1 + \frac{1}{2}bh_2</m>.
         </p>
     </answer>
 </exercise>

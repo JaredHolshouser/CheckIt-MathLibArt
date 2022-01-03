@@ -1,6 +1,7 @@
 <exercise checkit-seed="0008" checkit-slug="G4" checkit-title="Fractal Construction">
     <statement>
         <p>
+            In this problem you will have to work with the limitations of ASCII art. You should assume that there are no gaps in the drawing (for example -- represents a connect line segment)
             <ol>
                 <li>
                     Using the initiator and generator shown, draw the next two stages of the iterated fractal. If your lines intersect themselves a little bit, that's okay, but try to keep your picture as neat as possible.
@@ -13,7 +14,7 @@
                     Using the initiator and generator shown, draw the next three stages of the iterated fractal. This is a tree, so you should only interate on the branches.
                                         <ul>
                         <li>Initiator: -</li>
-                        <li>Generator: &gt;-</li>
+                        <li>Generator: -&gt;</li>
                     </ul>
                 </li>
             </ol>
@@ -24,8 +25,8 @@
     </statement>
     <answer>
         <ol>
-            <li>This must be checked by a human being. As some general advice, draw big and make sure that when you iterate, the generator is repeated in every single line segment.</li>
-            <li>Same as the first part, except you only repeat on the branches.</li>
+            <li>This must be checked by a human being. As some general advice, draw big and use the previous stage as an outline for the next stage of the drawing.</li>
+            <li>Same as the first part, except you only repeat the pattern on the branches.</li>
         </ol>
     </answer>
 </exercise>
