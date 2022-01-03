@@ -1,20 +1,28 @@
 <exercise checkit-seed="0002" checkit-slug="P6" checkit-title="Probability with Advanced Counting">
     <statement>
         <p>
-            <ol>
-                <li> You know that the criteria for a password for a school laptop says they must have 5 letters(A - Z) followed by 2 digits(0 - 9). The letters can't repeat, and the digits can't repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
-                <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw two Twos?</li>
-                <li>From a pool of 37 candidates, 6 people will be selected at random to go on an expedition. They will all be assigned unqiue tasks. You and 10 of your friends are all in the pool of candidates. What is the probalitity that a team is selected that  consists only of you and your friends?</li>
-            </ol>
+            
+            
+            
+            
+            
+                <ol>
+                    <li>From a pool of 37 candidates, 6 people will be selected at random to go on an expedition. They will all be assigned unique tasks. You and 10 of your friends are all in the pool of candidates. What is the probability that a team is selected that  consists only of you and your friends?</li>
+                    <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw two Twos?</li>
+                </ol>
         </p>
     </statement>
     <answer>
         <p>
-            <ol>
-                <li>The probability is <me>\frac{1}{(26)(25)(24)(23)(22)(10)(9)} = \frac{1}{710424000}</me></li>
-                <li>The probability is <me>\frac{(\,_{4}C_2)(\,_{48}C_3)}{\,_{52}C_5} = \frac{2162}{54145}</me></li>
-                <li>The probability is <me>\frac{\,_{10}P_{6}}{\,_{37}P_{6}} = 9.033097268391387 \times 10^{-05}</me></li>
-            </ol>
+            
+            
+            
+            
+            
+                <ol>
+                    <li>The probability is <m>\frac{\,_{11}P_{6}}{\,_{37}P_{6}} = 0.0001987281399046105</m></li>
+                    <li>The probability is <m>\frac{(\,_{4}C_2)(\,_{48}C_3)}{\,_{52}C_5} = \frac{2162}{54145}</m></li>
+                </ol>
         </p>
     </answer>
 </exercise>

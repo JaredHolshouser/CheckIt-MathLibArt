@@ -1,20 +1,28 @@
 <exercise checkit-seed="0004" checkit-slug="P6" checkit-title="Probability with Advanced Counting">
     <statement>
         <p>
-            <ol>
-                <li> You know that the criteria for a password for a work computer says they must have 7 letters(A - Z) followed by 3 digits(0 - 9). The letters can repeat, and the digits can repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
-                <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw two Jacks?</li>
-                <li>From a pool of 33 candidates, 8 people will be selected at random to go on an expedition. They will all be assigned unqiue tasks. You and 15 of your friends are all in the pool of candidates. What is the probalitity that a team is selected that  does not include you or any of your friends?</li>
-            </ol>
+            
+            
+            
+            
+                <ol>
+                    <li>From a pool of 40 candidates, 7 people will be selected at random to go on an expedition. They will all be assigned unique tasks. You and 14 of your friends are all in the pool of candidates. What is the probability that a team is selected that  consists only of you and your friends?</li>
+                    <li> You know that the criteria for a password for an insurance website says they must have 7 letters(A - Z) followed by 2 digits(0 - 9). The letters can repeat, and the digits can repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
+                </ol>
+            
         </p>
     </statement>
     <answer>
         <p>
-            <ol>
-                <li>The probability is <me>\frac{1}{(26)(26)(26)(26)(26)(26)(26)(10)(10)(10)} = \frac{1}{8031810176000}</me></li>
-                <li>The probability is <me>\frac{(\,_{4}C_2)(\,_{48}C_3)}{\,_{52}C_5} = \frac{2162}{54145}</me></li>
-                <li>The probability is <me>\frac{\,_{18}P_{8}}{\,_{33}P_{8}} = 0.0031516499814608825</me></li>
-            </ol>
+            
+            
+            
+            
+                <ol>
+                    <li>The probability is <m>\frac{\,_{15}P_{7}}{\,_{40}P_{7}} = 0.0003451594008869551</m></li>
+                    <li>The probability is <m>\frac{1}{(26)(26)(26)(26)(26)(26)(26)(10)(10)} = \frac{1}{803181017600}</m></li>
+                </ol>
+            
         </p>
     </answer>
 </exercise>

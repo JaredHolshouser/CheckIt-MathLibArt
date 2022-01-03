@@ -11,8 +11,8 @@
     <answer>
         <p>
             <ol>
-                <li>See the class notes for how to draw a tree.</li>
-                <li>The probability is <me>P(positive) = P(sick)P(positive|sick) + P(healthy)P(positive|healthy) \approx 0.1372</me></li>
+                <li>Your conditional probability tree should have two levels. The first level splits on whether or not the illness is present. Below those options, the tree splits on whether the test results are positive or negative. Below the branch where the illness is present, there are true positive and false negative options. Below the branch where the illness is not present, there are false positive and true negative options. Each of the different pairs of options (illness or not, true positive or false negative, and false positive or true negative) should add up to 100%.</li>
+                <li>The probability is <m>P(positive) = P(sick)P(positive|sick) + P(healthy)P(positive|healthy) \approx 0.1372</m></li>
             </ol>
         </p>
     </answer>

@@ -1,7 +1,7 @@
 <exercise checkit-seed="0009" checkit-slug="P1" checkit-title="Sample Spaces">
     <statement>
         <p>
-Suppose you have 2 spinners that have 6, and 4 equally sized spaces, respectively. Write out the sample space that corresponds to this situation. What is the probability that the sum of the spinner results is more than 7?
+Suppose you have 2 spinners that have 6 and 4 equally sized spaces, respectively. Write out the sample space that corresponds to this situation. What is the probability that the sum of the spinner results is more than 7?
         </p>
     </statement>
     <answer>

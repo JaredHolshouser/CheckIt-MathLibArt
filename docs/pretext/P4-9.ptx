@@ -11,8 +11,8 @@
     <answer>
         <p>
             <ol>
-                <li>See the class notes for how to draw a tree.</li>
-                <li>The probability is <me>P(negative) = P(defective)P(negative|defective) + P(not defective)P(negative|not defective) \approx 0.819</me></li>
+                <li>Your conditional probability tree should have two levels. The first level splits on whether or not the error is present. Below those options, the tree splits on whether the test results are positive or negative. Below the branch where the error is present, there are true positive and false negative options. Below the branch where the error is not present, there are false positive and true negative options. Each of the different pairs of options (error or not, true positive or false negative, and false positive or true negative) should add up to 100%.</li>
+                <li>The probability is <m>P(negative) = P(defective)P(negative|defective) + P(not \, defective)P(negative|not \, defective) \approx 0.819</m></li>
             </ol>
         </p>
     </answer>

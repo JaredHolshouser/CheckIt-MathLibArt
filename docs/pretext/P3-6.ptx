@@ -1,12 +1,15 @@
 <exercise checkit-seed="0006" checkit-slug="P3" checkit-title="Probability with And">
     <statement>
         <p>
-            In front of you is a jar containing marbles. It has 36 red marbles, 32 green marbles, 28 blue marbles, 35 yellow marbles, 36 black marbles, and 24 white marbles,  for a total of 191 marbles. Suppose you draw 2 marbles, setting each of them to the side as you pull them out. What is the probability that marble 1 is white, and marble 2 is black?
+            
+                At a state fair, there is a jar containing jellybeans. It has 32 grape jellybeans, 28 cherry jellybeans, 35 butter jellybeans, and 36 licorice jellybeans, for a total of 131 jellybeans.
+            Suppose you draw 2 jellybeans, setting each of them to the side as you pull them out. What is the probability that jellybean 1 is grape flavored, and jellybean 2 is butter flavored?
+            
         </p>
     </statement>
     <answer>
         <p>
-            The probability is <m>\left( \frac{24}{191} \right)\left( \frac{36}{190} \right) = 0.02380821162854781</m>.
+            The probability is <m>\left( \frac{32}{131} \right)\left( \frac{35}{130} \right) = 0.06576629477392835</m>.
         </p>
     </answer>
 </exercise>

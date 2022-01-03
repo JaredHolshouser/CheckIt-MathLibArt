@@ -1,12 +1,15 @@
 <exercise checkit-seed="0001" checkit-slug="P3" checkit-title="Probability with And">
     <statement>
         <p>
-            In front of you is a jar containing marbles. It has 30 red marbles, 48 green marbles, 19 blue marbles, 37 yellow marbles, 39 black marbles, and 12 white marbles,  for a total of 185 marbles. Suppose you draw 3 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is white, marble 2 is green, and marble 3 is black?
+            
+                At a state fair, there is a jar containing jellybeans. It has 48 grape jellybeans, 19 cherry jellybeans, 37 butter jellybeans, and 39 licorice jellybeans, for a total of 143 jellybeans.
+            Suppose you draw 3 jellybeans, putting them back in the container and shaking between selections. What is the probability that jellybean 1 is cherry flavored, jellybean 2 is grape flavored, and jellybean 3 is butter flavored?
+            
         </p>
     </statement>
     <answer>
         <p>
-            The probability is <m>\left( \frac{12}{185} \right)\left( \frac{48}{185} \right)\left( \frac{39}{185} \right) = 0.003547904368941623</m>.
+            The probability is <m>\left( \frac{19}{143} \right)\left( \frac{48}{143} \right)\left( \frac{37}{143} \right) = 0.011539538753583451</m>.
         </p>
     </answer>
 </exercise>

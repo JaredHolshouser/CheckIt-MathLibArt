@@ -1,12 +1,12 @@
 <exercise checkit-seed="0005" checkit-slug="P5" checkit-title="Expected Value">
     <statement>
-                <p> Dennis is gambling \$8 on rolling a 6 on a 13-sided die. If Dennis wins, they win \$20, otherwise they forfit their bet. What is the expected value of this gamble?
+                <p> Dennis is gambling at a roullette wheel. The wheel has 17 equally sized spots. 6 of the spots are winning locations, and the rest are losing. If costs \$8 to play the wheel. If Dennis wins, they get their bet back and they win \$20, otherwise they forfeit their bet. What is the expected value of this gamble?
                 </p>
         
     </statement>
     <answer>
         <p>
-            The expected value is <me>\frac{1}{13}(20) + \frac{12}{13}(-8) = -$5.85</me>
+            The expected value is <m>\frac{6}{17}(20) + \frac{11}{17}(-8) = $1.88</m>
         </p>
     </answer>
 </exercise>

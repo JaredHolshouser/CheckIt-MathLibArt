@@ -1,12 +1,15 @@
 <exercise checkit-seed="0005" checkit-slug="P3" checkit-title="Probability with And">
     <statement>
         <p>
-            In front of you is a jar containing marbles. It has 10 red marbles, 44 green marbles, 23 blue marbles, 29 yellow marbles, 32 black marbles, and 23 white marbles,  for a total of 161 marbles. Suppose you draw 4 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is blue, marble 2 is green, marble 3 is yellow, and marble 4 is blue?
+                In front of you is a jar containing marbles. It has 44 red marbles, 23 blue marbles, 29 yellow marbles, 32 black marbles, and 23 white marbles, for a total of 151 marbles.
+            Suppose you draw 4 marbles, putting them back in the container and shaking between selections. What is the probability that marble 1 is yellow, marble 2 is blue, marble 3 is black, and marble 4 is yellow?
+            
+            
         </p>
     </statement>
     <answer>
         <p>
-            The probability is <m>\left( \frac{23}{161} \right)\left( \frac{44}{161} \right)\left( \frac{29}{161} \right)\left( \frac{23}{161} \right) = 0.0010046223651298412</m>.
+            The probability is <m>\left( \frac{29}{151} \right)\left( \frac{23}{151} \right)\left( \frac{32}{151} \right)\left( \frac{29}{151} \right) = 0.001190600391334939</m>.
         </p>
     </answer>
 </exercise>

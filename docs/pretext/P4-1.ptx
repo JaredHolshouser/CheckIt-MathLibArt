@@ -4,15 +4,15 @@
             A certain error is known to be present in about 14% of gadgets. Engineers have developed a new test for this error. Based on their research, the new test has a false negative rate of 11% and a false positive rate of 5%. 
             <ol>
                 <li>Draw a tree describing this situation.</li>
-                <li>What is the probability that a randomly selected gadget tests negative and is actually not defective?</li>
+                <li>What is the probability that a randomly selected gadget tests negative and is actually not \, defective?</li>
             </ol>
         </p>
     </statement>
     <answer>
         <p>
             <ol>
-                <li>See the class notes for how to draw a tree.</li>
-                <li>The probability is <me>P(negative\, and\, defective) = P(defective)P(negative|defective) \approx 0.0154</me></li>
+                <li>Your conditional probability tree should have two levels. The first level splits on whether or not the error is present. Below those options, the tree splits on whether the test results are positive or negative. Below the branch where the error is present, there are true positive and false negative options. Below the branch where the error is not present, there are false positive and true negative options. Each of the different pairs of options (error or not, true positive or false negative, and false positive or true negative) should add up to 100%.</li>
+                <li>The probability is <m>P(negative\, and\, defective) = P(defective)P(negative|defective) \approx 0.0154</m></li>
             </ol>
         </p>
     </answer>

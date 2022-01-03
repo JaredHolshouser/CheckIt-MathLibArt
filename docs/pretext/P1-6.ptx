@@ -1,7 +1,7 @@
 <exercise checkit-seed="0006" checkit-slug="P1" checkit-title="Sample Spaces">
     <statement>
         <p>
-Suppose you have 2 spinners that have 5, and 4 equally sized spaces, respectively. Write out the sample space that corresponds to this situation. What is the probability that the first spinner lands on an even number?
+Suppose you have 2 spinners that have 5 and 4 equally sized spaces, respectively. Write out the sample space that corresponds to this situation. What is the probability that the first spinner lands on an even number?
         </p>
     </statement>
     <answer>

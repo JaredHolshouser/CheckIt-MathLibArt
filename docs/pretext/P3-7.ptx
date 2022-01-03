@@ -1,12 +1,15 @@
 <exercise checkit-seed="0007" checkit-slug="P3" checkit-title="Probability with And">
     <statement>
         <p>
-            In front of you is a jar containing marbles. It has 43 red marbles, 30 green marbles, 48 blue marbles, 45 yellow marbles, 29 black marbles, and 45 white marbles,  for a total of 240 marbles. Suppose you draw 4 marbles, putting them back in the jar and shaking between selections. What is the probability that marble 1 is black, marble 2 is blue, marble 3 is red, and marble 4 is blue?
+            
+            
+                After saving your loose change over the years, you have a container full of coins. It has 30 pennies, 48 nickels, 45 dimes, and 29 quarters, for a total of 152 coins.
+            Suppose you draw 2 coins, setting each of them to the side as you pull them out. What is the probability that coin 1 is a penny, and coin 2 is a dime?
         </p>
     </statement>
     <answer>
         <p>
-            The probability is <m>\left( \frac{29}{240} \right)\left( \frac{48}{240} \right)\left( \frac{43}{240} \right)\left( \frac{48}{240} \right) = 0.0008659722222222224</m>.
+            The probability is <m>\left( \frac{30}{152} \right)\left( \frac{45}{151} \right) = 0.05881840362495644</m>.
         </p>
     </answer>
 </exercise>

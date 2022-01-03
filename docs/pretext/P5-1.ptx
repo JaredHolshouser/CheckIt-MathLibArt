@@ -1,12 +1,12 @@
 <exercise checkit-seed="0001" checkit-slug="P5" checkit-title="Expected Value">
     <statement>
-                <p> Tao is gambling \$5 on rolling a 15 on a 17-sided die. If Tao wins, they win \$16, otherwise they forfit their bet. What is the expected value of this gamble?
+                <p> Tao is gambling at a roullette wheel. The wheel has 21 equally sized spots. 8 of the spots are winning locations, and the rest are losing. If costs \$5 to play the wheel. If Tao wins, they get their bet back and they win \$16, otherwise they forfeit their bet. What is the expected value of this gamble?
                 </p>
         
     </statement>
     <answer>
         <p>
-            The expected value is <me>\frac{1}{17}(16) + \frac{16}{17}(-5) = -$3.76</me>
+            The expected value is <m>\frac{8}{21}(16) + \frac{13}{21}(-5) = $2.99</m>
         </p>
     </answer>
 </exercise>

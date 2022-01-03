@@ -1,12 +1,12 @@
 <exercise checkit-seed="0000" checkit-slug="P5" checkit-title="Expected Value">
     <statement>
-                <p> Blanca is gambling \$13 on rolling a 2 on a 4-sided die. If Blanca wins, they win \$31, otherwise they forfit their bet. What is the expected value of this gamble?
+                <p> Blanca is gambling at a roullette wheel. The wheel has 8 equally sized spots. 3 of the spots are winning locations, and the rest are losing. If costs \$13 to play the wheel. If Blanca wins, they get their bet back and they win \$31, otherwise they forfeit their bet. What is the expected value of this gamble?
                 </p>
         
     </statement>
     <answer>
         <p>
-            The expected value is <me>\frac{1}{4}(31) + \frac{3}{4}(-13) = -$2.0</me>
+            The expected value is <m>\frac{3}{8}(31) + \frac{5}{8}(-13) = $3.50</m>
         </p>
     </answer>
 </exercise>

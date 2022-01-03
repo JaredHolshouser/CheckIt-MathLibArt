@@ -3,7 +3,7 @@
         <p>
             
                 <p>
-                    A board is layed out in a grid. The top is broken into columns, labeled A to F, and the side is broken into rows, labeled 1 to 8. If you pick a spot on the board at random, what is the probability that the spot
+                    A board is laid out in a grid. The top is broken into columns, labeled A to F, and the side is broken into rows, labeled 1 to 8. If you pick a spot on the board at random, what is the probability that the spot
                     <ol>
                         <li> is in columns C to E or is in rows 5 to 8? </li>
                         <li> is not in columns C to E? </li>

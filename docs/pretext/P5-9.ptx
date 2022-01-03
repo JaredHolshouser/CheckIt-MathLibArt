@@ -2,12 +2,12 @@
     <statement>
         
                 <p>
-                    A resturant offers a grab bag of 14 fortune cookies, 4 of them have a discount of \$5 in them, 4 of them have a \$1 discount, and the rest have merely fortunes in them. If Kurbika grabs one at random, what is the expected value of the draw?
+                    A restaurant offers a grab bag of 14 fortune cookies, 4 of them have a discount of \$5 in them, 4 of them have a \$1 discount, and the rest have merely fortunes in them. If Kurbika grabs one at random, what is the expected value of the draw?
                 </p> 
     </statement>
     <answer>
         <p>
-            The expected value is <me>\frac{4}{14}(5) + \frac{4}{14}(1) + 0 = $1.71</me>
+            The expected value is <m>\frac{4}{14}(5) + \frac{4}{14}(1) + 0 = $1.71</m>
         </p>
     </answer>
 </exercise>

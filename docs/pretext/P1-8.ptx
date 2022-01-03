@@ -1,7 +1,7 @@
 <exercise checkit-seed="0008" checkit-slug="P1" checkit-title="Sample Spaces">
     <statement>
         <p>
-Suppose you have 2 spinners that have 6, and 5 equally sized spaces, respectively. Write out the sample space that corresponds to this situation. What is the probability that the first spinner lands on an odd number?
+Suppose you have 2 spinners that have 6 and 5 equally sized spaces, respectively. Write out the sample space that corresponds to this situation. What is the probability that the first spinner lands on an odd number?
         </p>
     </statement>
     <answer>

@@ -11,8 +11,8 @@
     <answer>
         <p>
             <ol>
-                <li>See the class notes for how to draw a tree.</li>
-                <li>The probability is <me>P(negative) = P(sick)P(negative|sick) + P(healthy)P(negative|healthy) \approx 0.7838</me></li>
+                <li>Your conditional probability tree should have two levels. The first level splits on whether or not the virus is present. Below those options, the tree splits on whether the test results are positive or negative. Below the branch where the virus is present, there are true positive and false negative options. Below the branch where the virus is not present, there are false positive and true negative options. Each of the different pairs of options (virus or not, true positive or false negative, and false positive or true negative) should add up to 100%.</li>
+                <li>The probability is <m>P(negative) = P(sick)P(negative|sick) + P(healthy)P(negative|healthy) \approx 0.7838</m></li>
             </ol>
         </p>
     </answer>
