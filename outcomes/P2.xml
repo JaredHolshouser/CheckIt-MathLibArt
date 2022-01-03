@@ -15,7 +15,7 @@
             
             {{#overlaps}}
                 <p>
-                    A board is layed out in a grid. The top is broken into columns, labeled A to {{end_letter}}, and the side is broken into rows, labeled 1 to {{end_number}}. If you pick a spot on the board at random, what is the probability that the spot
+                    A board is laid out in a grid. The top is broken into columns, labeled A to {{end_letter}}, and the side is broken into rows, labeled 1 to {{end_number}}. If you pick a spot on the board at random, what is the probability that the spot
                     <ol>
                         <li> is in columns {{start_col}} to {{end_col}} or is in rows {{start_row}} to {{end_row}}? </li>
                         <li> is not in columns {{start_col}} to {{end_col}}? </li>

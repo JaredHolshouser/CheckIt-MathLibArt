@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
-        <p> A {{object_1}} {{object_1_orientation}} and a {{object_2}} is attached cleanly {{object_2_orientation}} of the {{object_1}}. The dimensions of the shape are as follows: {{dimensions}}, where everything is measured in {{units_long}}.
+        <p> A {{shape_1}} {{shape_1_orientation}} and a {{shape_2}} is attached cleanly {{shape_2_orientation}} of the {{shape_1}}. The dimensions of the shape are as follows: {{dimensions}}, where everything is measured in {{units_long}}.
             <ol>
                 <li>Sketch a drawing of this situation to the best of your ability.</li>
                 <li>Find the total volume of this shape.</li>
@@ -10,7 +10,7 @@
     </statement>
     <answer>
         <p>
-            The volume is <m>V \approx {{total_volume}}</m> <m>{{units_short}}^3</m>. This was computed using the formula <me>V = {{formula}}</me>.
+            The volume is <m>V \approx {{total_volume}}</m> <m>{{units_short}}^3</m>. This was computed using the formula <m>V = {{formula}}</m>.
         </p>
     </answer>
 </exercise>

@@ -65,12 +65,26 @@ def generator():
             ("P \\vee Q", "\\sim P", "Q"),
             ("P \\vee Q", "\\sim Q", "P"),
         ]
+        symbolic_valid_forms = [
+            ("\\square \\rightarrow \\triangle", "\\square", "\\triangle"),
+            ("\\square \\rightarrow \\triangle", "\\square", "\\triangle"),
+            ("\\square \\rightarrow \\triangle", "\\sim \\triangle", "\\sim \\square"),
+            ("\\square \\rightarrow \\triangle", "\\sim \\triangle", "\\sim \\square"),
+            ("\\square \\rightarrow \\triangle", "\\triangle \\rightarrow \\bigcirc", "\\square \\rightarrow \\bigcirc"),
+            ("\\square \\rightarrow \\triangle", "\\triangle \\rightarrow \\bigcirc", "\\square \\rightarrow \\bigcirc"),
+            ("\\square \\vee \\triangle", "\\sim \\square", "\\triangle"),
+            ("\\triangle \\vee \\square", "\\sim \\square", "\\triangle"),
+        ]
         index = randrange(0,len(valid_forms))
         selection = valid_forms[index]
         short_form = short_valid_forms[index]
+        symbolic_form = symbolic_valid_forms[index]
         premise_1 = short_form[0]
         premise_2 = short_form[1]
         conclusion = short_form[2]
+        premise_1_symbolic = symbolic_form[0]
+        premise_2_symbolic = symbolic_form[1]
+        conclusion_symbolic = symbolic_form[2]
         
     else:
         #choose an invalid form
@@ -86,12 +100,22 @@ def generator():
             ("P \\rightarrow Q","\\sim P","\\sim Q"),
             ("\\sim P \\rightarrow Q","P","\\sim Q"),
         ]
+        symbolic_invalid_forms = [
+            ("\\square \\rightarrow \\triangle","\\triangle","\\square"),
+            ("\\square \\rightarrow \\triangle","\\triangle","\\square"),
+            ("\\square \\rightarrow \\triangle","\\sim \\square","\\sim \\triangle"),
+            ("\\square \\rightarrow \\triangle","\\sim \\square","\\sim \\triangle"),
+        ]
         index = randrange(0,len(invalid_forms))
         selection = invalid_forms[index]
         short_form = short_invalid_forms[index]
+        symbolic_form = symbolic_invalid_forms[index]
         premise_1 = short_form[0]
         premise_2 = short_form[1]
         conclusion = short_form[2]
+        premise_1_symbolic = symbolic_form[0]
+        premise_2_symbolic = symbolic_form[1]
+        conclusion_symbolic = symbolic_form[2]
     
     #building out the argument in text
     argument = selection[0]
@@ -110,4 +134,7 @@ def generator():
         "premise_1": premise_1,
         "premise_2": premise_2,
         "conclusion": conclusion,
+        "premise_1_symbolic": premise_1_symbolic,
+        "premise_2_symbolic": premise_2_symbolic,
+        "conclusion_symbolic": conclusion_symbolic,
     }

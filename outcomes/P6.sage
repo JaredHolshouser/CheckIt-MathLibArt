@@ -1,4 +1,7 @@
 def generator():
+    #choose a random scenario
+    random_scenario = choice(["12", "13", "21", "23", "31", "32"])
+    
     #First part, use FPC
     
     #choose a password situation
@@ -15,7 +18,7 @@ def generator():
     p_letter_amount = randrange(5,9)
     p_digit_amount = randrange(2,4)
 
-    #decide if order matters
+    #decide if letters and numbers can repeat
     letter_repeat_bool = choice([True,False])
     if letter_repeat_bool:
         letter_repeat = "can"
@@ -127,10 +130,10 @@ def generator():
     
     #compute the probability
     if team_situation == " consists only of you and your friends":
-        answer_3 = math.perm(num_friends, num_selection)/math.perm(num_candidates, num_selection)
-        answer_string_3 = "\\frac{\\,_{"+str(num_friends)+"}P_{"+str(num_selection)+"}}{\\,_{"+str(num_candidates)+"}P_{"+str(num_selection)+"}}"
+        answer_3 = math.perm(num_friends+1, num_selection)/math.perm(num_candidates, num_selection)
+        answer_string_3 = "\\frac{\\,_{"+str(num_friends+1)+"}P_{"+str(num_selection)+"}}{\\,_{"+str(num_candidates)+"}P_{"+str(num_selection)+"}}"
     else:
-        num_not_friends = num_candidates - num_friends
+        num_not_friends = num_candidates - num_friends - 1
         answer_3 = math.perm(num_not_friends, num_selection)/math.perm(num_candidates, num_selection)
         answer_string_3 = "\\frac{\\,_{"+str(num_not_friends)+"}P_{"+str(num_selection)+"}}{\\,_{"+str(num_candidates)+"}P_{"+str(num_selection)+"}}"
     
@@ -151,6 +154,7 @@ def generator():
     
         
     return {
+        "scenario": {random_scenario: True},
         "password_situation": password_situation,
         "p_letter_amount": p_letter_amount,
         "p_digit_amount": p_digit_amount,

@@ -1,5 +1,5 @@
 def generator():
-    #generate a random problme type
+    #generate a random problme type 1 -> future value, 2 -> present value
     random_scenario = choice(["phrasing1", "phrasing2"])
 
     #generate a random interest rate
@@ -60,12 +60,17 @@ def generator():
     if period =="weekly":
         n=52
     
-    #compute saved amount
+    #Future Value Answers
     if random_scenario == "phrasing1":
+        final_amount_formula = str(amount) + "(1 + \\frac{" + str(round(yearly_rate_decimal,3)) + "}{" + str(n) + "})^{" + str(n) + "\\cdot " + str(years) + "}"
         final_amount = round(amount*((1+yearly_rate_decimal/n)^(n*years)),2)
+        interest_formula = str(final_amount) + " - " + str(amount)
         interest = round((final_amount - amount)*1.0,2)
+    #Present Value Answers
     if random_scenario == "phrasing2":
+        final_amount_formula = "\\frac{" + str(amount) + "}{(1 + \\frac{" + str(round(yearly_rate_decimal,3)) + "}{" + str(n) + "})^{" + str(n) + "\\cdot " + str(years) + "}}"
         final_amount = round(amount/((1+yearly_rate_decimal/n)^(n*years)),2)
+        interest_formula = str(amount) + " - " + str(final_amount)
         interest = round((amount - final_amount)*1.0,2)
     
     accrued_interest_string = f"${float(interest):,}"
@@ -78,6 +83,8 @@ def generator():
         "name": name,
         "amount_string": amount_string,
         "period": period,
+        "final_amount_formula": final_amount_formula,
         "final_amount": final_amount_string,
+        "interest_formula": interest_formula,
         "accrued_interest_string": accrued_interest_string
     }

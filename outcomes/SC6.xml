@@ -3,24 +3,26 @@
     <statement>
         {{#scenario}}
             {{#phrasing1}}
-                <p>{{name}} needs to select {{r}} students from a class of {{n}} students to retrieve supplies from the supply room. How many groups of students are possible?
+                <p>
+                    {{name}} needs to select {{r}} students from a class of {{n}} students to retrieve supplies from the supply room. How many groups of students are possible?
                 </p>
             {{/phrasing1}}
         
             {{#phrasing1a}}
-                <p>The board of trustees at {{School}} consists of {{n}} people. During the spring, a delgation of {{r}} trustees will be assigned to an outreach committee. How many such delegations are possible?
+                <p>
+                    The board of trustees at {{School}} consists of {{n}} people. During the spring, a delegation of {{r}} trustees will be assigned to an outreach committee. How many such delegations are possible?
                 </p>
             {{/phrasing1a}}
         
             {{#phrasing2}}
                 <p>
-                    {{name}}'s Bridge Club is choosing among {{n}} prizes from their upcoming tournament. If each of the first {{r}} places will receive a prize, how many possible organizations of prizes are there.
+                    {{name}}'s Bridge Club is choosing among {{n}} unique prizes for their upcoming tournament. If each of the first {{r}} places will receive a prize, how many possible ways can the prizes be handed out?
                 </p> 
             {{/phrasing2}}
         
             {{#phrasing2a}}
                 <p>
-                    Appointments are about to be made for {{r}} roles in the upcoming play at {{School}}. During auditions, {{n}} people tried out. How many different castings are possible?
+                    Assignments are about to be made for {{r}} distinct roles in the upcoming play at {{School}}. During auditions, {{n}} people tried out. How many different castings are possible?
                 </p> 
             {{/phrasing2a}}
         {{/scenario}}
@@ -28,10 +30,10 @@
 {{Prompt}}
         </p>
         <p>
-        Show all of your steps, and specify which formula you used and why you used it.
+        Show all of your steps, specify which formula you used, and state why you used it.
         </p>
     </statement>
     <answer>
-        <p> There <m>{{Solution_text}}</m> <m> = {{Solution}}</m> possibilities. </p>
+        <p> {{reason}}. There are <m>{{Solution_text}}</m> <m> = {{Solution}}</m> possibilities.</p>
     </answer>
 </exercise>

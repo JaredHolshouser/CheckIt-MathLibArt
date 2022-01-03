@@ -36,8 +36,8 @@
     <answer>
         <p>
             <ol>
-                <li> The loan generates {{accrued_interest}} in interest.</li>
-                <li> They will need to pay {{payoff_amount}} at the end of the loan.</li>
+                <li> The loan generates <m>I = P_0 r t = {{accrued_interest_formula}} =</m>{{accrued_interest}} in interest.</li>
+                <li> They will need to pay {{payoff_formula}} = {{payoff_amount}} at the end of the loan.</li>
             </ol>
         </p>
     </answer>

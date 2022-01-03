@@ -3,13 +3,13 @@
     <statement>
         {{#scenario}}
             {{#phrasing1}}
-                <p> {{name}} is gambling ${{bet}} on rolling a {{n}} on a {{k}}-sided die. If {{name}} wins, they win ${{win_amount}}, otherwise they forfeit their bet. What is the expected value of this gamble?
+                <p> {{name}} is gambling at a roullette wheel. The wheel has {{k}} equally sized spots. {{n}} of the spots are winning locations, and the rest are losing. If costs \${{bet}} to play the wheel. If {{name}} wins, they get their bet back and they win \${{win_amount}}, otherwise they forfeit their bet. What is the expected value of this gamble?
                 </p>
             {{/phrasing1}}
         
             {{#phrasing2}}
                 <p>
-                    A resturant offers a grab bag of {{k}} fortune cookies, {{n}} of them have a discount of $5 in them, {{r}} of them have a $1 discount, and the rest have merely fortunes in them. If {{name}} grabs one at random, what is the expected value of the draw?
+                    A restaurant offers a grab bag of {{k}} fortune cookies, {{n}} of them have a discount of \$5 in them, {{r}} of them have a \$1 discount, and the rest have merely fortunes in them. If {{name}} grabs one at random, what is the expected value of the draw?
                 </p> 
             {{/phrasing2}}
         {{/scenario}}

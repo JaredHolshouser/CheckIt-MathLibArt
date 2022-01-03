@@ -5,7 +5,7 @@
         {{#scenario}}
             {{#phrasing1}}
                 <p> 
-                    The criteria for a password for {{context}} dictates that you must have {{letter_amount}} letters(A - Z) followed by {{digit_amount}} digits(0 - 9) followed by a special character(there are 33 of these). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat.
+                    The criteria for a password for {{context}} dictates that you must have {{letter_amount}} letters(A - Z), followed by {{digit_amount}} digits(0 - 9), followed by a special character(there are 33 of these). The letters {{letter_repeat}} repeat and the digits {{digit_repeat}} repeat.
                     <ol>
                         <li>Draw a diagram of the situation using boxes/slots.</li>
                         <li>How many passwords can be formed that fit this criteria?</li>
@@ -15,7 +15,7 @@
        
             {{#phrasing2}}
                 <p>
-                    The license plates in {{context}} have {{total_amount}} entries. The first {{letter_amount}} of those entries are letters(A-Z) and the last {{digit_amount}} are digits(0-9). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat.
+                    The license plates in {{context}} have {{total_amount}} entries. The first {{letter_amount}} of those entries are letters(A-Z) and the last {{digit_amount}} are digits(0-9). The letters {{letter_repeat}} repeat and the digits {{digit_repeat}} repeat.
                     <ol>
                         <li>Draw a diagram of the situation using boxes/slots.</li>
                         <li>How many license plates can be built that fit this criteria?</li>
@@ -25,7 +25,7 @@
         
             {{#phrasing3}}
                 <p>
-                    A {{context}} starts with a special code(given by the letter A,B,C, or D), then has {{digit_amount}} digits(0 - 9), and ends with {{letter_amount}} letters. The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat.
+                    A {{context}} starts with a special code(given by the letter A,B,C, or D), then has {{digit_amount}} digits(0 - 9), and ends with {{letter_amount}} letters. The letters {{letter_repeat}} repeat and the digits {{digit_repeat}} repeat.
                     <ol>
                         <li>Draw a diagram of the situation using boxes/slots.</li>
                         <li>How many {{context}}s can be created that fit this criteria?</li>
@@ -39,7 +39,7 @@
         <p>
             <ol>
                 <li>{{slot_string}}</li>
-                <li>There are {{answer}} total possibilities that fit the criteria.</li>
+                <li>Multiplying all of the boxes together, there are {{answer}} total possibilities that fit the criteria.</li>
             </ol>
         </p>
     </answer>

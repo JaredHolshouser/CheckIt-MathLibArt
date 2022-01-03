@@ -29,7 +29,7 @@
         
             {{#phrasing3}}
                 <p>
-                    {{name}} recently purchased a home costing {{loan_amount}} with a 15% downpayment. Their {{time_span}} year mortgage has a fixed annual interest rate of {{yearly_rate}}%.
+                    {{name}} recently purchased a home costing {{loan_amount}} with a {{down_payment}}% down payment. Their {{time_span}} year mortgage has a fixed annual interest rate of {{yearly_rate}}%.
                     <ol>
                         <li>
                             What is {{name}}'s monthly mortgage payment?
@@ -50,9 +50,9 @@
     <answer>
         <p>
             <ol>
-                <li>Their monthly payment {{monthly_payment}}.</li>
-                <li>They paid a total of {{total_paid}} overall.</li>
-                <li>They paid {{accrued_interest}} in interest to the bank.</li>
+                <li>Their monthly payment is <m>\frac{P_0 (\frac{r}{n})}{1 - (1+\frac{r}{n})^{-nt}} = {{monthly_payment_formula}} = </m> {{monthly_payment}}.</li>
+                <li>They will pay a total of <m>dnt = {{total_paid_formula}} = </m> {{total_paid}} overall.</li>
+                <li>They will pay <m>dnt - P_0 = {{interest_formula}} = </m> {{accrued_interest}} in interest to the bank.</li>
             </ol>
         
         </p>

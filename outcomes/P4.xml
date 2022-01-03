@@ -12,8 +12,8 @@
     <answer>
         <p>
             <ol>
-                <li>See the class notes for how to draw a tree.</li>
-                <li>The probability is <me>{{prob_string}} \approx {{prob}}</me></li>
+                <li>Your conditional probability tree should have two levels. The first level splits on whether or not the {{problem}} is present. Below those options, the tree splits on whether the test results are positive or negative. Below the branch where the {{problem}} is present, there are true positive and false negative options. Below the branch where the {{problem}} is not present, there are false positive and true negative options. Each of the different pairs of options ({{problem}} or not, true positive or false negative, and false positive or true negative) should add up to 100%.</li>
+                <li>The probability is <m>{{prob_string}} \approx {{prob}}</m></li>
             </ol>
         </p>
     </answer>

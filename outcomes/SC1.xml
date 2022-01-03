@@ -2,13 +2,16 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-            Given the sets A = {{A_string}}, B = {{B_string}}, and the element a = {{a}}, determine whether {{{Find}}} is True or False.
-            
+            You are given the sets <m>A = {{A}}</m>, <m>B = {{B}}</m>, and the element <m>x = {{x}}</m>. Determine whether the following are True or False.
+            <ol>
+                <li> <m>{{question_1}}</m> </li>
+                <li> <m>{{question_2}}</m> </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        It is {{Solution}} that {{{Find}}}.
+        <m>{{question_1}}</m> is {{solution_1}} because {{reason_1}}, and <m>{{question_2}}</m> is {{solution_2}} because {{reason_2}}.
         </p>
     </answer>
 </exercise>

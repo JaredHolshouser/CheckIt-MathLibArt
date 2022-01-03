@@ -7,6 +7,19 @@
         <p>{{argument}}</p>
     </statement>
     <answer>
-        <p> The argument structure is <me>\text{Premise 1: } {{premise_1}}</me> <me>\text{Premise 2: } {{premise_2}}</me> <me>\text{Conclusion: } {{conclusion}}</me> This is {{answer}} by {{reason}}.</p>
+        <p> In symbols, the argument is 
+            <ul>
+               <li> Premise 1: <m>{{premise_1}}</m></li>
+               <li> Premise 2: <m>{{premise_2}}</m></li>
+               <li> Conclusion: <m>{{conclusion}}</m></li>
+            </ul>
+            The argument structure is
+            <ul>
+               <li> <m>{{premise_1_symbolic}}</m></li>
+               <li> <m>{{premise_2_symbolic}}</m></li>
+               <li> <m>{{conclusion_symbolic}}</m></li>
+            </ul>
+            This is {{answer}} by {{reason}}.
+        </p>
     </answer>
 </exercise>

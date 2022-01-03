@@ -65,11 +65,11 @@ def generator():
         subject = pop_subject[1]
         researchers = choice(["Engineers","Quality inspectors"])
         prob_string = prob_string.replace("sick","defective")
-        prob_string = prob_string.replace("healthy","not defective")
+        prob_string = prob_string.replace("healthy","not \\, defective")
         actual_result = actual_result.replace("sick","defective")
-        actual_result = actual_result.replace("healthy","not defective")
+        actual_result = actual_result.replace("healthy","not \\, defective")
         question = question.replace("sick","defective")
-        question = question.replace("healthy","not defective")
+        question = question.replace("healthy","not \\, defective")
     
     
     return {

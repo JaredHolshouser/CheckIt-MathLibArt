@@ -1,37 +1,60 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-  <statement>
-      {{#scenario}}
-          {{#phrasing1}}
-                <p>{{name}} wants to withdraw {{monthly_amount}} every month for {{years}} years when they retire. If {{name}}'s retirement account earns {{rate}}% interest compounded monthly, how much must they have in order to retire?
+    <statement>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p>At age {{start_age}}, {{name}}  is working for {{company}}. The company provides access to a {{instrument}} with an annual interest rate of {{yearly_rate}}%. 
+                    <ol>
+                        <li>
+                            If they plan to retire when they are {{end_age}}, with {{desired_amount}}, how much do they need to put into the account each month?
+                        </li>
+                        <li> How much will they end up contributing to the {{instrument}} overall?</li>
+                        <li>How much interest did the {{instrument}} generate for them?</li>
+                    </ol>
                 </p>
-          {{/phrasing1}}
-      
-          {{#phrasing2}}
-                <p>{{name}} has decided to establish a scholarship for the next {{years}} years with {{amount_string}}. If the university can earn {{rate}}% annual interest, how much can be given out each year?
-                </p>
-          {{/phrasing2}}
-      {{/scenario}}
-      
-      <p>
+            {{/phrasing1}}
+        
+            {{#phrasing2}}
+                <p>
+                    {{name}} plans to retire at {{end_age}} with {{desired_amount}} saved up for retirement. They are currently {{start_age}} and the company they work for, {{company}}, offers a {{instrument}} with an annual interest rate of {{yearly_rate}}%. 
+                    <ol>
+                        <li>
+                            If they start saving now, how much do they need to put into the account each month in order to meet their retirement goal?
+                        </li>
+                        <li>How much will they end up contributing to the {{instrument}} overall?</li>
+                        <li>How much interest did the {{instrument}} generate for them?</li>
+                    </ol>
+                </p> 
+            {{/phrasing2}}
+        
+            {{#phrasing3}}
+                <p>
+                    {{company}} offers a {{instrument}} with an annual interest rate of {{yearly_rate}}%. {{name}}  starts working at {{company}} when they are {{start_age}} years old. At their orientation, they meet with the company financial advisor, who helps them plan out their retirement. {{name}} decides that they want to retire when they are {{end_age}} with {{desired_amount}} saved up for retirement. 
+                    <ol>
+                        <li>
+                            What will the financial advisor tell them to pay into the {{instrument}} each month in order to meet their goal?
+                        </li>
+                        <li>How much will they end up contributing to the {{instrument}} overall?</li>
+                        <li>How much interest did the {{instrument}} generate for them?</li>
+                    </ol>
+                </p> 
+            {{/phrasing3}}
+        {{/scenario}}
+        <p>
 {{Prompt}}
-      </p>
-      
-  </statement>
-    
-  <answer>
-      {{#scenario}}
-          {{#phrasing1}}
-            <p>
-              {{name}} will need {{amount_string}} to retire.
-            </p>
-          {{/phrasing1}}
-      
-          {{#phrasing2}}
-              <p>
-              The university can give {{monthly_amount}} every year.
-            </p>
-          {{/phrasing2}}
-      {{/scenario}}
-  </answer>
+        </p>
+        <p>
+        Show all of your steps, and specify which formula/tool you used and why you used it. If you work this problem by hand, do not round in your intermediate steps. Round your final answer to two decimal places at the end.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>They need to put <m>\frac{FV (\frac{r}{n})}{(1+\frac{r}{n})^{nt} - 1} = {{ monthly_payment_formula}} = </m> {{monthly_payment}} into retirement each month.</li>
+                <li>They contributed <m>dnt = {{total_contribution_formula}} = </m>{{total_contribution}} overall.</li>
+                <li><m>FV - dnt = {{interest_formula}} = </m> {{accrued_interest}} in interest was generated.</li>
+            </ol>
+        
+        </p>
+    </answer>
 </exercise>

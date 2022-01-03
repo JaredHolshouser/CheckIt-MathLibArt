@@ -2,19 +2,20 @@ def generator():
     
     
     #basic building blocks for the questions
-    blocks1 = [
-        "(A & B)", #& will be \cap
-        "(A|B)", #| will be \cup
-        "A~", #~ will be complement as ^c
-        "B~",
-        "@A@", #@ will be \vert
-        "@B@",
-        "(A & B)~",
-        "(A|B)~",
-        "A-B", #- will be \setminus
-        "B-A",
-        "A & B~",
-        "A | B~",
+    questions_1 = [
+        "A \\cap B",
+        "A \\cup B",
+        "A^c",
+        "B^c",
+    ]
+    
+    questions_2 = [
+        "(A \\cap B)^c",
+        "(A \\cup B)^c",
+        "A \\cap B^c",
+        "A \\cup B^c",
+        "A^c \\cap B",
+        "A^c \\cup B",
     ]
     
     #generating random sets
@@ -33,76 +34,60 @@ def generator():
     B = Options_b[random_b_index]
         
         
-    #generating a random questoin
-    choice1 = randrange(0,len(blocks1))
-    block1 = blocks1[choice1]
-    
-    question1 = block1
-    
-    #converting question to latex form
-    latex_question1 = question1.replace("&", " \\cap ")
-    latex_question1 = latex_question1.replace("|", " \\cup ")
-    latex_question1 = latex_question1.replace("~", " ^{c} ")
-    latex_question1 = latex_question1.replace("@", " \\vert ")
-    latex_question1 = latex_question1.replace("-","\\setminus ")
-    
-    #converting the question to text form
-    text_question1 = question1.replace("&", "&#8745;")
-    text_question1 = text_question1.replace("|", "&#8746;")
-    text_question1 = text_question1.replace("~", "&#x1D9C;")
-    text_question1 = text_question1.replace("@", "|")
-    text_question1 = text_question1.replace("-", "&#8726;")
+    #generating a random question
+    question_1 = choice(questions_1)
+    question_2 = choice(questions_2)
+    question_3_choice = choice([0,1])
+    if question_3_choice == 0:
+        question_3 = "n(" + question_1 + ")"
+    else:
+        question_3 = "n(" + question_2 + ")"
    
     #solving and creating a solution.
-    if question1 == "(A & B)":
-        S = A.intersection(B)
-    if question1 == "(A|B)":
-        S = A.union(B)
-    if question1 == "A~":
-        S = U.difference(A)
-    if question1 == "B~":
-        S = U.difference(B)
-    if question1 == "A-B":
-        S = A.difference(B)
-    if question1 == "B-A":
-        S = B.difference(A)
-    if question1 == "@A@":
-        S = A.cardinality()
-    if question1 == "@B@":
-        S = B.cardinality()
-    if question1 == "(A & B)~":
-        S1 = A.intersection(B)
-        S = U.difference(S1)
-    if question1 == "(A|B)~":
-        S1 = A.union(B)
-        S = U.difference(S1)
-    if question1 == "A & B~":
-        S1 = U.difference(B)
-        S = A.intersection(S1)
-    if question1 == "A | B~":
-        S1 = U.difference(B)
-        S = A.union(S1)
+    #question 1
+    if question_1 == "A \\cap B":
+        solution_1 = A.intersection(B)
+    elif question_1 == "A \\cup B":
+        solution_1 = A.union(B)
+    elif question_1 == "A^c":
+        solution_1 = U.difference(A)
+    else:
+        solution_1 = U.difference(B)
     
-    #making the sets printer friendly
-    A_string = str(A).replace("\\left\\","")
-    A_string = A_string.replace("\\left\\","")
-    B_string = str(B).replace("\\left\\","")
-    B_string = B_string.replace("\\left\\","")
-    U_string = str(U).replace("\\left\\","")
-    U_string = U_string.replace("\\left\\","")
-    S_string = str(S).replace("\\left\\","")
-    S_string = S_string.replace("\\left\\","")
-        
+    #question 2
+    if question_2 == "(A \\cap B)^c":
+        temp = A.intersection(B)
+        solution_2 = U.difference(temp)
+    elif question_2 == "(A \\cup B)^c":
+        temp = A.union(B)
+        solution_2 = U.difference(temp)
+    elif question_2 == "A \\cap B^c":
+        temp = U.difference(B)
+        solution_2 = A.intersection(temp)
+    elif question_2 == "A \\cup B^c":
+        temp = U.difference(B)
+        solution_2 = A.union(temp)
+    elif question_2 == "A^c \\cap B":
+        temp = U.difference(A)
+        solution_2 = temp.intersection(B)
+    elif question_2 == "A^c \\cup B":
+        temp = U.difference(A)
+        solution_2 = temp.union(B)
     
+    #question 3
+    if question_3_choice == 0:
+        solution_3 = solution_1.cardinality()
+    else:
+        solution_3 = solution_2.cardinality()
 
     return {
-        "Universe": U,
-        "Universe_string": U_string,
+        "U": U,
         "A": A,
-        "A_string": A_string,
         "B": B,
-        "B_string": B_string,
-        "Find": text_question1,
-        "Solution":S,
-        "Solution_string": S_string,
+        "question_1": question_1,
+        "question_2": question_2,
+        "question_3": question_3,
+        "solution_1": solution_1,
+        "solution_2": solution_2,
+        "solution_3": solution_3,
     }

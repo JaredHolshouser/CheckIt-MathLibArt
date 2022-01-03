@@ -1,87 +1,159 @@
 def generator():
     
-    #Choose a first object
-    first_objects = [
-        "cylinder",
-        "cone",
-        "hemisphere",
-        "rectangular prism",
-        "pyramid",
-    ]
-    object_1 = choice(first_objects)
+    #Choose a mode: round shapes (0-2) or straight shapes (3-4)
     
-    #choose some dimensions
-    dimension_1 = randrange(3,12)
-    dimension_2 = randrange(3,12)
-    dimension_3 = randrange(3,12)
-    dimension_4 = randrange(3,12)
-    dimension_5 = randrange(3,12)
+    mode = choice([0,1,2,3,4])
+    #DEBUG LINE
+    #mode = 4
     
-    #deciding object orientations
-    if object_1 == "cylinder":
-        object_1_orientation = choice(["stands upright", "lies on its side"])
-        if object_1_orientation == "stands upright":
-            object_2_orientation = choice(["to the top", "to the bottom"])
-        else:
-            object_2_orientation = choice(["to the right side", "to the left side"])
-    elif object_1 == "cone" or object_1 == "hemisphere" or object_1 == "pyramid":
-        object_1_orientation = choice(["is positioned flat side up", "is positioned flat side down"])
-        if object_1_orientation == "is positioned flat side up":
-            object_2_orientation = "to the top"
-        else:
-            object_2_orientation = "to the bottom"
+    #Round Shapes
+    if mode < 3:
+        #Choose a first shape
+        shapes = [
+            "cylinder",
+            "cone",
+            "hemisphere",
+        ]
+        shape_1 = shapes[mode]
+        
+        #Choose some dimensions
+        dimension_1 = randrange(3,12)
+        dimension_2 = randrange(3,12)
+        dimension_3 = randrange(3,12)
+        dimension_4 = randrange(3,12)
+        dimension_5 = randrange(3,12)
+        
+        #Choose a second shape
+        shapes.remove(shape_1)
+        shape_2_index = choice([0,1])
+        #DEBUG LINE
+        #shape_2_index = 0
+        shape_2 = shapes[shape_2_index]
+        
+        #Decide shape orientations
+        shape_1_orientation_choice = choice([0,1])
+        #DEBUG LINE
+        #shape_1_orientation_choice = 0
+        shape_2_orientation_choice = choice([0,1])
+        #DEBUG LINE
+        #shape_2_orientation_choice = 0
+        #For cylinders
+        if mode == 0:
+            if shape_1_orientation_choice == 0:
+                shape_1_orientation = "stands upright"
+                if shape_2_orientation_choice == 0:
+                    shape_2_orientation = "to the top"
+                else:
+                    shape_2_orientation = "to the bottom"
+                
+            else:
+                shape_1_orientation = "lies on its side"
+                if shape_2_orientation_choice == 0:
+                    shape_2_orientation = "to the right side"
+                else:
+                    shape_2_orientation = "to the left side"
+        #For cones
+        elif mode == 1:
+            if shape_1_orientation_choice == 0:
+                shape_1_orientation = "is positioned flat side up"
+                shape_2_orientation = "to the top"
+            else:
+                shape_1_orientation = "is positioned flat side down"
+                shape_2_orientation = "to the bottom"
+        #For hemispheres
+        elif mode == 2:
+            if shape_1_orientation_choice == 0:
+                shape_1_orientation = "is positioned flat side up"
+                shape_2_orientation = "to the top"
+            else:
+                shape_1_orientation = "is positioned flat side down"
+                shape_2_orientation = "to the bottom"
+            
+    #Straight Shapes
     else:
-        object_1_orientation = choice(["stands with it's longest side vertical", "stands with it's longest side horizontal"])
-        if object_1_orientation == "stands with it's longest side vertical":
-            object_2_orientation = choice(["to the top", "to the bottom"])
-        else:
-            object_2_orientation = choice(["to the right side", "to the left side"])
+        #Choose a first shape
+        shapes = [
+            "rectangular prism",
+            "pyramid",
+        ]
+        shape_1 = shapes[mode - 3]
+        
+        #choose some dimensions
+        dimension_1 = randrange(3,12)
+        dimension_2 = randrange(3,12)
+        dimension_3 = randrange(3,12)
+        dimension_4 = randrange(3,12)
+        dimension_5 = randrange(3,12)
+        
+        #Choose a second shape
+        shapes.remove(shape_1)
+        shape_2 = shapes[0]
+        
+        #Decide shape orientations
+        shape_1_orientation_choice = choice([0,1])
+        #DEBUG LINE
+        #shape_1_orientation_choice = 1
+        shape_2_orientation_choice = choice([0,1])
+        #DEBUG LINE
+        #shape_2_orientation_choice = 0
+        #For rectangular prisms
+        if mode == 3:
+            if shape_1_orientation_choice == 0:
+                shape_1_orientation = "stands with it's longest side vertical"
+                if shape_2_orientation_choice == 0:
+                    shape_2_orientation = "to the top"
+                else:
+                    shape_2_orientation = "to the bottom"
+                
+            else:
+                shape_1_orientation = "stands with it's longest side horizontal"
+                if shape_2_orientation_choice == 0:
+                    shape_2_orientation = "to the right side"
+                else:
+                    shape_2_orientation = "to the left side"
+        #For pyramids
+        elif mode == 4:
+            if shape_1_orientation_choice == 0:
+                shape_1_orientation = "is positioned flat side up"
+                shape_2_orientation = "to the top"
+            else:
+                shape_1_orientation = "is positioned flat side down"
+                shape_2_orientation = "to the bottom"
 
-    #Choose a second object
-    if object_1 == "cylinder":
-        object_2 = choice(["cone","hemisphere"])
-    elif object_1 == "cone":
-        object_2 = choice(["hemisphere","cylinder"])
-    elif object_1 == "hemisphere":
-        object_2 = choice(["cylinder", "cone"])
-    elif object_1 == "rectangular prism":
-        object_2 = "pyramid"
-    else:
-        object_2 = "rectangular prism"
         
     #Compute volumes
     #cylinder and cone
-    if object_1 == "cylinder" and object_2 == "cone":
-        dimensions = "the cylinder has radius " + str(dimension_1) +" and side length " + str(dimension_2) + " and the cone has altitude " + str(dimension_4)
+    if mode == 0 and shape_2_index == 0:
+        dimensions = "the cylinder has radius " + str(dimension_1) +" and side length " + str(dimension_2) + ", and the cone has altitude " + str(dimension_4)
         formula = "\\pi r^2h_1 + \\frac{1}{3}\\pi r^2h_2"
         total_volume = (math.pi)*(dimension_1**2)*dimension_2 + 1/3*(math.pi)*(dimension_1**2)*dimension_4
     #cylinder and hemisphere
-    elif object_1 == "cylinder" and object_2 == "hemisphere":
+    elif mode == 0 and shape_2_index == 1:
         dimensions = "the cylinder has radius " + str(dimension_1) + " and side length " + str(dimension_2)
         formula = "\\pi r^2h + \\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3"
         total_volume = (math.pi)*(dimension_1**2)*dimension_2 + 1/2*4/3*(math.pi)*(dimension_1**3)
     #cone and cylinder
-    elif object_1 == "cone" and object_2 == "cylinder":
+    elif mode == 1 and shape_2_index == 0:
         dimensions = "the cone has radius " + str(dimension_1) + " and altitude " + str(dimension_3) + ", and the cylinder has side length " + str(dimension_4)
         formula = "\\frac{1}{3}\\pi r^2h_1 + \\pi r^2h_2"
         total_volume = 1/3*(math.pi)*(dimension_1**2)*dimension_3 + (math.pi)*(dimension_1**2)*dimension_4
     #cone and hemisphere
-    elif object_1 == "cone" and object_2 == "hemisphere":
+    elif mode == 1 and shape_2_index == 1:
         dimensions =  "the cone has radius " + str(dimension_1) + " and altitude " + str(dimension_3)
         formula = "\\frac{1}{3}\\pi r^2h + \\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3"
         total_volume = 1/3*(math.pi)*(dimension_1**2)*dimension_3 + 1/2*4/3*(math.pi)*(dimension_1**3)
     #hemisphere and cylinder
-    elif object_1 == "hemisphere" and object_2 == "cylinder":
+    elif mode == 2 and shape_2_index == 0:
         dimensions = "the hemisphere has radius " + str(dimension_1) + " and the cylinder has side length " + str(dimension_2)
         formula = "\\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3 + \\pi r^2h"
         total_volume = 1/2*4/3*(math.pi)*(dimension_1**3) + (math.pi)*(dimension_1**2)*dimension_2
     #hemisphere and cone
-    elif object_1 == "hemisphere" and object_2 == "cone":
+    elif mode == 2 and shape_2_index == 1:
         dimensions = "the hemisphere has radius " + str(dimension_1) + " and the cone has altitude " + str(dimension_3)
         formula = "\\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3 + \\frac{1}{3}\\pi r^2h"
         total_volume = 1/2*4/3*(math.pi)*(dimension_1**3) + 1/3*(math.pi)*(dimension_1**2)*dimension_3
     #prism and pyramid
-    elif object_1 == "rectangular prism":
+    elif mode == 3:
         sizes = [3,4,5,6,7,8,9,10,11]
         dim_1 = choice(sizes)
         sizes.remove(dim_1)
@@ -93,16 +165,18 @@ def generator():
         prism_dims.remove(longest_side)
         side_1 = prism_dims[0]
         side_2 = prism_dims[1]
-        if object_1_orientation == "stands with it's longest side vertical":
+        #Longest side vertical
+        if shape_1_orientation_choice == 0:
             dimensions = "the rectangular prism has height " + str(longest_side) + ", length " + str(side_1) + ", and width " + str(side_2) + ", and the pyramid has altitude " + str(dimension_2)
+        #Longest side horizontal
         else:
-            dimensions = "the rectangular prism has length " + str(longest_side) + ", width " + str(side_1) + "and height " + str(side_2) + ", and the pyramid has altitude " + str(dimension_2)
-        formula = "l \\cdot w \\cdot h_1 + \\frac{1}{3}l \\cdot w \\cdot h_2"
+            dimensions = "the rectangular prism has length " + str(longest_side) + ", width " + str(side_1) + ", and height " + str(side_2) + ", and the pyramid has altitude " + str(dimension_2)
+        formula = "\\ell w h_1 + \\frac{1}{3}\\ell w h_2"
         total_volume = side_1*side_2*longest_side + 1/3*side_1*side_2*dimension_2
     #pyramid and prism
     else:
         dimensions = "The pyramid has base length " + str(dimension_1) + ", base width " + str(dimension_2) + ", and altitude " + str(dimension_4) + ", and the rectangular prism has height " + str(dimension_5)
-        formula = "\\frac{1}{3}l \\cdot w \\cdot h_1 + l \\cdot w \\cdot h_2"
+        formula = "\\frac{1}{3}l\\ell w h_1 + \\ell w h_2"
         total_volume = 1/3*dimension_1*dimension_2*dimension_4 + dimension_1*dimension_2*dimension_5
         
     #clean up the total volume
@@ -116,10 +190,10 @@ def generator():
     units_short = unit_choice[1]
         
     return {
-        "object_1": object_1,
-        "object_1_orientation": object_1_orientation,
-        "object_2": object_2,
-        "object_2_orientation": object_2_orientation,
+        "shape_1": shape_1,
+        "shape_1_orientation": shape_1_orientation,
+        "shape_2": shape_2,
+        "shape_2_orientation": shape_2_orientation,
         "dimensions": dimensions,
         "formula": formula,
         "total_volume": total_volume_string,

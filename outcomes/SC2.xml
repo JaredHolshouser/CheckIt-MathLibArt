@@ -2,13 +2,22 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-            Given the sets: U = {{Universe_string}}, A = {{A_string}}, and B= {{B_string}}, find {{{Find}}}.
-            
+            Given the sets: <m>U = {{U}}</m>, <m>A = {{A}}</m>, and <m>B = {{B}}</m>, compute the following.
+            <ol>
+                <li> <m>{{question_1}}</m>, </li>
+                <li> <m>{{question_2}}</m>, and </li>
+                <li> <m>{{question_3}}</m>. </li>
+            </ol>
         </p>
     </statement>
     <answer>
         <p>
-        The result of {{{Find}}} is {{Solution_string}}
+            <ol>
+                <li> <m>{{question_1}} = {{solution_1}}</m>, </li>
+                <li> <m>{{question_2}} = {{solution_2}}</m>, and </li>
+                <li> <m>{{question_3}} = {{solution_3}}</m>. </li>
+            </ol>
+            Remember that <m> \cup </m> means union, <m> \cap </m> means intersection, <m>S^c</m> is the complement of <m>S</m>, and <m>n(S)</m> is the cardinality of <m>S</m>.
         </p>
     </answer>
 </exercise>

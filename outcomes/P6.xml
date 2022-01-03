@@ -2,20 +2,97 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-            <ol>
-                <li> You know that the criteria for a password for {{password_situation}} says they must have {{p_letter_amount}} letters(A - Z) followed by {{p_digit_amount}} digits(0 - 9). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
-                <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw {{cards}}?</li>
-                <li>From a pool of {{num_candidates}} candidates, {{num_selection}} people will be selected at random to go on an expedition. They will all be assigned unqiue tasks. You and {{num_friends}} of your friends are all in the pool of candidates. What is the probalitity that a team is selected that {{team_situation}}?</li>
-            </ol>
+        {{#scenario}}
+            {{#12}}
+                <ol>
+                    <li> You know that the criteria for a password for {{password_situation}} says they must have {{p_letter_amount}} letters(A - Z) followed by {{p_digit_amount}} digits(0 - 9). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
+                    <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw {{cards}}?</li>
+                </ol>
+            {{/12}}
+            
+             {{#13}}
+                <ol>
+                    <li> You know that the criteria for a password for {{password_situation}} says they must have {{p_letter_amount}} letters(A - Z) followed by {{p_digit_amount}} digits(0 - 9). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
+                    <li>From a pool of {{num_candidates}} candidates, {{num_selection}} people will be selected at random to go on an expedition. They will all be assigned unique tasks. You and {{num_friends}} of your friends are all in the pool of candidates. What is the probability that a team is selected that {{team_situation}}?</li>
+                </ol>
+            {{/13}}
+            
+            {{#21}}
+                <ol>
+                    <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw {{cards}}?</li>
+                    <li> You know that the criteria for a password for {{password_situation}} says they must have {{p_letter_amount}} letters(A - Z) followed by {{p_digit_amount}} digits(0 - 9). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
+                </ol>
+            {{/21}}
+            
+            {{#23}}
+                <ol>
+                    <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw {{cards}}?</li>
+                    <li>From a pool of {{num_candidates}} candidates, {{num_selection}} people will be selected at random to go on an expedition. They will all be assigned unique tasks. You and {{num_friends}} of your friends are all in the pool of candidates. What is the probability that a team is selected that {{team_situation}}?</li>
+                </ol>
+            
+            {{/23}}
+            
+            {{#31}}
+                <ol>
+                    <li>From a pool of {{num_candidates}} candidates, {{num_selection}} people will be selected at random to go on an expedition. They will all be assigned unique tasks. You and {{num_friends}} of your friends are all in the pool of candidates. What is the probability that a team is selected that {{team_situation}}?</li>
+                    <li> You know that the criteria for a password for {{password_situation}} says they must have {{p_letter_amount}} letters(A - Z) followed by {{p_digit_amount}} digits(0 - 9). The letters {{letter_repeat}} repeat, and the digits {{digit_repeat}} repeat. If you put in a random password at someone's terminal, what is the probability that it is correct?</li>
+                </ol>
+            {{/31}}
+            
+            {{#32}}
+                <ol>
+                    <li>From a pool of {{num_candidates}} candidates, {{num_selection}} people will be selected at random to go on an expedition. They will all be assigned unique tasks. You and {{num_friends}} of your friends are all in the pool of candidates. What is the probability that a team is selected that {{team_situation}}?</li>
+                    <li>When drawing a 5 card hand from a standard 52 card poker deck, what is the probability that you draw {{cards}}?</li>
+                </ol>
+            {{/32}}
+        {{/scenario}}
         </p>
     </statement>
     <answer>
         <p>
-            <ol>
-                <li>The probability is <me>{{answer_string_1}} = {{answer_1}}</me></li>
-                <li>The probability is <me>{{prob_string}} = {{prob}}</me></li>
-                <li>The probability is <me>{{answer_string_3}} = {{answer_3}}</me></li>
-            </ol>
+        {{#scenario}}
+            {{#12}}
+                <ol>
+                    <li>The probability is <m>{{answer_string_1}} = {{answer_1}}</m></li>
+                    <li>The probability is <m>{{prob_string}} = {{prob}}</m></li>
+                </ol>
+            {{/12}}
+            
+            {{#13}}
+                <ol>
+                    <li>The probability is <m>{{answer_string_1}} = {{answer_1}}</m></li>
+                    <li>The probability is <m>{{answer_string_3}} = {{answer_3}}</m></li>
+                </ol>
+            {{/13}}
+            
+            {{#21}}
+                <ol>
+                    <li>The probability is <m>{{prob_string}} = {{prob}}</m></li>
+                    <li>The probability is <m>{{answer_string_1}} = {{answer_1}}</m></li>
+                </ol>
+            {{/21}}
+            
+            {{#23}}
+                <ol>
+                    <li>The probability is <m>{{prob_string}} = {{prob}}</m></li>
+                    <li>The probability is <m>{{answer_string_3}} = {{answer_3}}</m></li>
+                </ol>
+            {{/23}}
+            
+            {{#31}}
+                <ol>
+                    <li>The probability is <m>{{answer_string_3}} = {{answer_3}}</m></li>
+                    <li>The probability is <m>{{answer_string_1}} = {{answer_1}}</m></li>
+                </ol>
+            {{/31}}
+            
+            {{#32}}
+                <ol>
+                    <li>The probability is <m>{{answer_string_3}} = {{answer_3}}</m></li>
+                    <li>The probability is <m>{{prob_string}} = {{prob}}</m></li>
+                </ol>
+            {{/32}}
+        {{/scenario}}
         </p>
     </answer>
 </exercise>

@@ -13,7 +13,7 @@
     <answer>
         <p>
             <ol>
-                <li>This currently needs to be checked by a human being. In general you should draw overlapping circles contained in a larger rectangle. The numbers from the problem should go into their corresponding places, whether thats an entire circle, the little oval overlap part, the crescent moon shaped portions, or outside of the circles all together.</li>
+                <li>In general you should draw overlapping circles contained in a larger rectangle. From the information given in this problem, {{survey_size}} is the amount for the entire rectangle, {{reason_1}}, {{reason_2}}, {{reason_3}}, and {{reason_4}}.</li>
                 <li>{{answer_1}}.</li>
                 <li>{{answer_2}}.</li>
             </ol>

@@ -10,7 +10,10 @@ def generator():
             sizes.append(temp)
     n = len(sizes)
     first_sizes = sizes[0:-1]
-    first_size_string = str(first_sizes)[1:-1]
+    first_size_string = str(first_sizes)[1:-1] + ","
+    if n == 2:
+        first_size_string = first_size_string.replace(",","")
+    
     last_size = sizes[-1]
 
     #find the total sum of the spinners
@@ -27,6 +30,7 @@ def generator():
         "the sum of the spinner results is more than "+str(comparing_amount),
     ]
     prompt_number = choice(range(6))
+    
     prompt = prompts[prompt_number]
     
 
@@ -78,7 +82,7 @@ def generator():
         for k in range(sizes[2] - 1):
             sample_space_string += "(" + str(sizes[0]) + "," + str(sizes[1]) + "," + str(k+1) + "), & "
         #make the very last entry
-        sample_space_string += "(" + str(sizes[0]) + "," + str(sizes[1]) + "," + str(k+1) + ") \\}"
+        sample_space_string += "(" + str(sizes[0]) + "," + str(sizes[1]) + "," + str(sizes[2]) + ") \\}"
     
     sample_space_string += "\\end{array}"
     bottom = len(sample_space)
@@ -97,6 +101,7 @@ def generator():
     if prompt_number == 5:
         answers = [t for t in sample_space if sum(t) > comparing_amount]
     top = len(answers)
+    
 
     return {
         "Spinner_Amount": n,

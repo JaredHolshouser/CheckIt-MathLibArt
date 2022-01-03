@@ -53,8 +53,8 @@ def generator():
         for i in range(1,5):
             latex_truth_table += str(truth_table[i][0]) + " & " + str(truth_table[i][1]) + " & " + " & \\cdots & " + str(truth_table[i][2]) + " \\\\ "
         latex_truth_table += "\\end{array}"
-        latex_truth_table = latex_truth_table.replace("True", "\\text{T}")
-        latex_truth_table = latex_truth_table.replace("False", "\\text{F}")
+        latex_truth_table = latex_truth_table.replace("True", "\\text{True}")
+        latex_truth_table = latex_truth_table.replace("False", "\\text{False}")
         
         return latex_truth_table
     
@@ -117,13 +117,19 @@ def generator():
     #Create the english statements to compare
     first_string = formula_to_string(first)
     second_string = formula_to_string(second)
+    
+    #Create the latex statements to display
+    first_latex = formula_to_latex(first)
+    second_latex = formula_to_latex(second)
 
     #Create the tables to show the work
-    first_table = formula_to_table(first).replace("\\text{Final Column}", formula_to_latex(first))
-    second_table = formula_to_table(second).replace("\\text{Final Column}", formula_to_latex(second))
+    first_table = formula_to_table(first).replace("\\text{Final Column}", first_latex)
+    second_table = formula_to_table(second).replace("\\text{Final Column}", second_latex)
         
     return {
         "answer": answer,
+        "first_latex": first_latex,
+        "second_latex": second_latex,
         "first_string": first_string,
         "second_string": second_string,
         "first_table": first_table,

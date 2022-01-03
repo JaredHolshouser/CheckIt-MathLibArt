@@ -2,7 +2,22 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-            In front of you is a jar containing marbles. It has {{marble_string}}. Suppose you draw {{situation}}. What is the probability that {{question}}?
+        {{#scenario}}
+            {{#marble}}
+                In front of you is a jar containing marbles. It has {{number_1}} red marbles, {{number_2}} blue marbles, {{number_3}} yellow marbles, {{number_4}} black marbles, and {{number_5}} white marbles, for a total of {{total}} marbles.
+            Suppose you draw {{situation}}. What is the probability that {{question}}?
+            {{/marble}}
+            
+            {{#jellybean}}
+                At a state fair, there is a jar containing jellybeans. It has {{number_1}} grape jellybeans, {{number_2}} cherry jellybeans, {{number_3}} butter jellybeans, and {{number_4}} licorice jellybeans, for a total of {{total}} jellybeans.
+            Suppose you draw {{situation}}. What is the probability that {{question}}?
+            {{/jellybean}}
+            
+            {{#coin}}
+                After saving your loose change over the years, you have a container full of coins. It has {{number_1}} pennies, {{number_2}} nickels, {{number_3}} dimes, and {{number_4}} quarters, for a total of {{total}} coins.
+            Suppose you draw {{situation}}. What is the probability that {{question}}?
+            {{/coin}}
+        {{/scenario}}
         </p>
     </statement>
     <answer>

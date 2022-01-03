@@ -42,10 +42,12 @@ def generator():
     months = randrange(4,15)
     
     #compute the accrued interest.
+    accrued_interest_formula = str(loan_amount) + "(" + str(round(0.01*yearly_rate,2)) + "\\cdot \\frac{" + str(months) + "}{12})"
     accrued_interest = round(loan_amount*0.01*yearly_rate*months/12,2)
     accrued_interest_string = f"${float(accrued_interest):,}"
     
     #compute the payoff amount
+    payoff_formula = loan_amount_string[1:] + " + " + accrued_interest_string[1:]
     payoff_amount = loan_amount + accrued_interest
     payoff_amount_string = f"${float(payoff_amount):,}"
     
@@ -56,6 +58,8 @@ def generator():
         "yearly_rate": yearly_rate,
         "name": name,
         "months": months,
+        "accrued_interest_formula": accrued_interest_formula,
         "accrued_interest": accrued_interest_string,
+        "payoff_formula": payoff_formula,
         "payoff_amount": payoff_amount_string
     }

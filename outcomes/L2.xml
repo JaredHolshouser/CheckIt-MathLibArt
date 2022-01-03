@@ -2,16 +2,19 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-        Construct a truth table for the following formula. Make sure your table is in the standard order and that you have included all the necessary intermediate columns.
+            Construct a truth table for the following formula. Make sure your table is in the standard order and that you have included all the necessary intermediate columns.
         </p>
         <me>{{{Statement}}}</me>
     </statement>
     <answer>
         <p>
-        The first and final columns of the truth table are
+            The first and final columns of the truth table are
         </p>
         <m>
         {{Truth_Table}}
         </m>
+        <p>
+            Recall that <m>\vee</m> means "or," <m>\wedge</m> means "and," and <m>\sim</m> means "not."
+        </p>
     </answer>
 </exercise>

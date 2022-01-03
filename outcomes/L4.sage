@@ -91,8 +91,8 @@ def generator():
             for i in range(1,9):
                 latex_truth_table += str(truth_table[i][0]) + " & " + str(truth_table[i][1]) + " & " + str(truth_table[i][2]) + " & \\cdots & " + str(truth_table[i][3]) + " \\\\ "
             latex_truth_table += "\\end{array}"
-            latex_truth_table = latex_truth_table.replace("True", "\\text{T}")
-            latex_truth_table = latex_truth_table.replace("False", "\\text{F}")
+            latex_truth_table = latex_truth_table.replace("True", "\\text{True}")
+            latex_truth_table = latex_truth_table.replace("False", "\\text{False}")
         
         return latex_truth_table
     
@@ -168,6 +168,11 @@ def generator():
     premise_2_string = "Premise 2: " + formula_to_string(premise_2)
     conclusion_string = "Conclusion: " + formula_to_string(conclusion)
     
+    #constructing the latex for the argument:
+    premise_1_latex = formula_to_latex(premise_1)
+    premise_2_latex = formula_to_latex(premise_2)
+    conclusion_latex = formula_to_latex(conclusion)
+    
     #constructing the truth table
     argument_formula = "((" + premise_1 + ")&(" + premise_2 + "))->(" + conclusion + ")"
     truth_table = formula_to_table(argument_formula,varnum)
@@ -182,6 +187,9 @@ def generator():
         "premise_1_string": premise_1_string,
         "premise_2_string": premise_2_string,
         "conclusion_string": conclusion_string,
+        "premise_1_latex": premise_1_latex,
+        "premise_2_latex": premise_2_latex,
+        "conclusion_latex": conclusion_latex,
         "truth_table": truth_table,
         "argument_formula_latex": argument_formula_latex,
     }

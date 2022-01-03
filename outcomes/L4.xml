@@ -12,7 +12,13 @@
         </p>
     </statement>
     <answer>
-        <p> First off, the long implication that describes the argument is <m>{{argument_formula_latex}}</m>. The truth table for that is below.</p>
+        <p> First off, in symbols the argument is
+            <ul>
+                <li>Premise 1: <m>{{premise_1_latex}}</m></li>
+                <li>Premise 1: <m>{{premise_2_latex}}</m></li>
+                <li>Conclusion: <m>{{conclusion_latex}}</m></li>
+            </ul>
+        This means that the long implication that describes the argument is <m>{{argument_formula_latex}}</m>. The truth table for that is below.</p>
         <m>
         {{truth_table}}
         </m>

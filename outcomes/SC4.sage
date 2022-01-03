@@ -32,7 +32,8 @@ def generator():
     amount_3 = amounts[0]
     
     #The final answer
-    answer = amount_1 * amount_2 * amount_3
+    answer_amount = amount_1 * amount_2 * amount_3
+    answer = str(amount_1) + "\\cdot" + str(amount_2) + "\\cdot" + str(amount_3) + " = " + str(answer_amount)
     
     random_scenario = choice(["phrasing1","phrasing2","phrasing3"])
 

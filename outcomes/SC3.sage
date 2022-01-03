@@ -74,14 +74,25 @@ def generator():
     info_options.remove(fourth_info_number)
     
     info_phrases = [
-        str(amount_A) + " report " + option_A,
-        str(amount_B) + " report " + option_B,
-        str(overlap_amount) + " report " + option_A + " and " + option_B,
-        str(amount_A_only) + " report " + option_A + " only",
-        str(amount_B_only) + " report " + option_B + " only",
-        str(amount_neither) + " report neither " + option_A + " nor " + option_B,
-        str(amount_not_A) + " report that they do no prefer " + option_A,
-        str(amount_not_B) + " report that they do no prefer " + option_B,
+        str(amount_A) + " reported that they prefer " + option_A,
+        str(amount_B) + " reported that they prefer " + option_B,
+        str(overlap_amount) + " reported that they prefer both " + option_A + " and " + option_B,
+        str(amount_A_only) + " reported that they prefer " + option_A + " only",
+        str(amount_B_only) + " reported that they prefer " + option_B + " only",
+        str(amount_neither) + " reported that they prefer neither " + option_A + " nor " + option_B,
+        str(amount_not_A) + " reported that they do not prefer " + option_A,
+        str(amount_not_B) + " reported that they do not prefer " + option_B,
+    ]
+    
+    reason_phrases = [
+        str(amount_A) + " is the number for the entire " + option_A + " circle",
+        str(amount_B) + " is the number for the entire " + option_B + " circle",
+        str(overlap_amount) + " is the number for the little oval overlap part",
+        str(amount_A_only) + " is the number for the crescent moon part of " + option_A,
+        str(amount_B_only) + " is the number for the crescent moon part of " + option_B,
+        str(amount_neither) + " is the number for the portion outside of both circles",
+        str(amount_not_A) + " is the number for the region outside of the " + option_A + " circle",
+        str(amount_not_B) + " is the number for the region outside of the " + option_B + " circle",
     ]
     
     given_info_1 = info_phrases[first_info_number]
@@ -89,16 +100,21 @@ def generator():
     given_info_3 = info_phrases[third_info_number]
     given_info_4 = info_phrases[fourth_info_number]
     
+    reason_1 = reason_phrases[first_info_number]
+    reason_2 = reason_phrases[second_info_number]
+    reason_3 = reason_phrases[third_info_number]
+    reason_4 = reason_phrases[fourth_info_number]
+    
     #creates the questions to answer.
     question_phrases = [
         " reported that they prefer " + option_A,
         " reported that they prefer " + option_B,
-        " reported that they prefer " + option_A + " and " + option_B,
+        " reported that they prefer both " + option_A + " and " + option_B,
         " reported that they prefer " + option_A + " only",
         " reported that they prefer " + option_B + " only",
         " reported that they prefer neither " + option_A + " nor " + option_B,
-        " reported that they did not prefer " + option_A,
-        " reported that they did not prefer " + option_B,
+        " reported that they do not prefer " + option_A,
+        " reported that they do not prefer " + option_B,
     ]
     
     info_options.append(6)
@@ -128,4 +144,8 @@ def generator():
         "question_2": question_2,
         "answer_1": answer_1,
         "answer_2": answer_2,
+        "reason_1": reason_1,
+        "reason_2": reason_2,
+        "reason_3": reason_3,
+        "reason_4": reason_4,
     }

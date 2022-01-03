@@ -10,7 +10,7 @@
         </p>
     </statement>
     <answer>
-        <p> The two statements are {{answer}}, as you can see by the final column of their truth tables.</p>
+        <p> In symbols, the first statement is <m>{{first_latex}}</m> and the second is <m>{{second_latex}}</m>. The two statements are {{answer}}, as you can see by the final column of their truth tables.</p>
         <m>
         {{first_table}}
         </m>

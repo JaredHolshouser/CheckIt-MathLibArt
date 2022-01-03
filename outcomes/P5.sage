@@ -34,22 +34,28 @@ def generator():
     random_scenario = choice(["phrasing1","phrasing2"])
     
     if random_scenario == "phrasing1":
-        #generate a number of sides for the die
-        k = randrange(4,20)
+        #generate a number of spots in the roulette wheel
+        k = randrange(8,32)
         #generate a number they want to roll
-        n = randrange(1,k)
+        n = randrange(k//4,k//2)
         #generate a bet amount
         bet = randrange(5,15)
         #generate a win amount
         win_amount = randrange(2*bet, 4*bet)
         #compute expected value
-        expected_value = round((1/k)*win_amount+(-1)*(bet)*(k-1)/k,2)
-        expected_value_computation = "\\frac{1}{"+str(k)+"}("+str(win_amount)+") + \\frac{"+str(k-1)+"}{"+str(k)+"}(-"+str(bet)+")"
+        expected_value = (n/k)*win_amount+(-1)*(bet)*(k-n)/k
+        adjusted_expected_value = str(floor(100*expected_value))
+        expected_value_computation = "\\frac{"+str(n)+"}{"+str(k)+"}("+str(win_amount)+") + \\frac{"+str(k-n)+"}{"+str(k)+"}(-"+str(bet)+")"
         #format the string
-        if expected_value < 0:
-            expected_value_string = "-"+f"${float(abs(expected_value)):,}"
+        adjusted_expected_value = str(floor(100*expected_value))
+        if expected_value <= -1:
+            expected_value_string = adjusted_expected_value[0] + "$"+ adjusted_expected_value[1:-2] + "." + adjusted_expected_value[-2:]
+        elif expected_value > -1 and expected_value <=0:
+            expected_value_string = adjusted_expected_value[0] + "$0"+ adjusted_expected_value[1:-2] + "." + adjusted_expected_value[-2:]
+        elif expected_value > 0 and expected_value < 1:
+            expected_value_string = "$0"+ adjusted_expected_value[0:-2] + "." + adjusted_expected_value[-2:]
         else:
-            expected_value_string = f"${float(expected_value):,}"
+            expected_value_string = "$"+ adjusted_expected_value[0:-2] + "." + adjusted_expected_value[-2:]
         return {
             "scenario": {random_scenario: True},
             "name": name,
@@ -73,10 +79,11 @@ def generator():
         expected_value = round((n/k)*5+(r/k)*1,2)
         expected_value_computation = "\\frac{"+str(n)+"}{"+str(k)+"}(5) + \\frac{"+str(r)+"}{"+str(k)+"}(1) + 0"
         #format the string
-        if expected_value < 0:
-            expected_value_string = "-"+f"${float(abs(expected_value)):,}"
+        adjusted_expected_value = str(floor(100*expected_value))
+        if expected_value < 1:
+            expected_value_string = "$0"+ adjusted_expected_value[0:-2] + "." + adjusted_expected_value[-2:]
         else:
-            expected_value_string = f"${float(expected_value):,}"
+            expected_value_string = "$"+ adjusted_expected_value[0:-2] + "." + adjusted_expected_value[-2:]
         
         return {
             "scenario": {random_scenario: True},

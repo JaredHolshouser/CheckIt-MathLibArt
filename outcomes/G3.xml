@@ -2,12 +2,12 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-            Create a tessellation with {{symmetry}} symmetry using tiles in the shapes of {{shape}}. Note that your tessellation does not have to come out regular.
+            Create a tessellation with {{symmetry}} symmetry using tiles in the shapes of {{shape}}. You must use all of the listed shapes at least once. Unless you are using squares, your shapes do not have to be regular..
         </p>
     </statement>
     <answer>
         <p>
-            Answers will vary depending on your creativity.
+            Answers will vary depending on your creativity. You should have a repeating pattern, and it should be clear from your drawing how your pattern would continue.
         </p>
     </answer>
 </exercise>
